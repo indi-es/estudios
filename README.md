@@ -1,5 +1,5 @@
-# Estudios
-[![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/main/_badges/reachable-site.svg)](https://github.com/indi-es/estudios/blob/main/_badges/reachable-site-errors.txt)
+# Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/main/_badges/reachable-site.svg)](https://github.com/indi-es/estudios/blob/main/_badges/reachable-site-errors.txt)
+
 Lista de estudios
 
 ## Mexico
