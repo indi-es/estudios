@@ -30,3 +30,4 @@ Lista de estudios
 - [Golden Pie Studio](http://www.goldenpie.com/)
 - [Evil Geometry](https://www.flowcode.com/page/evilgeometry/)
 - [Abstract Studios](https://www.abstractstudios.com.mx/)
+- [KaraOKulta](https://www.karaokulta.com/)
