@@ -9,3 +9,4 @@ Lista de estudios
 - [Ogre Pixel](http://ogrepixel.com/)
 - [Big Mini Geek](http://www.bigminigeek.com/)
 - [Mecha Studios](https://www.mechastudios.com/)
+- [Navegante](https://www.navegante-entertainment.com)
