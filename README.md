@@ -22,3 +22,4 @@ Lista de estudios
 - [Gamecoderstudios](http://gamecoderstudios.com)
 - [Alonso Martin](http://www.alonsomartin.mx)
 - [The Dreamerians](https://www.thedreamerians.com/)
+- [supermegapunch.com](http://www.supermegapunch.com/)
