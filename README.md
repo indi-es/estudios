@@ -24,5 +24,5 @@ Lista de estudios
 - [The Dreamerians](https://www.thedreamerians.com/)
 - [Super Mega Punch](http://www.supermegapunch.com/)
 - [Noventails](http://novemtails.com/)
-- [Big Monster] (https://big-monster.net/)
-- [Dynamic Media Triad] (http://www.brokenrealityvideogame.com/)
+- [Big Monster](https://big-monster.net/)
+- [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
