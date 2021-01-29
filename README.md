@@ -26,3 +26,5 @@ Lista de estudios
 - [Noventails](http://novemtails.com/)
 - [Big Monster](https://big-monster.net/)
 - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
+- [Cometa Games](https://cometagames.mx/)
+- [Golden Pie Studio](http://www.goldenpie.com/)
