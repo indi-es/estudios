@@ -1,4 +1,4 @@
-# Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/main/_badges/reachable-site.svg)](https://github.com/indi-es/estudios/blob/main/_badges/reachable-site-errors.txt)
+# Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)
 
 Lista de estudios
 
@@ -11,7 +11,7 @@ Lista de estudios
 - [Mecha Studios](https://www.mechastudios.com/)
 - [Navegante](https://www.navegante-entertainment.com)
 - [Seashell Studio](http://www.seashellstudio.mx/en/home/)
-- [Lienzo](lienzo.mx)
+- [Lienzo](https://www.lienzo.mx/)
 - [Big Monster](https://big-monster.net/)
 - [Halbert Studios](http://halberdstudios.com/)
 - [Inmersys](https://www.inmersys.com/)
@@ -21,4 +21,4 @@ Lista de estudios
 - [Cosmogonia](https://cosmogonia.mx/)
 - [Gamecoderstudios](http://gamecoderstudios.com)
 - [Alonso Martin](http://www.alonsomartin.mx)
-- [The Dreamerians](thedreamerians.com)
+- [The Dreamerians](https://www.thedreamerians.com/)
