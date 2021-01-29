@@ -28,3 +28,5 @@ Lista de estudios
 - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
 - [Cometa Games](https://cometagames.mx/)
 - [Golden Pie Studio](http://www.goldenpie.com/)
+- [Evil Geometry](https://www.flowcode.com/page/evilgeometry/)
+- [Abstract Studios](https://www.abstractstudios.com.mx/)
