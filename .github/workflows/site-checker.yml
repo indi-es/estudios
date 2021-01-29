@@ -4,7 +4,7 @@ name: Sitios vivos check
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   schedule:
     # every 4 hours
     - cron: "0 0/4 * * *"
