@@ -38,9 +38,4 @@ Lista de estudios
 - [Ennui Studio](https://www.ennuistudio.com/)
 - [Man-Eater Games](http://www.maneatergames.com/)
 - [Estación Pi](https://estacionpi.mx/)
-
-
-
-
-
-
+- [Wabisabi Games](https://www.wabisabi.games/)
