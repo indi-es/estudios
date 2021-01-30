@@ -40,3 +40,4 @@ Lista de estudios
 - [Estación Pi](https://estacionpi.mx/)
 - [Wabisabi Games](https://www.wabisabi.games/)
 - [Fifth Mountain Studios](https://fifthmountain.net/)
+- [Chronograph Studio](https://www.chronographstudio.com/)
