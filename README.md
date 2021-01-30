@@ -1,7 +1,5 @@
 # Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)
 
-Lista de estudios
-
 ## Mexico
 
 - [Hyperbeard Games](https://hyperbeard.com/)
