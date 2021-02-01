@@ -8,7 +8,7 @@
     "ci": "node index.js",
     "lint": "eslint './**/*.js'",
     "lint:fix": "eslint --fix './**/*.js'",
-    "lint:format": "prettier --write --ignore-unknown ./**/*"
+    "lint:format": "prettier --write --ignore-unknown *.{js,css,md}"
   },
   "devDependencies": {
     "eslint": "^7.19.0",

@@ -27,12 +27,11 @@ function getElementsByType(obj, type = 'link') {
         });
       }
     });
-  }
-  else if (typeof obj === 'object' && obj !== null) {
+  } else if (typeof obj === 'object' && obj !== null) {
     Object.values(obj).forEach((elem) => {
       getElementsByType(elem, type).forEach((k) => {
-          res.push(k);
-        });
+        res.push(k);
+      });
     });
   }
   return res;
@@ -82,7 +81,7 @@ async function getBadge(alive, total) {
     color = 'red';
   }
   const res = await axios(
-    `https://img.shields.io/badge/vivos-${alive}%2F${total}-${color}`,
+    `https://img.shields.io/badge/vivos-${alive}%2F${total}-${color}`
   );
   return res.data;
 }
@@ -105,7 +104,7 @@ async function getBadge(alive, total) {
   await writeFileAsync(badgePath, badgeSvg);
   await writeFileAsync(errorFilePath, errorMessage);
   process.exit(0);
-}()).catch((e) => {
+})().catch((e) => {
   console.error(`Error: ${e.message}`);
   process.exit(1);
 });
