@@ -19,6 +19,7 @@
 - [Galamot](https://www.galamot.com/)
 - [Gamecoderstudios](http://gamecoderstudios.com)
 - [GatoMocho](https://gatomocho.com/)
+- [Gnomael](https://gnomael.com/)
 - [Halbert Studios](http://halberdstudios.com/)
 - [Hyperbeard Games](https://hyperbeard.com/)
 - [Inmersys](https://www.inmersys.com/)
