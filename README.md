@@ -21,7 +21,7 @@
 - [Alonso Martin](http://www.alonsomartin.mx)
 - [The Dreamerians](https://www.thedreamerians.com/)
 - [Super Mega Punch](http://www.supermegapunch.com/)
-- [Noventails](http://novemtails.com/)
+- [Novemtails](http://novemtails.com/)
 - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
 - [Cometa Games](https://cometagames.mx/)
 - [Evil Geometry](https://www.flowcode.com/page/evilgeometry/)

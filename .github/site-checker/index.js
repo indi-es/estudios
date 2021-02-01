@@ -15,19 +15,12 @@ function getFile() {
   });
 }
 
-// TODO: Logic is wrong and returns duplicates
 function getElementsByType(obj, type = 'link') {
   const res = [];
   if (Array.isArray(obj)) {
     obj.forEach((elem) => {
-      getElementsByType(elem, type).forEach((k) => {
-        res.push(k);
-      });
-    });
-  } else if (typeof obj === 'object' && obj !== null) {
-    Object.values(obj).forEach((elem) => {
-      if (obj.type === type) {
-        res.push(obj);
+      if (elem.type === type) {
+        res.push(elem);
       } else {
         getElementsByType(elem, type).forEach((k) => {
           res.push(k);
@@ -35,7 +28,14 @@ function getElementsByType(obj, type = 'link') {
       }
     });
   }
-  return [...new Set(res)];
+  else if (typeof obj === 'object' && obj !== null) {
+    Object.values(obj).forEach((elem) => {
+      getElementsByType(elem, type).forEach((k) => {
+          res.push(k);
+        });
+    });
+  }
+  return res;
 }
 
 async function getLinks(md) {
