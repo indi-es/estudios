@@ -5,7 +5,7 @@
 - [1Simplegame](https://1simplegame.com/)
 - [Abstract Studios](https://www.abstractstudios.com.mx/)
 - [Alonso Martin](http://www.alonsomartin.mx)
-- [Bearboy Studios](www.bearboystudios.com)
+- [Bearboy Studios](https://www.bearboystudios.com)
 - [Big Mini Geek](http://www.bigminigeek.com/)
 - [Big Monster](https://big-monster.net/)
 - [Bit All Force](http://www.bitallforce.com/)
