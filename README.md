@@ -2,7 +2,7 @@
 
 ## Mexico
 
-- [1Simplegame](https://1simplegame.com/)
+- [1 Simple Game](https://1simplegame.com/)
 - [Abstract Studios](https://www.abstractstudios.com.mx/)
 - [Alonso Martin](http://www.alonsomartin.mx)
 - [Bearboy Studios](https://www.bearboystudios.com)
@@ -22,9 +22,9 @@
 - [Game Coder Studios](http://gamecoderstudios.com)
 - [GatoMocho](https://gatomocho.com/)
 - [Gnomael](https://gnomael.com/)
-- [Halbert Studios](http://halberdstudios.com/)
+- [Halberd Studios](http://halberdstudios.com/)
 - [Hollow Games](http://hollowgames.com.mx/)
-- [Hyperbeard Games](https://hyperbeard.com/)
+- [HyperBeard Games](https://hyperbeard.com/)
 - [Inmersys](https://www.inmersys.com/)
 - [KaraOKulta](https://www.karaokulta.com/)
 - [Kokonut](https://www.kokonutstudio.com/)
@@ -40,7 +40,7 @@
 - [Novemtails](http://novemtails.com/)
 - [Ogre Pixel](http://ogrepixel.com/)
 - [Pink Bear Games](https://pinkbeargames.com/)
-- [Rck Games](https://rckgames.com/)
+- [RCK Games](https://rckgames.com/)
 - [Seashell Studio](http://www.seashellstudio.mx/en/home/)
 - [Shibidubi](https://www.shibidubi.com/)
 - [Super Mega Punch](http://www.supermegapunch.com/)
@@ -48,5 +48,5 @@
 - [The Dreamerians](https://www.thedreamerians.com/)
 - [Wabisabi Games](https://www.wabisabi.games/)
 - [Wasd Studio](https://www.wasdstudio.com/)
-- [Washawasha](http://www.washawasha.com/)
+- [WashaWasha](http://www.washawasha.com/)
 - [Xibalba Studios](https://www.xibalbastudios.com/)
