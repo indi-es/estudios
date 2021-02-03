@@ -1,6 +1,6 @@
 # Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)
 
-## Mexico
+## México
 
 - [1 Simple Game](https://1simplegame.com/)
 - [Abstract Studios](https://www.abstractstudios.com.mx/)
