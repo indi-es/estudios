@@ -33,6 +33,7 @@
 - [Fuxcorp](https://www.fuxcorp.net/)
 - [Galamot](https://www.galamot.com/)
 - [Game Coder Studios](http://gamecoderstudios.com)
+- [Gargamel Estudio](https://gargamel-estudio.com/en/)
 - [GatoMocho](https://gatomocho.com/)
 - [Gnomael](https://gnomael.com/)
 - [Halberd Studios](http://halberdstudios.com/)
