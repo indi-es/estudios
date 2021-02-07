@@ -49,6 +49,7 @@
 - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
 - [Maquivol Game Studio](https://maquivol.com/)
 - [Mecha Studios](https://www.mechastudios.com/)
+- [Matrixcor Estudio](https://matrixcorestudio.itch.io/)
 - [Minibuu](http://minibuu.com/)
 - [Mum Not Proud](http://www.mumnotproud.com/)
 - [Navegante](https://www.navegante-entertainment.com)
