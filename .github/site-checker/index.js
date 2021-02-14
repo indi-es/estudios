@@ -22,16 +22,12 @@ function getElementsByType(obj, type = 'link') {
       if (elem.type === type) {
         res.push(elem);
       } else {
-        getElementsByType(elem, type).forEach((k) => {
-          res.push(k);
-        });
+          res.push.apply(res,getElementsByType(elem, type));
       }
     });
   } else if (typeof obj === 'object' && obj !== null) {
     Object.values(obj).forEach((elem) => {
-      getElementsByType(elem, type).forEach((k) => {
-        res.push(k);
-      });
+        res.push.apply(res,getElementsByType(elem, type));
     });
   }
   return res;
