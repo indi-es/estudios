@@ -90,7 +90,7 @@ async function getBadge(alive, total) {
 
   const badgePath = '../../_badges/reachable-site.svg';
   const errorFilePath = '../../_badges/reachable-site-errors.txt';
-  const errorMessage = errorMessages.join('\r\n');
+  const errorMessage = '\r\n' + errorMessages.join('\r\n');
   if (errorMessages.length > 0) {
     console.error('errorMessage', errorMessage);
   }
