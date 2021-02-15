@@ -21,8 +21,8 @@ async function getStudios(jsonFile) {
   const studios = JSON.parse(jsonFile);
 
   studios.Estudios.forEach((k) => {
-      names.push(k.nombre);
-      links.push(k.website);
+    names.push(k.nombre);
+    links.push(k.website);
   });
   return {
     names,
@@ -36,7 +36,7 @@ async function createMD(names, links) {
   { ul: [] }];
 
   names.forEach((k, i) => {
-      jsonStudios[1].ul.push({ link: { title: k, source: links[i] } });
+    jsonStudios[1].ul.push({ link: { title: k, source: links[i] } });
   });
   return json2md(jsonStudios);
 }
