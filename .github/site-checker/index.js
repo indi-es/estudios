@@ -22,16 +22,12 @@ function getElementsByType(obj, type = 'link') {
       if (elem.type === type) {
         res.push(elem);
       } else {
-        getElementsByType(elem, type).forEach((k) => {
-          res.push(k);
-        });
+          res.push.apply(res,getElementsByType(elem, type));
       }
     });
   } else if (typeof obj === 'object' && obj !== null) {
     Object.values(obj).forEach((elem) => {
-      getElementsByType(elem, type).forEach((k) => {
-        res.push(k);
-      });
+        res.push.apply(res,getElementsByType(elem, type));
     });
   }
   return res;
@@ -94,7 +90,7 @@ async function getBadge(alive, total) {
 
   const badgePath = '../../_badges/reachable-site.svg';
   const errorFilePath = '../../_badges/reachable-site-errors.txt';
-  const errorMessage = errorMessages.join('\r\n');
+  const errorMessage = '\r\n' + errorMessages.join('\r\n');
   if (errorMessages.length > 0) {
     console.error('errorMessage', errorMessage);
   }
