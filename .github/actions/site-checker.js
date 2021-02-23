@@ -1,42 +1,13 @@
-const fs = require('fs');
-const path = require('path');
-const { promisify } = require('util');
-const marked = require('marked');
-const axios = require('axios').default;
+import fs from 'fs';
+import path from 'path';
+import { promisify } from 'util';
+import axios from 'axios';
+import { getFile, saveFile } from './utils.js';
 
-function getFile() {
-  return new Promise((resolve, reject) => {
-    fs.readFile('../../README.md', 'utf8', (err, data) => {
-      if (err) {
-        return reject(err);
-      }
-      return resolve(data);
-    });
-  });
-}
-
-function getElementsByType(obj, type = 'link') {
-  const res = [];
-  if (Array.isArray(obj)) {
-    obj.forEach((elem) => {
-      if (elem.type === type) {
-        res.push(elem);
-      } else {
-          res.push.apply(res,getElementsByType(elem, type));
-      }
-    });
-  } else if (typeof obj === 'object' && obj !== null) {
-    Object.values(obj).forEach((elem) => {
-        res.push.apply(res,getElementsByType(elem, type));
-    });
-  }
-  return res;
-}
-
-async function getLinks(md) {
-  const tokens = marked.lexer(md);
-  const allLinks = getElementsByType(tokens).map(({ href }) => href);
-  return allLinks;
+function getLinks(json) {
+  return json.Estudios.filter((item) => !item.inactivo).map(
+    (item) => item.website || item.facebook || item.twitter || item.instagram
+  );
 }
 
 const validStatusCode = (code) => code >= 200 && code < 400;
@@ -46,13 +17,14 @@ async function getStatusTotals(links) {
   const errorMessages = [];
   const getStatus = async (link) => {
     try {
+      console.info(`Checking ${link}`)
       const res = await axios.get(link);
       const valid = validStatusCode(res.status);
+      console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`)
       if (!valid) {
         errorMessages.push(`${link} does not have a valid status code`);
-        return false;
       }
-      return true;
+      return valid;
     } catch {
       errorMessages.push(`${link} cound not be reached`);
       return false;
@@ -83,22 +55,26 @@ async function getBadge(alive, total) {
 }
 
 (async function main() {
-  const md = await getFile();
-  const links = await getLinks(md);
+  const mexicoFile = await getFile('../../estudios-mexico.json');
+  const outsideFile = await getFile('../../estudios-fuera-de-mexico.json');
+  const mexico = JSON.parse(mexicoFile);
+  const outside = JSON.parse(outsideFile);
+
+  const links = [...getLinks(mexico), ...getLinks(outside)];
   const { alive, total, errorMessages } = await getStatusTotals(links);
   const badgeSvg = await getBadge(alive, total);
 
   const badgePath = '../../_badges/reachable-site.svg';
   const errorFilePath = '../../_badges/reachable-site-errors.txt';
-  const errorMessage = '\r\n' + errorMessages.join('\r\n');
+  const errorMessage = `\r\n${errorMessages.join('\r\n')}`;
   if (errorMessages.length > 0) {
     console.error('errorMessage', errorMessage);
   }
-  const writeFileAsync = promisify(fs.writeFile);
   const mkdirAsync = promisify(fs.mkdir);
   await mkdirAsync(path.dirname(badgePath), { recursive: true });
-  await writeFileAsync(badgePath, badgeSvg);
-  await writeFileAsync(errorFilePath, errorMessage);
+
+  await saveFile(badgePath, badgeSvg);
+  await saveFile(errorFilePath, errorMessage);
   process.exit(0);
 })().catch((e) => {
   console.error(`Error: ${e.message}`);
