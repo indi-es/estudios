@@ -16,9 +16,9 @@ jobs:
         with:
           node-version: 14.x
       - name: install deps
-        run: (cd .github/site-checker && npm i --only=prod)
+        run: (cd .github/actions && npm i --only=prod)
       - name: Generate Readme
-        run: (cd .github/site-checker && npm run generate)
+        run: (cd .github/actions && npm run generate)
       - name: Add and commit changes
         uses: EndBug/add-and-commit@v7
         with:
