@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "script para checar si las paginas de los estudios siguen existiendo",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
-    "ci": "node index.js",
+    "site-check": "node site-checker.js",
+    "generate": "node gen-readme.js",
     "lint": "eslint './**/*.js'",
     "lint:fix": "eslint --fix './**/*.js'",
     "lint:format": "prettier --write --ignore-unknown *.{js,css,md}"
@@ -23,7 +25,8 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "marked": "^1.2.8"
+    "marked": "^1.2.8",
+    "json2md": "^1.9.2"
   },
   "husky": {
     "hooks": {
