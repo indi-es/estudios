@@ -50,8 +50,6 @@
     
  - [Estación Pi](https://estacionpi.mx/)
     
- - [Estudios Máquina Voladora](https://maquivol.com/)
-    
  - [Evil Geometry](https://www.flowcode.com/page/evilgeometry/)
     
  - [Feline Arts](https://www.felinearts.net/)
