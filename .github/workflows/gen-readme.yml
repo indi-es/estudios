@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  check:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,6 +15,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+          token: ${{ secrets.REPO_TOKEN }}
       - name: install deps
         run: (cd .github/site-checker && npm i --only=prod)
       - name: Generate Readme
