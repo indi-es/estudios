@@ -10,7 +10,6 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - env:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.REPO_TOKEN }}
