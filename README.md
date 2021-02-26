@@ -10,17 +10,17 @@
     
  - [Abstract Studios](https://www.abstractstudios.com.mx/)
     
- - [Afterlife](http://www.afterlife.mx/)
+ - [Afterlife]()
     
- - [Alonso Martin](http://www.alonsomartin.mx)
+ - [Alonso Martin](http://www.alonsomartin.mx/)
     
- - [Alucina Studio](http://alucinastudio.com/)
+ - [Alucina Studio](https://alucinastudio.com/)
     
  - [Ansimuz Games](https://ansimuz.com/site/)
     
- - [Axolotl Bros](https://twitter.com/AxolotlBros/)
+ - [Axolotl Bros](http://axolotlbrothers.com/)
     
- - [Bearboy Studios](https://www.bearboystudios.com)
+ - [Bearboy Studios](https://www.bearboystudios.com/)
     
  - [Big Mini Geek](http://www.bigminigeek.com/)
     
@@ -52,7 +52,7 @@
     
  - [Estudios Máquina Voladora](https://maquivol.com/)
     
- - [Evil Geometry](https://www.flowcode.com/page/evilgeometry/)
+ - [Evil Geometry](https://www.flowcode.com/page/evilgeometry)
     
  - [Feline Arts](https://www.felinearts.net/)
     
@@ -66,7 +66,7 @@
     
  - [Galamot](https://www.galamot.com/)
     
- - [Game Coder Studios](http://gamecoderstudios.com)
+ - [Game Coder Studios](http://gamecoderstudios.com/)
     
  - [Gargamel Estudio](https://gargamel-estudio.com/en/)
     
@@ -88,15 +88,15 @@
     
  - [Larva](http://larvagamestudios.com/)
     
- - [Lienzo](https://www.lienzo.mx/)
+ - [Lienzo](https://www.lienzo.mx/es/nuevo-home/)
     
- - [LunarCrown](http://www.lunarcrown.com/)
+ - [LunarCrown](http://lunarcrown.com/)
     
  - [Man-Eater Games](http://www.maneatergames.com/)
     
  - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
     
- - [Maquivol Game Studio](https://maquivol.com/)
+ - [Maquivol Game Studio](https://maquivol.com//)
     
  - [Mecha Studios](https://www.mechastudios.com/)
     
@@ -106,7 +106,7 @@
     
  - [Mum Not Proud](http://www.mumnotproud.com/)
     
- - [Navegante](https://www.navegante-entertainment.com)
+ - [Navegante](https://www.navegante-entertainment.com/)
     
  - [Ncite](https://ncite.mx/)
     
@@ -147,8 +147,6 @@
  - [WashaWasha](http://www.washawasha.com/)
     
  - [We the Force](https://wetheforcestudios.com/)
-    
- - [Xibalba Studios](https://www.xibalbastudios.com/)
     
 
 ## Fuera de México
