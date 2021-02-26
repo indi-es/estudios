@@ -10,7 +10,7 @@
     "generate": "node gen-readme.js",
     "lint": "eslint './**/*.js'",
     "lint:fix": "eslint --fix './**/*.js'",
-    "lint:format": "prettier --write --ignore-unknown *.{js,css,md}"
+    "lint:format": "prettier --write --ignore-unknown ./**/*.js"
   },
   "devDependencies": {
     "eslint": "^7.19.0",

@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { promisify } from 'util';
-import axios from 'axios';
-import { getFile, saveFile } from './utils.js';
+import fs from "fs";
+import path from "path";
+import { promisify } from "util";
+import axios from "axios";
+import { getFile, saveFile } from "./utils.js";
 
 function getLinks(json) {
   return json.Estudios.filter((item) => !item.inactivo).map(
@@ -17,10 +17,10 @@ async function getStatusTotals(links) {
   const errorMessages = [];
   const getStatus = async (link) => {
     try {
-      console.info(`Checking ${link}`)
+      console.info(`Checking ${link}`);
       const res = await axios.get(link);
       const valid = validStatusCode(res.status);
-      console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`)
+      console.info(`[${valid ? "active" : "dead"} - ${res.status}] ${link}`);
       if (!valid) {
         errorMessages.push(`${link} does not have a valid status code`);
       }
@@ -41,12 +41,12 @@ async function getStatusTotals(links) {
 
 async function getBadge(alive, total) {
   const diff = total - alive;
-  let color = 'green';
+  let color = "green";
   if (diff > 0) {
-    color = 'yellow';
+    color = "yellow";
   }
   if (diff > 5) {
-    color = 'red';
+    color = "red";
   }
   const res = await axios(
     `https://img.shields.io/badge/vivos-${alive}%2F${total}-${color}`
@@ -55,8 +55,8 @@ async function getBadge(alive, total) {
 }
 
 (async function main() {
-  const mexicoFile = await getFile('../../estudios-mexico.json');
-  const outsideFile = await getFile('../../estudios-fuera-de-mexico.json');
+  const mexicoFile = await getFile("../../estudios-mexico.json");
+  const outsideFile = await getFile("../../estudios-fuera-de-mexico.json");
   const mexico = JSON.parse(mexicoFile);
   const outside = JSON.parse(outsideFile);
 
@@ -64,11 +64,11 @@ async function getBadge(alive, total) {
   const { alive, total, errorMessages } = await getStatusTotals(links);
   const badgeSvg = await getBadge(alive, total);
 
-  const badgePath = '../../_badges/reachable-site.svg';
-  const errorFilePath = '../../_badges/reachable-site-errors.txt';
-  const errorMessage = `\r\n${errorMessages.join('\r\n')}`;
+  const badgePath = "../../_badges/reachable-site.svg";
+  const errorFilePath = "../../_badges/reachable-site-errors.txt";
+  const errorMessage = `\r\n${errorMessages.join("\r\n")}`;
   if (errorMessages.length > 0) {
-    console.error('errorMessage', errorMessage);
+    console.error("errorMessage", errorMessage);
   }
   const mkdirAsync = promisify(fs.mkdir);
   await mkdirAsync(path.dirname(badgePath), { recursive: true });
