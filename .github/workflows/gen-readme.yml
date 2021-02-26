@@ -1,28 +1,30 @@
 # Workflow para generar el badge de que sitios siguen vivos
 ---
-name: Sitios vivos check
+name: Generate README.md based on json files
 
 on:
   push:
     branches: [main]
 
 jobs:
-  check:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
       - name: install deps
-        run: (cd .github/site-checker && npm i --only=prod)
+        run: (cd .github/actions && npm i --only=prod)
       - name: Generate Readme
-        run: (cd .github/site-checker && npm run generate)
+        run: (cd .github/actions && npm run generate)
       - name: Add and commit changes
         uses: EndBug/add-and-commit@v7
         with:
           add: "README.md"
-          author_name: "github-actions[bot]"
-          author_email: "github-actions[bot]@users.noreply.github.com"
-          message: "Generate README.md based on .json files"
+          author_name: "Mario Carballo"
+          author_email: "afk@ellugar.co"
+          message: "[bot] Generate README.md based on .json files"

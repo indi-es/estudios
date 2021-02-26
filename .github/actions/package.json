@@ -37,5 +37,9 @@
     "**/*": "prettier --write --ignore-unknown",
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
