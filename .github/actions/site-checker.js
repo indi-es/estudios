@@ -17,10 +17,10 @@ async function getStatusTotals(links) {
   const errorMessages = [];
   const getStatus = async (link) => {
     try {
-      console.info(`Checking ${link}`)
+      console.info(`Checking ${link}`);
       const res = await axios.get(link);
       const valid = validStatusCode(res.status);
-      console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`)
+      console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
         errorMessages.push(`${link} does not have a valid status code`);
       }

@@ -98,9 +98,9 @@
     
  - [Maquivol Game Studio](https://maquivol.com//)
     
- - [Mecha Studios](https://www.mechastudios.com/)
-    
  - [Matrixcor Estudio](https://matrixcorestudio.itch.io/)
+    
+ - [Mecha Studios](https://www.mechastudios.com/)
     
  - [Minibuu](http://minibuu.com/)
     
@@ -109,6 +109,8 @@
  - [Navegante](https://www.navegante-entertainment.com/)
     
  - [Ncite](https://ncite.mx/)
+    
+ - [Nel Pastel](https://nelpastel.mx/)
     
  - [Neverending Games](https://neverendingames.com/)
     
@@ -152,7 +154,7 @@
 ## Fuera de México
 
 
- - [Original Fire Games](https://www.originalfiregames.com/)
-    
  - [Metastudios Agency](http://www.metastudios.jp/)
+    
+ - [Original Fire Games](https://www.originalfiregames.com/)
     

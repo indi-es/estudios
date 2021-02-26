@@ -17,3 +17,10 @@ export async function saveFile(path, content) {
   await writeFileAsync(path, content);
   console.info(`${path} file saved`);
 }
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+export function sortByName(a, b, key = 'nombre') {
+  const nameA = a[key];
+  const nameB = b[key];
+  return nameA.localeCompare(nameB, 'es-MX', { ignorePunctuation: true });
+}
