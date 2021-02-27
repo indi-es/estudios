@@ -9,12 +9,12 @@ async function createMD(sections) {
   const badge = { h1: `Estudios ${BADGE}` };
 
   const jsonStudios = sections.map((section) => {
-    const items = section.data.Estudios.sort(sortByName);
+    const items = section.data.studios.sort(sortByName);
     return [
       { h2: section.title },
       {
         ul: items.map((item) => ({
-          link: { title: item.nombre, source: item.website },
+          link: { title: item.name, source: item.website },
         })),
       },
     ];
