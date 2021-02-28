@@ -19,7 +19,7 @@ export async function saveFile(path, content) {
 }
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-export function sortByName(a, b, key = 'nombre') {
+export function sortByName(a, b, key = 'name') {
   const nameA = a[key];
   const nameB = b[key];
   return nameA.localeCompare(nameB, 'es-MX', { ignorePunctuation: true });
