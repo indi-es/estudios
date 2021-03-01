@@ -5,9 +5,11 @@ import axios from 'axios';
 import { getFile, saveFile } from './utils.js';
 
 function getLinks(json) {
-  return json.Estudios.filter((item) => !item.inactivo).map(
-    (item) => item.website || item.facebook || item.twitter || item.instagram
-  );
+  return json.studios
+    .filter((item) => !item.inactivo)
+    .map(
+      (item) => item.website || item.facebook || item.twitter || item.instagram
+    );
 }
 
 const validStatusCode = (code) => code >= 200 && code < 400;
