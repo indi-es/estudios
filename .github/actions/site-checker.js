@@ -6,7 +6,7 @@ import { getFile, saveFile } from './utils.js';
 
 function getLinks(json) {
   return json.studios
-    .filter((item) => !item.inactivo)
+    .filter((item) => !item.inactive)
     .map(
       (item) => item.website || item.facebook || item.twitter || item.instagram
     );
