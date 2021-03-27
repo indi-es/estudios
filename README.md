@@ -30,6 +30,8 @@
     
  - [Bromio](https://www.bromio.com.mx/)
     
+ - [Calix Jumio](https://calixjumio.me/blog/)
+    
  - [Carbon Machina](https://carbonmachina.com/)
     
  - [CGBot](https://cgbot.com/)
@@ -41,6 +43,8 @@
  - [Cosmogonia](https://cosmogonia.mx/)
     
  - [Create for Life](https://www.createforlife.me/)
+    
+ - [Dazia Pineda](https://about.me/dazia.pineda/)
     
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
     
@@ -96,7 +100,9 @@
     
  - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
     
- - [Maquivol Game Studio](https://maquivol.com//)
+ - [Maquivol Game Studio](https://maquivol.com/)
+    
+ - [Mario Carballo](https://ellugar.co/)
     
  - [Matrixcor Estudio](https://matrixcorestudio.itch.io/)
     
@@ -119,6 +125,8 @@
  - [Nuke Games](https://www.nukegames.mx/)
     
  - [Ogre Pixel](http://ogrepixel.com/)
+    
+ - [Pamela Chávez](https://www.pamechavez.com/)
     
  - [Patoli Studio](https://patolistudio.com/)
     
