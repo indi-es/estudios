@@ -1,13 +1,15 @@
 # Contribuir a estudios de indi-es
 :+1::tada: Primero que nada, ¡gracias por tomarte el tiempo para contribuir al repositorio! :tada::+1:
 
-Las siguientes guias para contribuir al proyecto, [estudios - indi-es](https://github.com/indi-es/estudios) en git hub.
+Las siguientes guias para contribuir al proyecto, [estudios - indi-es](https://github.com/indi-es/estudios) en git hub y nuestro sitio web de la comunidad [indi-es](https://indi-es.com/).
  Estas son guias y no reglas, usa el mejor de tu juicio con el afan de contribuir de manera constructiva y sientete libre de proponer cambios a este documento con un pull request.
 
-#### Tabla de contenido
-[Cómo contribuir](#cómo-contribuir)
 
-[Código de conducta](#código-de-conducta)
+#### Tabla de contenido
+
+* [Cómo contribuir](#cómo-contribuir)
+
+* [Código de conducta](#código-de-conducta)
 
 
 ## ¿Cómo contribuir?
@@ -63,7 +65,7 @@ Escribir el comentario del cambio realizado y enseguida hacer clic en el botón 
 
 ![image](https://user-images.githubusercontent.com/24782574/113086028-1817b800-919e-11eb-8f1c-0e1bf8557cb6.png)
 
-Por último hacer clic en el botón de solicitar pull request
+Si necesita ayuda para poder registrar tu cambio no dudes en acudir a la comunidad de [indi-es](https://indi-es.com/)
 
 ## Código de conducta
 
