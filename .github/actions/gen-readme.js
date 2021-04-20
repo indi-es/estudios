@@ -9,7 +9,7 @@ async function createMD(sections) {
   const badge = { h1: `Estudios ${BADGE}` };
 
   const jsonStudios = sections.map((section) => {
-    const items = section.data.studios.sort(sortByName);
+    const items = section.data.developers.sort(sortByName);
     return [
       { h2: section.title },
       {
@@ -23,8 +23,8 @@ async function createMD(sections) {
 }
 
 (async function main() {
-  const mexicoFile = await getFile('../../estudios-mexico.json');
-  const outsideFile = await getFile('../../estudios-fuera-de-mexico.json');
+  const mexicoFile = await getFile('../../developers.json');
+  const outsideFile = await getFile('../../developers-abroad.json');
   const mexico = JSON.parse(mexicoFile);
   const outside = JSON.parse(outsideFile);
 

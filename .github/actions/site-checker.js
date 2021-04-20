@@ -5,7 +5,7 @@ import axios from 'axios';
 import { getFile, saveFile } from './utils.js';
 
 function getLinks(json) {
-  return json.studios
+  return json.developers
     .filter((item) => !item.inactive)
     .map(
       (item) => item.website || item.facebook || item.twitter || item.instagram
@@ -57,8 +57,8 @@ async function getBadge(alive, total) {
 }
 
 (async function main() {
-  const mexicoFile = await getFile('../../estudios-mexico.json');
-  const outsideFile = await getFile('../../estudios-fuera-de-mexico.json');
+  const mexicoFile = await getFile('../../developers.json');
+  const outsideFile = await getFile('../../developers-abroad.json');
   const mexico = JSON.parse(mexicoFile);
   const outside = JSON.parse(outsideFile);
 
