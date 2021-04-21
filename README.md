@@ -1,9 +1,14 @@
+
+  
 # Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)
 
+>Si tienes dudas de como contribuir puedes leer la guía de [CONTRIBUTING.md](https://github.com/indi-es/estudios/blob/main/CONTRIBUTING.md).
+>
+>También puedes ver esta información en la página web [indi-es.com/estudios](https://indi-es.com/estudios)
 
 ---
 
-## México
+  ## México
 
 
  - [1 Simple Game](https://1simplegame.com/)
@@ -45,6 +50,8 @@
  - [Cosmogonia](https://cosmogonia.mx/)
     
  - [Create for Life](https://www.createforlife.me/)
+    
+ - [Dazia Pineda](https://about.me/dazia.pineda/)
     
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
     
@@ -110,6 +117,8 @@
     
  - [Minibuu](http://minibuu.com/)
     
+ - [Mosha Games](https://moshaonline.com)
+    
  - [Mum Not Proud](http://www.mumnotproud.com/)
     
  - [Navegante](https://www.navegante-entertainment.com/)
@@ -166,3 +175,5 @@
     
  - [Original Fire Games](https://www.originalfiregames.com/)
     
+
+  
