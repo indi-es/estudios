@@ -46,8 +46,6 @@
     
  - [Create for Life](https://www.createforlife.me/)
     
- - [Dazia Pineda](https://about.me/dazia.pineda/)
-    
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
     
  - [Ennui Studio](https://www.ennuistudio.com/)
