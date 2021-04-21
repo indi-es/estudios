@@ -3,11 +3,18 @@ import { getFile, saveFile, sortByName } from './utils.js';
 
 const BADGE =
   '[![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)';
-const DIVIDER = { p: '---' };
+
+const HEADER = `
+# Estudios ${BADGE}
+
+>Si tienes dudas de como contribuir puedes leer la guía de [CONTRIBUTING.md](https://github.com/indi-es/estudios/blob/main/CONTRIBUTING.md).
+>
+>También puedes ver esta información en la página web [indi-es.com/estudios](https://indi-es.com/estudios)
+
+---
+`;
 
 async function createMD(sections) {
-  const badge = { h1: `Estudios ${BADGE}` };
-
   const jsonStudios = sections.map((section) => {
     const items = section.data.developers.sort(sortByName);
     return [
@@ -19,7 +26,10 @@ async function createMD(sections) {
       },
     ];
   });
-  return json2md([badge, DIVIDER, ...jsonStudios]);
+  return `
+  ${HEADER}
+  ${json2md(jsonStudios)}
+  `;
 }
 
 (async function main() {
