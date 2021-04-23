@@ -89,6 +89,8 @@
     
  - [Hollow Games](http://hollowgames.com.mx/)
     
+ - [Hoppia](https://hoppia.world/)
+    
  - [HyperBeard Games](https://hyperbeard.com/)
     
  - [Inmersys](https://www.inmersys.com/)
