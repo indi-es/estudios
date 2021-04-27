@@ -13,9 +13,13 @@
 
  - [1 Simple Game](https://1simplegame.com/)
     
+ - [2D Nutz](https://www.2dnutz.com/)
+    
  - [Abstract Studios](https://www.abstractstudios.com.mx/)
     
  - [Afterlife]()
+    
+ - [Alebrije Estudios](https://alebrije.co/)
     
  - [Alonso Martin](http://www.alonsomartin.mx/)
     
@@ -49,7 +53,11 @@
     
  - [Create for Life](https://www.createforlife.me/)
     
+ - [Dracma Studios](https://www.dracmastudios.com/)
+    
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
+    
+ - [Eliptica](https://eliptica.com.mx/)
     
  - [Ennui Studio](https://www.ennuistudio.com/)
     
@@ -113,6 +121,8 @@
     
  - [Minibuu](http://minibuu.com/)
     
+ - [Mismatch Studio](https://www.mismatch.studio/)
+    
  - [Mosha Games](https://moshaonline.com)
     
  - [Mum Not Proud](http://www.mumnotproud.com/)
@@ -137,7 +147,11 @@
     
  - [Present Creative México](https://www.presentcreative.com/)
     
+ - [Rainbowmads Studios](https://luxzord122.wixsite.com/rainbowmaddness)
+    
  - [RCK Games](https://rckgames.com/)
+    
+ - [SDPlay](http://sdplay.mx/)
     
  - [Seashell Studio](http://www.seashellstudio.mx/en/home/)
     
@@ -160,6 +174,8 @@
  - [WashaWasha](http://www.washawasha.com/)
     
  - [We the Force](https://wetheforcestudios.com/)
+    
+ - [Xibalba Studios](https://www.xibalbastudios.com/)
     
 
 ## Fuera de México
