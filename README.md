@@ -109,6 +109,8 @@
     
  - [Mecha Studios](https://www.mechastudios.com/)
     
+ - [Megalixir Games](http://megalixirgames.com/)
+    
  - [Minibuu](http://minibuu.com/)
     
  - [Mosha Games](https://moshaonline.com)
