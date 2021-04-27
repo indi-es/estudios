@@ -17,7 +17,7 @@
     
  - [Abstract Studios](https://www.abstractstudios.com.mx/)
     
- - [Afterlife]()
+ - [Afterlife](http://www.afterlife.mx/)
     
  - [Alebrije Estudios](https://alebrije.co/)
     
