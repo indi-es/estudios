@@ -79,8 +79,6 @@
     
  - [Fuxcorp](https://www.fuxcorp.net/)
     
- - [Galamot](https://www.galamot.com/)
-    
  - [Game Coder Studios](http://gamecoderstudios.com/)
     
  - [Gargamel Estudio](https://gargamel-estudio.com/en/)
