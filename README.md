@@ -119,6 +119,8 @@
     
  - [Megalixir Games](http://megalixirgames.com/)
     
+ - [Michiyuki Project](https://www.thescorchfarer.com/)
+    
  - [Minibuu](http://minibuu.com/)
     
  - [Mismatch Studio](https://www.mismatch.studio/)
