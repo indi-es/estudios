@@ -25,6 +25,8 @@
     
  - [Alucina Studio](https://alucinastudio.com/)
     
+ - [Amano](https://amano.games)
+    
  - [Ansimuz Games](https://ansimuz.com/site/)
     
  - [Artefacto Estudio](http://artefactoestudio.com/)
