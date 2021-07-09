@@ -59,6 +59,8 @@
     
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
     
+ - [Ectoplasma Game Studio](https://ectoplasma.mx/)
+    
  - [Eliptica](https://eliptica.com.mx/)
     
  - [Ennui Studio](https://www.ennuistudio.com/)
