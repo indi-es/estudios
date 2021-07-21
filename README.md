@@ -39,6 +39,8 @@
     
  - [Big Monster](https://big-monster.net/)
     
+ - [Binmatter](undefined)
+    
  - [Bit All Force](http://www.bitallforce.com/)
     
  - [Bromio](https://www.bromio.com.mx/)
@@ -101,6 +103,8 @@
     
  - [KaraOKulta](https://www.karaokulta.com/)
     
+ - [Keywords Studios](undefined)
+    
  - [Kokonut](https://www.kokonutstudio.com/)
     
  - [Larva](http://larvagamestudios.com/)
@@ -122,6 +126,8 @@
  - [Mecha Studios](https://www.mechastudios.com/)
     
  - [Megalixir Games](http://megalixirgames.com/)
+    
+ - [Meta studios creative agency](undefined)
     
  - [Michiyuki Project](https://www.thescorchfarer.com/)
     
@@ -146,6 +152,8 @@
  - [Nuke Games](https://www.nukegames.mx/)
     
  - [Ogre Pixel](http://ogrepixel.com/)
+    
+ - [Onward](undefined)
     
  - [Patoli Studio](https://patolistudio.com/)
     
@@ -175,11 +183,15 @@
     
  - [Tres Pixeles](https://trespixeles.mx)
     
+ - [Unboxed Games LLC](undefined)
+    
  - [Wabisabi Games](https://www.wabisabi.games/)
     
  - [Wasd Studio](https://www.wasdstudio.com/)
     
  - [WashaWasha](http://www.washawasha.com/)
+    
+ - [Watanoge](undefined)
     
  - [We the Force](https://wetheforcestudios.com/)
     
