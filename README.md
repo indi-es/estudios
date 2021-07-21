@@ -173,6 +173,8 @@
     
  - [Tokyo Play](https://www.tokyoplay.com/)
     
+ - [Tres Pixeles](https://trespixeles.mx)
+    
  - [Wabisabi Games](https://www.wabisabi.games/)
     
  - [Wasd Studio](https://www.wasdstudio.com/)
