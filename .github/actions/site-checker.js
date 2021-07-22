@@ -24,7 +24,11 @@ async function getStatusTotals(links) {
       const valid = validStatusCode(res.status);
       console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
-        errorMessages.push({ link, status: res.status });
+        errorMessages.push({
+          link,
+          status: res.status,
+          date: new Date().toISOString(),
+        });
       }
       return valid;
     } catch (e) {
@@ -67,7 +71,7 @@ async function getBadge(alive, total) {
 
   const badgePath = '../../_badges/reachable-site.svg';
   const errorFilePath = '../../_badges/reachable-site-errors.json';
-  const errorMessage = JSON.stringify(errorMessages);
+  const errorMessage = JSON.stringify(errorMessages, null, 2);
   if (errorMessages.length > 0) {
     console.error('errorMessage', errorMessage);
   }
