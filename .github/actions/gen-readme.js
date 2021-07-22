@@ -33,10 +33,15 @@ async function createMD(sections) {
 }
 
 (async function main() {
-  const mexicoFile = await getFile('../../developers.json');
-  const outsideFile = await getFile('../../developers-abroad.json');
-  const mexico = JSON.parse(mexicoFile);
-  const outside = JSON.parse(outsideFile);
+  const db = await getFile('../../developers.json');
+  const parsed = JSON.parse(db);
+
+  const mexico = {
+    developers: parsed.developers.filter((item) => item.country === 'México'),
+  };
+  const outside = {
+    developers: parsed.developers.filter((item) => item.country !== 'México'),
+  };
 
   const md = await createMD([
     { title: 'México', data: mexico },

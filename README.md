@@ -127,8 +127,6 @@
     
  - [Megalixir Games](http://megalixirgames.com/)
     
- - [Meta studios creative agency](undefined)
-    
  - [Michiyuki Project](https://www.thescorchfarer.com/)
     
  - [Minibuu](http://minibuu.com/)
@@ -179,6 +177,8 @@
     
  - [The Dreamerians](https://www.thedreamerians.com/)
     
+ - [Third world productions](undefined)
+    
  - [Tokyo Play](https://www.tokyoplay.com/)
     
  - [Tres Pixeles](https://trespixeles.mx)
@@ -201,7 +201,7 @@
 ## Fuera de México
 
 
- - [Metastudios Agency](http://www.metastudios.jp/)
+ - [Meta studios creative agency](undefined)
     
  - [Original Fire Games](https://www.originalfiregames.com/)
     

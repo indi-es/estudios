@@ -24,11 +24,12 @@ async function getStatusTotals(links) {
       const valid = validStatusCode(res.status);
       console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
-        errorMessages.push(`${link} does not have a valid status code`);
+        errorMessages.push({ link, status: res.status });
       }
       return valid;
-    } catch {
-      errorMessages.push(`${link} cound not be reached`);
+    } catch (e) {
+      console.error(`${link} - ${e.message}`);
+      errorMessages.push({ link, error: e });
       return false;
     }
   };
@@ -57,18 +58,16 @@ async function getBadge(alive, total) {
 }
 
 (async function main() {
-  const mexicoFile = await getFile('../../developers.json');
-  const outsideFile = await getFile('../../developers-abroad.json');
-  const mexico = JSON.parse(mexicoFile);
-  const outside = JSON.parse(outsideFile);
+  const db = await getFile('../../developers.json');
+  const parsed = JSON.parse(db);
 
-  const links = [...getLinks(mexico), ...getLinks(outside)];
+  const links = getLinks(parsed);
   const { alive, total, errorMessages } = await getStatusTotals(links);
   const badgeSvg = await getBadge(alive, total);
 
   const badgePath = '../../_badges/reachable-site.svg';
-  const errorFilePath = '../../_badges/reachable-site-errors.txt';
-  const errorMessage = `\r\n${errorMessages.join('\r\n')}`;
+  const errorFilePath = '../../_badges/reachable-site-errors.json';
+  const errorMessage = JSON.stringify(errorMessages);
   if (errorMessages.length > 0) {
     console.error('errorMessage', errorMessage);
   }
