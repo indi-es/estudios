@@ -24,7 +24,11 @@ async function getStatusTotals(links) {
       const valid = validStatusCode(res.status);
       console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
-        errorMessages.push({ link, status: res.status });
+        errorMessages.push({
+          link,
+          status: res.status,
+          date: new Date().toISOString(),
+        });
       }
       return valid;
     } catch (e) {
