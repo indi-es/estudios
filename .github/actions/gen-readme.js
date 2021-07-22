@@ -2,7 +2,7 @@ import json2md from 'json2md';
 import { getFile, saveFile, sortByName } from './utils.js';
 
 const BADGE =
-  '[![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)';
+  '[![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.json)';
 
 const HEADER = `
 # Estudios ${BADGE}
@@ -14,6 +14,14 @@ const HEADER = `
 ---
 `;
 
+function getUrl({ website, twitter, facebook, instagram }) {
+  if (website && website !== '') return website;
+  if (twitter && twitter !== '') return twitter;
+  if (facebook && facebook !== '') return facebook;
+  if (instagram && instagram !== '') return instagram;
+  return null;
+}
+
 async function createMD(sections) {
   const jsonStudios = sections.map((section) => {
     const items = section.data.developers.sort(sortByName);
@@ -21,7 +29,7 @@ async function createMD(sections) {
       { h2: section.title },
       {
         ul: items.map((item) => ({
-          link: { title: item.name, source: item.website },
+          link: { title: item.name, source: getUrl(item) },
         })),
       },
     ];
