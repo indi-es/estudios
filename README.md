@@ -1,6 +1,6 @@
 
   
-# Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.txt)
+# Estudios [![¿Cuántos sitios están vivos?](https://raw.githubusercontent.com/indi-es/estudios/reachable-sites/reachable-site.svg)](https://github.com/indi-es/estudios/blob/reachable-sites/reachable-site-errors.json)
 
 >Si tienes dudas de como contribuir puedes leer la guía de [CONTRIBUTING.md](https://github.com/indi-es/estudios/blob/main/CONTRIBUTING.md).
 >
@@ -39,7 +39,7 @@
     
  - [Big Monster](https://big-monster.net/)
     
- - [Binmatter](undefined)
+ - [Binmatter](https://www.binmatter.com/)
     
  - [Bit All Force](http://www.bitallforce.com/)
     
@@ -103,7 +103,7 @@
     
  - [KaraOKulta](https://www.karaokulta.com/)
     
- - [Keywords Studios](undefined)
+ - [Keywords Studios](https://www.keywordsstudios.com/)
     
  - [Kokonut](https://www.kokonutstudio.com/)
     
@@ -151,7 +151,7 @@
     
  - [Ogre Pixel](http://ogrepixel.com/)
     
- - [Onward](undefined)
+ - [Onward](https://www.computerlove.mx)
     
  - [Patoli Studio](https://patolistudio.com/)
     
@@ -177,13 +177,13 @@
     
  - [The Dreamerians](https://www.thedreamerians.com/)
     
- - [Third world productions](undefined)
+ - [Third world productions](http://thirdworldproductions.com.mx/)
     
  - [Tokyo Play](https://www.tokyoplay.com/)
     
  - [Tres Pixeles](https://trespixeles.mx)
     
- - [Unboxed Games LLC](undefined)
+ - [Unboxed Games LLC](https://unboxed.games)
     
  - [Wabisabi Games](https://www.wabisabi.games/)
     
@@ -191,7 +191,7 @@
     
  - [WashaWasha](http://www.washawasha.com/)
     
- - [Watanoge](undefined)
+ - [Watanoge](https://watanoge.com/)
     
  - [We the Force](https://wetheforcestudios.com/)
     
@@ -201,7 +201,7 @@
 ## Fuera de México
 
 
- - [Meta studios creative agency](undefined)
+ - [Meta studios creative agency](https://www.metastudios.jp/)
     
  - [Original Fire Games](https://www.originalfiregames.com/)
     
