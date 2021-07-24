@@ -121,7 +121,7 @@
     
  - [Maquivol Game Studio](https://maquivol.com/)
     
- - [Matrixcor Estudio](https://matrixcorestudio.itch.io/)
+ - [Matrixcore Studio](https://matrixcorestudio.com)
     
  - [Mecha Studios](https://www.mechastudios.com/)
     
