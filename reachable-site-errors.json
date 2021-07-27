@@ -1,5 +1,33 @@
 [
   {
+    "link": "http://halberdstudios.com/",
+    "error": {
+      "message": "read ECONNRESET",
+      "name": "Error",
+      "stack": "Error: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "config": {
+        "url": "http://halberdstudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNRESET"
+    }
+  },
+  {
     "link": "http://hollowgames.com.mx/",
     "error": {
       "message": "connect ECONNREFUSED 165.227.39.231:80",
@@ -25,6 +53,34 @@
         "maxBodyLength": -1
       },
       "code": "ECONNREFUSED"
+    }
+  },
+  {
+    "link": "https://hyperbeard.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1514:34)\n    at TLSSocket.emit (events.js:375:28)\n    at TLSSocket._finishInit (_tls_wrap.js:936:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:708:12)",
+      "config": {
+        "url": "https://hyperbeard.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
     }
   },
   {
