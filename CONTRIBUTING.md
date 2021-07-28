@@ -14,8 +14,46 @@ Las siguientes guias para contribuir al proyecto, [estudios - indi-es](https://g
 
 ## ¿Cómo contribuir?
 
-La principal contribución dada la naturaleza del repositorio es agregar un estudio que no esta registrado o modificar información de alguno de los estudios que ya se tienen registrados, para esto se debe realizar lo siguiente:
+La principal contribución dada la naturaleza del repositorio es agregar un estudio que no está registrado o modificar información de alguno de los estudios que ya se tienen registrados, esto se puede realizar de dos maneras:
+* [Contribuir con formulario](#contribuir-con-formulario)
+* [Contribuir directamente](#contribuir-directamente)
 
+## Contribuir con formulario
+
+Primeramente debes dirigirte al sitio https://indi-es.com/estudios y seleccionar la opción de agregar estudio, cómo se muestra en la siguiente imagen.
+
+![boton-agregar](https://user-images.githubusercontent.com/24782574/127026235-662043bb-fc36-4b33-8c97-0b4a2a2306d3.png)
+
+Te pedirá que inicies sesión con github
+
+![iniciar-sesión](https://user-images.githubusercontent.com/24782574/127027484-e5b93d1d-a9b6-4824-b56a-52f51928cd60.png)
+
+
+Para poder contribuir se requiere tener una cuenta en https://github.com/  y con esta cuenta autorizar a indie-es.
+
+Si no has iniciado sesión en github o no tienes cuenta te aparecerá la siguiente pantalla, en la cual podrás iniciar sesión o crear tu cuenta en github:
+
+![github](https://user-images.githubusercontent.com/24782574/127027898-11a9044e-8fa1-45a8-90db-06fbc65c44d0.png)
+
+Si ya iniciaste sesión en github te aparecerá la siguiente página, en la cual autorizaras:
+
+![autorizar-indi-es](https://user-images.githubusercontent.com/24782574/127026582-5e3d7f10-9cb0-4054-8d49-7c6b55416fcd.png)
+
+Si hiciste la autorización de forma correcta te permitirá acceder al siguiente formulario donde podrás llenar los datos para el estudio que quieres registrar:
+
+![registrar](https://user-images.githubusercontent.com/24782574/127028247-bcf11211-83ce-447b-a320-a4bc3a7ebe21.png)
+
+Si agregaste los datos correctamente te aparecerá la pantalla donde se te indica que tu solicitud será revisada.
+
+![revisar-issue](https://user-images.githubusercontent.com/24782574/127028859-41e353c5-39d0-4284-83dc-a9f5e14f15d0.png)
+
+Si seleccionas la opción de revisar tu issue en github, te mostrará el estatus y la 
+
+![info-issue](https://user-images.githubusercontent.com/24782574/127029084-73aa3257-b891-425a-ae17-e634b35b4529.png)
+
+
+
+## Contribuir directamente
 Primeramente identifica el archivo ```developers.json```
 
 ![image](https://user-images.githubusercontent.com/24782574/112929776-4f229680-90d6-11eb-93ec-87b59dd4e5a8.png)
