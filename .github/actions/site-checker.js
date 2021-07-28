@@ -13,6 +13,7 @@ function getLinks(json) {
 }
 
 const validStatusCode = (code) => code >= 200 && code < 400;
+const axiosConfig = { timeout: 50000 };
 
 async function getStatusTotals(links) {
   const total = links.length;
@@ -20,7 +21,7 @@ async function getStatusTotals(links) {
   const getStatus = async (link) => {
     try {
       console.info(`Checking ${link}`);
-      const res = await axios.get(link, { timeout: 10000 });
+      const res = await axios.get(link, axiosConfig);
       const valid = validStatusCode(res.status);
       console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
