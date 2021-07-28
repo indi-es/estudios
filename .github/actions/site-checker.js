@@ -20,7 +20,7 @@ async function getStatusTotals(links) {
   const getStatus = async (link) => {
     try {
       console.info(`Checking ${link}`);
-      const res = await axios.get(link, { timeout: 1000 });
+      const res = await axios.get(link, { timeout: 10000 });
       const valid = validStatusCode(res.status);
       console.info(`[${valid ? 'active' : 'dead'} - ${res.status}] ${link}`);
       if (!valid) {
