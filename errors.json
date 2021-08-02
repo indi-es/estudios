@@ -1,12 +1,12 @@
 [
   {
-    "link": "http://halberdstudios.com/",
+    "link": "http://hollowgames.com.mx/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
       "config": {
-        "url": "http://halberdstudios.com/",
+        "url": "http://hollowgames.com.mx/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -24,9 +24,9 @@
         "maxContentLength": -1,
         "maxBodyLength": -1
       },
-      "code": "ECONNRESET"
+      "code": "ECONNREFUSED"
     },
-    "date": "2021-08-01T02:01:27.662Z"
+    "date": "2021-08-02T01:55:24.330Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -55,7 +55,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.569Z"
+    "date": "2021-08-02T01:56:12.560Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -84,7 +84,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.569Z"
+    "date": "2021-08-02T01:56:12.560Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -113,7 +113,36 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.569Z"
+    "date": "2021-08-02T01:56:12.560Z"
+  },
+  {
+    "link": "http://halberdstudios.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.emit (events.js:375:28)\n    at Timeout._onTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "http://halberdstudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2021-08-02T01:56:12.560Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -142,7 +171,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.570Z"
+    "date": "2021-08-02T01:56:12.561Z"
   },
   {
     "link": "http://mantizgs.com/mgs/eng/",
@@ -171,7 +200,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.570Z"
+    "date": "2021-08-02T01:56:12.561Z"
   },
   {
     "link": "http://www.tagwizz.com/",
@@ -200,7 +229,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.570Z"
+    "date": "2021-08-02T01:56:12.561Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -229,7 +258,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.570Z"
+    "date": "2021-08-02T01:56:12.562Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -258,6 +287,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-08-01T02:02:16.571Z"
+    "date": "2021-08-02T01:56:12.562Z"
   }
 ]
