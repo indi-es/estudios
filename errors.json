@@ -26,7 +26,36 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-08-04T01:56:00.915Z"
+    "date": "2021-08-05T01:53:10.834Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-08-05T01:53:10.890Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -54,35 +83,6 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2021-08-04T01:56:01.818Z"
-  },
-  {
-    "link": "https://www.thedreamerians.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN www.thedreamerians.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN www.thedreamerians.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)",
-      "config": {
-        "url": "https://www.thedreamerians.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2021-08-04T01:56:18.437Z"
+    "date": "2021-08-05T01:53:11.736Z"
   }
 ]
