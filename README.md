@@ -19,6 +19,8 @@
     
  - [Afterlife](http://www.afterlife.mx/)
     
+ - [Ajal Game Studio](https://www.ajalgamedevs.com)
+    
  - [Alebrije Estudios](https://alebrije.co/)
     
  - [Alonso Martin](http://www.alonsomartin.mx/)
@@ -157,6 +159,8 @@
     
  - [Pink Bear Games](https://pinkbeargames.com/)
     
+ - [Pixelarium](http://www.pixelarium.com.mx/)
+    
  - [Present Creative México](https://www.presentcreative.com/)
     
  - [Rainbowmads Studios](https://luxzord122.wixsite.com/rainbowmaddness)
@@ -174,6 +178,8 @@
  - [Super Mega Punch](http://www.supermegapunch.com/)
     
  - [Tagwizz](http://www.tagwizz.com/)
+    
+ - [the-BigKey](http://the-bigkey.com/)
     
  - [The Dreamerians](https://www.thedreamerians.com/)
     
