@@ -26,7 +26,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-09-01T20:18:54.926Z"
+    "date": "2021-09-02T01:52:15.766Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -54,65 +54,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2021-09-01T20:18:55.204Z"
-  },
-  {
-    "link": "https://www.shibidubi.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN www.shibidubi.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN www.shibidubi.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)",
-      "config": {
-        "url": "https://www.shibidubi.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2021-09-01T20:19:13.511Z"
-  },
-  {
-    "link": "https://www.metastudios.jp/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1514:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:936:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:708:12)",
-      "config": {
-        "url": "https://www.metastudios.jp/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2021-09-01T20:19:17.122Z"
+    "date": "2021-09-02T01:52:16.455Z"
   },
   {
     "link": "http://www.pixelarium.com.mx/",
@@ -141,16 +83,16 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2021-09-01T20:19:17.461Z"
+    "date": "2021-09-02T01:52:24.645Z"
   },
   {
-    "link": "https://www.thedreamerians.com/",
+    "link": "https://www.metastudios.jp/",
     "error": {
-      "message": "getaddrinfo EAI_AGAIN www.thedreamerians.com",
+      "message": "certificate has expired",
       "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN www.thedreamerians.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1514:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:936:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:708:12)",
       "config": {
-        "url": "https://www.thedreamerians.com/",
+        "url": "https://www.metastudios.jp/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -168,8 +110,8 @@
         "maxContentLength": -1,
         "maxBodyLength": -1
       },
-      "code": "EAI_AGAIN"
+      "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-09-01T20:19:22.023Z"
+    "date": "2021-09-02T01:52:24.883Z"
   }
 ]
