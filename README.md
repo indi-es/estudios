@@ -29,6 +29,8 @@
     
  - [Amano](https://amano.games)
     
+ - [Amber Studio Mexico](https://amberstudio.com/)
+    
  - [Ansimuz Games](https://ansimuz.com/site/)
     
  - [Artefacto Estudio](http://artefactoestudio.com/)
