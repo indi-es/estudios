@@ -15,6 +15,8 @@
     
  - [2D Nutz](https://www.2dnutz.com/)
     
+ - [4M2Q GAMES](https://4m2q.com/)
+    
  - [Abstract Studios](https://www.abstractstudios.com.mx/)
     
  - [Afterlife](http://www.afterlife.mx/)
@@ -130,6 +132,8 @@
  - [Matrixcore Studio](https://matrixcorestudio.com)
     
  - [Mecha Studios](https://www.mechastudios.com/)
+    
+ - [medioinestable](https://medio-inestable.github.io/)
     
  - [Megalixir Games](http://megalixirgames.com/)
     
