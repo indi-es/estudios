@@ -31,7 +31,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-09-10T01:56:09.723Z"
+    "date": "2021-09-11T01:51:45.142Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -64,7 +64,41 @@
         }
       }
     },
-    "date": "2021-09-10T01:56:10.062Z"
+    "date": "2021-09-11T01:51:45.467Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-09-11T01:51:46.109Z"
   },
   {
     "link": "http://www.pixelarium.com.mx/",
@@ -98,7 +132,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2021-09-10T01:56:16.650Z"
+    "date": "2021-09-11T01:51:49.038Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -132,7 +166,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.418Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -166,7 +200,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -200,7 +234,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "http://mantizgs.com/mgs/eng/",
@@ -234,7 +268,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "http://www.tagwizz.com/",
@@ -268,7 +302,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -302,7 +336,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.243Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -336,7 +370,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.244Z"
+    "date": "2021-09-11T01:52:34.419Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -370,6 +404,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-09-10T01:56:59.244Z"
+    "date": "2021-09-11T01:52:34.420Z"
   }
 ]
