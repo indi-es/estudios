@@ -66,7 +66,6 @@ El formato que se sigue es [JavaScript Object Notation (JSON)](https://www.json.
       "country": "México",
       "state": "Jalisco",
       "city": "Zapopan",
-      "type": "studio",
       "tags": [],
       "inactive": false,
       "last_time_active": "2021-02-21T23:54:02.104Z",
@@ -83,7 +82,6 @@ El formato que se sigue es [JavaScript Object Notation (JSON)](https://www.json.
 | `country` | País del estudio |
 | `state` | Estado del estudio |
 | `city` | Ciudad del estudio |
-| `type` | Tipo de estudio los valores que puede tomar son:  |
 | `inactive` | puede tener los siguientes valores  inactive = true si está inactivo, false si está activo. |
 | `last_time_active` | Fecha de la última vez que se verifico que estaba activo |
 | `twitter` | Twitter del estudio |
