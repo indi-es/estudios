@@ -49,6 +49,8 @@
     
  - [Bit All Force](http://www.bitallforce.com/)
     
+ - [Borland Games](https://borlandgames.com/)
+    
  - [Bromio](https://www.bromio.com.mx/)
     
  - [Carbon Machina](https://carbonmachina.com/)
