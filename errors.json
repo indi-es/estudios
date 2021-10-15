@@ -1,39 +1,5 @@
 [
   {
-    "link": "https://carbonmachina.com/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://carbonmachina.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2021-10-14T01:57:40.523Z"
-  },
-  {
     "link": "http://www.brokenrealityvideogame.com/",
     "error": {
       "message": "Request failed with status code 404",
@@ -64,7 +30,7 @@
         }
       }
     },
-    "date": "2021-10-14T01:57:40.914Z"
+    "date": "2021-10-15T01:58:44.290Z"
   },
   {
     "link": "https://gargamel-estudio.com/en/",
@@ -97,16 +63,16 @@
         }
       }
     },
-    "date": "2021-10-14T01:57:41.496Z"
+    "date": "2021-10-15T01:58:44.865Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "https://www.ludolab.org/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "https://www.ludolab.org/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -129,9 +95,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNREFUSED"
+      "code": "ECONNRESET"
     },
-    "date": "2021-10-14T01:57:41.600Z"
+    "date": "2021-10-15T01:58:46.629Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -165,7 +131,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-10-14T01:57:45.019Z"
+    "date": "2021-10-15T01:58:47.637Z"
   },
   {
     "link": "https://unboxed.games",
@@ -198,6 +164,6 @@
         }
       }
     },
-    "date": "2021-10-14T01:57:48.005Z"
+    "date": "2021-10-15T01:58:50.695Z"
   }
 ]
