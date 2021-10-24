@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2021-10-23T01:59:38.048Z"
+    "date": "2021-10-24T01:57:04.413Z"
   },
   {
     "link": "https://gargamel-estudio.com/en/",
@@ -63,7 +63,41 @@
         }
       }
     },
-    "date": "2021-10-23T01:59:38.791Z"
+    "date": "2021-10-24T01:57:05.008Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-10-24T01:57:05.176Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -97,7 +131,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-10-23T01:59:42.825Z"
+    "date": "2021-10-24T01:57:09.049Z"
   },
   {
     "link": "https://unboxed.games",
@@ -130,6 +164,6 @@
         }
       }
     },
-    "date": "2021-10-23T01:59:46.095Z"
+    "date": "2021-10-24T01:57:12.500Z"
   }
 ]
