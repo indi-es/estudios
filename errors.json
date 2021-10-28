@@ -30,41 +30,7 @@
         }
       }
     },
-    "date": "2021-10-28T01:53:33.025Z"
-  },
-  {
-    "link": "https://carbonmachina.com/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://carbonmachina.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2021-10-28T01:53:33.289Z"
+    "date": "2021-10-28T20:53:14.941Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -97,7 +63,41 @@
         }
       }
     },
-    "date": "2021-10-28T01:53:33.702Z"
+    "date": "2021-10-28T20:53:15.666Z"
+  },
+  {
+    "link": "https://hyperbeard.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://hyperbeard.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2021-10-28T20:53:16.654Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -131,7 +131,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-10-28T01:53:39.457Z"
+    "date": "2021-10-28T20:53:32.957Z"
   },
   {
     "link": "https://unboxed.games",
@@ -164,6 +164,6 @@
         }
       }
     },
-    "date": "2021-10-28T01:53:42.629Z"
+    "date": "2021-10-28T20:53:36.159Z"
   }
 ]
