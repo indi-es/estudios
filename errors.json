@@ -30,7 +30,41 @@
         }
       }
     },
-    "date": "2021-10-28T20:53:14.941Z"
+    "date": "2021-10-29T01:53:14.437Z"
+  },
+  {
+    "link": "https://carbonmachina.com/",
+    "error": {
+      "message": "read ECONNRESET",
+      "name": "Error",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "config": {
+        "url": "https://carbonmachina.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2021-10-29T01:53:14.904Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -63,16 +97,16 @@
         }
       }
     },
-    "date": "2021-10-28T20:53:15.666Z"
+    "date": "2021-10-29T01:53:15.602Z"
   },
   {
-    "link": "https://hyperbeard.com/",
+    "link": "http://hollowgames.com.mx/",
     "error": {
-      "message": "certificate has expired",
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
       "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
-        "url": "https://hyperbeard.com/",
+        "url": "http://hollowgames.com.mx/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -95,9 +129,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "CERT_HAS_EXPIRED"
+      "code": "ECONNREFUSED"
     },
-    "date": "2021-10-28T20:53:16.654Z"
+    "date": "2021-10-29T01:53:17.197Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -131,7 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-10-28T20:53:32.957Z"
+    "date": "2021-10-29T01:53:30.725Z"
   },
   {
     "link": "https://unboxed.games",
@@ -164,6 +198,6 @@
         }
       }
     },
-    "date": "2021-10-28T20:53:36.159Z"
+    "date": "2021-10-29T01:53:34.086Z"
   }
 ]
