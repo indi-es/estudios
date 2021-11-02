@@ -221,6 +221,8 @@
 
  - [Brainwash Gang](https://brainwash-gang.itch.io)
     
+ - [luisquid](https://luisquid.me)
+    
  - [Meta studios creative agency](https://www.metastudios.jp/)
     
  - [Original Fire Games](https://www.originalfiregames.com/)
