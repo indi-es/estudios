@@ -30,7 +30,41 @@
         }
       }
     },
-    "date": "2021-11-11T01:54:50.248Z"
+    "date": "2021-11-11T18:27:45.524Z"
+  },
+  {
+    "link": "https://carbonmachina.com/",
+    "error": {
+      "message": "read ECONNRESET",
+      "name": "Error",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "config": {
+        "url": "https://carbonmachina.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2021-11-11T18:27:45.961Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -63,7 +97,7 @@
         }
       }
     },
-    "date": "2021-11-11T01:54:50.771Z"
+    "date": "2021-11-11T18:27:46.379Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -97,7 +131,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2021-11-11T01:54:51.081Z"
+    "date": "2021-11-11T18:27:47.100Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -131,7 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-11-11T01:54:54.243Z"
+    "date": "2021-11-11T18:27:50.982Z"
   },
   {
     "link": "https://unboxed.games",
@@ -165,6 +199,6 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2021-11-11T01:54:59.703Z"
+    "date": "2021-11-11T18:28:00.616Z"
   }
 ]
