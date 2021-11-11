@@ -105,6 +105,8 @@
     
  - [Halberd Studios](http://halberdstudios.com/)
     
+ - [Hannie Echo](http://hannie-echo.com/)
+    
  - [Hollow Games](http://hollowgames.com.mx/)
     
  - [HyperBeard Games](https://hyperbeard.com/)
