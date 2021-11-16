@@ -29,13 +29,19 @@
     
  - [Alucina Studio](https://alucinastudio.com/)
     
+ - [Alusor Stroke](http://alusorstroke.com)
+    
  - [Amano](https://amano.games)
     
  - [Amber Studio Mexico](https://amberstudio.com/)
     
  - [Ansimuz Games](https://ansimuz.com/site/)
     
+ - [Arcella Sound](https://www.arcellasound.com/)
+    
  - [Artefacto Estudio](http://artefactoestudio.com/)
+    
+ - [Authentic Illusions](http://www.jara-ai.com/)
     
  - [Axolotl Bros](http://axolotlbrothers.com/)
     
@@ -49,11 +55,15 @@
     
  - [Bit All Force](http://www.bitallforce.com/)
     
+ - [Bleda Gaming Studios](https://netsites.mx/bledagamestudios/#xl_xr_page_index.html)
+    
  - [Borland Games](https://borlandgames.com/)
     
  - [Bromio](https://www.bromio.com.mx/)
     
  - [Carbon Machina](https://carbonmachina.com/)
+    
+ - [Cerevrovi](http://www.cerevrovi.com/)
     
  - [CGBot](https://cgbot.com/)
     
@@ -68,6 +78,8 @@
  - [DAHLIA](http://deathrosa.com/)
     
  - [Dracma Studios](https://www.dracmastudios.com/)
+    
+ - [Dreidel](http://www.dreidel.mx/)
     
  - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
     
@@ -194,6 +206,8 @@
  - [Tagwizz](http://www.tagwizz.com/)
     
  - [the-BigKey](http://the-bigkey.com/)
+    
+ - [THE BUNKER MEDIA](https://www.bunkermedia.com.mx/)
     
  - [The Dreamerians](https://www.thedreamerians.com/)
     
