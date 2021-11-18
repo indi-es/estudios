@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2021-11-17T01:54:37.621Z"
+    "date": "2021-11-18T01:54:28.413Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -64,7 +64,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-11-17T01:54:37.920Z"
+    "date": "2021-11-18T01:54:28.510Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -97,7 +97,75 @@
         }
       }
     },
-    "date": "2021-11-17T01:54:38.301Z"
+    "date": "2021-11-18T01:54:28.880Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-11-18T01:54:29.211Z"
+  },
+  {
+    "link": "https://unboxed.games",
+    "error": {
+      "message": "connect ECONNREFUSED 162.255.119.25:443",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 162.255.119.25:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "https://unboxed.games",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-11-18T01:54:31.793Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -131,40 +199,6 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-11-17T01:54:42.868Z"
-  },
-  {
-    "link": "https://unboxed.games",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN unboxed.games",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN unboxed.games\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "https://unboxed.games",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2021-11-17T01:54:52.319Z"
+    "date": "2021-11-18T01:54:32.340Z"
   }
 ]
