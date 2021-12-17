@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2021-12-16T01:57:12.169Z"
+    "date": "2021-12-17T02:01:34.803Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -64,7 +64,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-12-16T01:57:12.263Z"
+    "date": "2021-12-17T02:01:34.943Z"
   },
   {
     "link": "http://www.bitallforce.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2021-12-16T01:57:12.497Z"
+    "date": "2021-12-17T02:01:35.100Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -130,7 +130,41 @@
         }
       }
     },
-    "date": "2021-12-16T01:57:12.588Z"
+    "date": "2021-12-17T02:01:35.312Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2021-12-17T02:01:35.737Z"
   },
   {
     "link": "http://squad.com.mx/",
@@ -164,7 +198,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2021-12-16T01:57:14.020Z"
+    "date": "2021-12-17T02:01:37.012Z"
   },
   {
     "link": "https://unboxed.games",
@@ -198,7 +232,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2021-12-16T01:57:15.006Z"
+    "date": "2021-12-17T02:01:38.670Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -232,6 +266,6 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2021-12-16T01:57:15.579Z"
+    "date": "2021-12-17T02:01:38.968Z"
   }
 ]
