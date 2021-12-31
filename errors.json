@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2021-12-30T01:59:42.275Z"
+    "date": "2021-12-31T02:02:12.974Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -64,7 +64,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2021-12-30T01:59:42.352Z"
+    "date": "2021-12-31T02:02:13.031Z"
   },
   {
     "link": "http://www.bitallforce.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2021-12-30T01:59:42.643Z"
+    "date": "2021-12-31T02:02:13.266Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -130,7 +130,7 @@
         }
       }
     },
-    "date": "2021-12-30T01:59:42.706Z"
+    "date": "2021-12-31T02:02:13.340Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -164,7 +164,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2021-12-30T01:59:43.030Z"
+    "date": "2021-12-31T02:02:13.674Z"
   },
   {
     "link": "http://squad.com.mx/",
@@ -198,41 +198,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2021-12-30T01:59:44.354Z"
-  },
-  {
-    "link": "https://www.ludolab.org/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://www.ludolab.org/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2021-12-30T01:59:45.071Z"
+    "date": "2021-12-31T02:02:14.798Z"
   },
   {
     "link": "https://unboxed.games",
@@ -266,7 +232,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2021-12-30T01:59:45.441Z"
+    "date": "2021-12-31T02:02:16.165Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -300,7 +266,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.007Z"
+    "date": "2021-12-31T02:03:02.635Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -334,7 +300,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.007Z"
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -368,7 +334,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.007Z"
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "http://mantizgs.com/mgs/eng/",
@@ -402,7 +368,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.007Z"
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "http://www.tagwizz.com/",
@@ -436,7 +402,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.008Z"
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -470,7 +436,41 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.008Z"
+    "date": "2021-12-31T02:03:02.636Z"
+  },
+  {
+    "link": "https://www.ludolab.org/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.ludolab.org/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -504,7 +504,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.008Z"
+    "date": "2021-12-31T02:03:02.636Z"
   },
   {
     "link": "http://www.cerevrovi.com/",
@@ -538,6 +538,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2021-12-30T02:00:32.009Z"
+    "date": "2021-12-31T02:03:02.637Z"
   }
 ]
