@@ -1,5 +1,39 @@
 [
   {
+    "link": "https://1simplegame.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://1simplegame.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2022-03-09T02:03:31.296Z"
+  },
+  {
     "link": "https://www.bearboystudios.com/",
     "error": {
       "message": "Request failed with status code 404",
@@ -30,7 +64,7 @@
         }
       }
     },
-    "date": "2022-03-08T02:00:04.966Z"
+    "date": "2022-03-09T02:03:31.640Z"
   },
   {
     "link": "http://www.brokenrealityvideogame.com/",
@@ -63,7 +97,7 @@
         }
       }
     },
-    "date": "2022-03-08T02:00:05.510Z"
+    "date": "2022-03-09T02:03:32.342Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -96,7 +130,41 @@
         }
       }
     },
-    "date": "2022-03-08T02:00:06.842Z"
+    "date": "2022-03-09T02:03:32.638Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2022-03-09T02:03:33.015Z"
   },
   {
     "link": "https://unboxed.games",
@@ -130,7 +198,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-03-08T02:00:08.431Z"
+    "date": "2022-03-09T02:03:36.179Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -164,7 +232,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-03-08T02:00:09.024Z"
+    "date": "2022-03-09T02:03:36.679Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -197,7 +265,7 @@
         }
       }
     },
-    "date": "2022-03-08T02:00:09.122Z"
+    "date": "2022-03-09T02:03:36.825Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -231,6 +299,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-03-08T02:00:54.557Z"
+    "date": "2022-03-09T02:04:21.108Z"
   }
 ]
