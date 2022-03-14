@@ -81,7 +81,7 @@
     
  - [Dreidel](http://www.dreidel.mx/)
     
- - [Dynamic Media Triad](http://www.brokenrealityvideogame.com/)
+ - [Dynamic Media Triad](https://www.dmtriad.com/)
     
  - [Ectoplasma Game Studio](https://ectoplasma.mx/)
     
