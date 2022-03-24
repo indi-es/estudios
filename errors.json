@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2022-03-23T02:20:37.421Z"
+    "date": "2022-03-24T02:15:37.085Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -63,7 +63,7 @@
         }
       }
     },
-    "date": "2022-03-23T02:20:38.244Z"
+    "date": "2022-03-24T02:15:38.151Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -97,7 +97,41 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-03-23T02:20:38.375Z"
+    "date": "2022-03-24T02:15:38.525Z"
+  },
+  {
+    "link": "https://alebrije.co/",
+    "error": {
+      "message": "connect ECONNREFUSED 54.204.23.37:443",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "https://alebrije.co/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2022-03-24T02:15:41.350Z"
   },
   {
     "link": "https://unboxed.games",
@@ -131,7 +165,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-03-23T02:20:40.816Z"
+    "date": "2022-03-24T02:15:42.168Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -165,7 +199,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-03-23T02:20:41.221Z"
+    "date": "2022-03-24T02:15:42.599Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -198,7 +232,7 @@
         }
       }
     },
-    "date": "2022-03-23T02:20:41.284Z"
+    "date": "2022-03-24T02:15:42.979Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -232,6 +266,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-03-23T02:21:27.185Z"
+    "date": "2022-03-24T02:16:26.479Z"
   }
 ]
