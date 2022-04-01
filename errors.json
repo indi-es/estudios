@@ -1,39 +1,5 @@
 [
   {
-    "link": "https://www.abstractstudios.com.mx/",
-    "error": {
-      "message": "connect ECONNREFUSED 209.99.40.222:443",
-      "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 209.99.40.222:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
-      "config": {
-        "url": "https://www.abstractstudios.com.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNREFUSED"
-    },
-    "date": "2022-03-31T02:18:46.048Z"
-  },
-  {
     "link": "https://www.bearboystudios.com/",
     "error": {
       "message": "Request failed with status code 404",
@@ -64,7 +30,7 @@
         }
       }
     },
-    "date": "2022-03-31T02:18:46.479Z"
+    "date": "2022-04-01T02:45:57.158Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,16 +63,16 @@
         }
       }
     },
-    "date": "2022-03-31T02:18:47.508Z"
+    "date": "2022-04-01T02:45:57.890Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "https://www.abstractstudios.com.mx/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "self signed certificate",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: self signed certificate\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "https://www.abstractstudios.com.mx/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -129,16 +95,84 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNREFUSED"
+      "code": "DEPTH_ZERO_SELF_SIGNED_CERT"
     },
-    "date": "2022-03-31T02:18:47.860Z"
+    "date": "2022-04-01T02:45:57.906Z"
+  },
+  {
+    "link": "https://www.presentcreative.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN www.presentcreative.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.presentcreative.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://www.presentcreative.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-04-01T02:46:00.693Z"
+  },
+  {
+    "link": "https://www.shibidubi.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN www.shibidubi.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.shibidubi.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://www.shibidubi.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-04-01T02:46:09.259Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "connect ECONNREFUSED 54.204.23.37:443",
+      "message": "connect ECONNREFUSED 34.227.188.100:443",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: connect ECONNREFUSED 34.227.188.100:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -165,16 +199,16 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-03-31T02:18:50.436Z"
+    "date": "2022-04-01T02:46:10.528Z"
   },
   {
-    "link": "https://www.ludolab.org/",
+    "link": "https://www.thedreamerians.com/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "getaddrinfo EAI_AGAIN www.thedreamerians.com",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.thedreamerians.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
       "config": {
-        "url": "https://www.ludolab.org/",
+        "url": "https://www.thedreamerians.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -197,9 +231,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNRESET"
+      "code": "EAI_AGAIN"
     },
-    "date": "2022-03-31T02:18:50.543Z"
+    "date": "2022-04-01T02:46:10.879Z"
   },
   {
     "link": "https://unboxed.games",
@@ -233,7 +267,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-03-31T02:18:50.885Z"
+    "date": "2022-04-01T02:46:11.238Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -267,7 +301,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-03-31T02:18:51.394Z"
+    "date": "2022-04-01T02:46:11.698Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,7 +334,7 @@
         }
       }
     },
-    "date": "2022-03-31T02:18:51.601Z"
+    "date": "2022-04-01T02:46:11.727Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -334,6 +368,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-03-31T02:19:36.028Z"
+    "date": "2022-04-01T02:46:46.916Z"
   }
 ]
