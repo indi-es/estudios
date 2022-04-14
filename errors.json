@@ -1,39 +1,5 @@
 [
   {
-    "link": "https://www.abstractstudios.com.mx/",
-    "error": {
-      "message": "connect ECONNREFUSED 209.99.40.222:443",
-      "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 209.99.40.222:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
-      "config": {
-        "url": "https://www.abstractstudios.com.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNREFUSED"
-    },
-    "date": "2022-04-13T02:29:51.885Z"
-  },
-  {
     "link": "https://www.bearboystudios.com/",
     "error": {
       "message": "Request failed with status code 404",
@@ -64,7 +30,41 @@
         }
       }
     },
-    "date": "2022-04-13T02:29:52.346Z"
+    "date": "2022-04-14T02:30:17.098Z"
+  },
+  {
+    "link": "https://www.abstractstudios.com.mx/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN www.abstractstudios.com.mx",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.abstractstudios.com.mx\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://www.abstractstudios.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-04-14T02:30:18.174Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,16 +97,16 @@
         }
       }
     },
-    "date": "2022-04-13T02:29:53.330Z"
+    "date": "2022-04-14T02:30:18.768Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "https://www.navegante-entertainment.com/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "Request failed with status code 503",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: Request failed with status code 503\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "https://www.navegante-entertainment.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -128,17 +128,16 @@
           "forcedJSONParsing": true,
           "clarifyTimeoutError": false
         }
-      },
-      "code": "ECONNREFUSED"
+      }
     },
-    "date": "2022-04-13T02:29:53.647Z"
+    "date": "2022-04-14T02:30:20.914Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "connect ECONNREFUSED 54.204.23.37:443",
+      "message": "connect ECONNREFUSED 34.227.188.100:443",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: connect ECONNREFUSED 34.227.188.100:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -165,7 +164,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-13T02:29:56.493Z"
+    "date": "2022-04-14T02:30:21.797Z"
   },
   {
     "link": "https://unboxed.games",
@@ -199,7 +198,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-13T02:29:57.186Z"
+    "date": "2022-04-14T02:30:22.556Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -233,7 +232,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-04-13T02:29:57.641Z"
+    "date": "2022-04-14T02:30:22.996Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -266,40 +265,6 @@
         }
       }
     },
-    "date": "2022-04-13T02:29:57.927Z"
-  },
-  {
-    "link": "https://www.navegante-entertainment.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://www.navegante-entertainment.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2022-04-13T02:30:41.828Z"
+    "date": "2022-04-14T02:30:23.301Z"
   }
 ]
