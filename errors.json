@@ -30,7 +30,7 @@
         }
       }
     },
-    "date": "2022-04-17T02:22:17.808Z"
+    "date": "2022-04-18T02:45:49.852Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -63,7 +63,7 @@
         }
       }
     },
-    "date": "2022-04-17T02:22:19.224Z"
+    "date": "2022-04-18T02:45:51.200Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -97,7 +97,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-17T02:22:19.680Z"
+    "date": "2022-04-18T02:45:51.738Z"
   },
   {
     "link": "https://www.abstractstudios.com.mx/",
@@ -131,14 +131,14 @@
       },
       "code": "DEPTH_ZERO_SELF_SIGNED_CERT"
     },
-    "date": "2022-04-17T02:22:19.954Z"
+    "date": "2022-04-18T02:45:52.787Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "connect ECONNREFUSED 52.7.54.58:443",
+      "message": "connect ECONNREFUSED 54.204.23.37:443",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 52.7.54.58:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -165,7 +165,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-17T02:22:22.390Z"
+    "date": "2022-04-18T02:45:53.975Z"
   },
   {
     "link": "https://unboxed.games",
@@ -199,7 +199,40 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-17T02:22:22.707Z"
+    "date": "2022-04-18T02:45:54.832Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-04-18T02:45:55.357Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -233,16 +266,16 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-04-17T02:22:23.237Z"
+    "date": "2022-04-18T02:45:55.389Z"
   },
   {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "link": "http://www.bitallforce.com/",
     "error": {
-      "message": "Request failed with status code 404",
+      "message": "timeout of 50000ms exceeded",
       "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
       "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "url": "http://www.bitallforce.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -264,9 +297,10 @@
           "forcedJSONParsing": true,
           "clarifyTimeoutError": false
         }
-      }
+      },
+      "code": "ECONNABORTED"
     },
-    "date": "2022-04-17T02:22:23.309Z"
+    "date": "2022-04-18T02:46:39.271Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -300,6 +334,74 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-17T02:23:07.238Z"
+    "date": "2022-04-18T02:46:39.271Z"
+  },
+  {
+    "link": "http://www.seashellstudio.mx/en/home/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "http://www.seashellstudio.mx/en/home/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-04-18T02:46:39.271Z"
+  },
+  {
+    "link": "https://trespixeles.mx",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://trespixeles.mx",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-04-18T02:46:39.272Z"
   }
 ]
