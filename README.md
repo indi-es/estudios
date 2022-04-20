@@ -85,6 +85,8 @@
     
  - [Ectoplasma Game Studio](https://ectoplasma.mx/)
     
+ - [Eldritch Games](https://eldritchgames.com.mx/)
+    
  - [Eliptica](https://eliptica.com.mx/)
     
  - [Ennui Studio](https://www.ennuistudio.com/)
