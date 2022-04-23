@@ -31,7 +31,7 @@
       },
       "code": "DEPTH_ZERO_SELF_SIGNED_CERT"
     },
-    "date": "2022-04-22T03:00:43.494Z"
+    "date": "2022-04-23T02:23:21.598Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -64,7 +64,7 @@
         }
       }
     },
-    "date": "2022-04-22T03:00:43.819Z"
+    "date": "2022-04-23T02:23:21.999Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2022-04-22T03:00:45.348Z"
+    "date": "2022-04-23T02:23:23.575Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -131,14 +131,14 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-22T03:00:46.594Z"
+    "date": "2022-04-23T02:23:24.785Z"
   },
   {
     "link": "https://www.karaokulta.com/",
     "error": {
-      "message": "write EPROTO 140349303351168:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: write EPROTO 140349303351168:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://www.karaokulta.com/",
         "method": "get",
@@ -163,16 +163,16 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "EPROTO"
+      "code": "ECONNRESET"
     },
-    "date": "2022-04-22T03:00:47.077Z"
+    "date": "2022-04-23T02:23:25.218Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "connect ECONNREFUSED 34.227.188.100:443",
+      "message": "connect ECONNREFUSED 54.204.23.37:443",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 34.227.188.100:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -199,7 +199,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-22T03:00:55.407Z"
+    "date": "2022-04-23T02:23:28.363Z"
   },
   {
     "link": "https://unboxed.games",
@@ -233,7 +233,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-22T03:00:57.261Z"
+    "date": "2022-04-23T02:23:29.495Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -267,7 +267,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-04-22T03:00:57.561Z"
+    "date": "2022-04-23T02:23:29.963Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,7 +300,41 @@
         }
       }
     },
-    "date": "2022-04-22T03:00:58.422Z"
+    "date": "2022-04-23T02:23:30.188Z"
+  },
+  {
+    "link": "http://www.supermegapunch.com/",
+    "error": {
+      "message": "read ECONNRESET",
+      "name": "Error",
+      "stack": "Error: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "config": {
+        "url": "http://www.supermegapunch.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2022-04-23T02:23:41.548Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -334,6 +368,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-22T03:01:33.347Z"
+    "date": "2022-04-23T02:24:11.273Z"
   }
 ]
