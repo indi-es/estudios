@@ -2,9 +2,9 @@
   {
     "link": "https://www.abstractstudios.com.mx/",
     "error": {
-      "message": "connect ECONNREFUSED 209.99.40.222:443",
+      "message": "self signed certificate",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 209.99.40.222:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: self signed certificate\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
       "config": {
         "url": "https://www.abstractstudios.com.mx/",
         "method": "get",
@@ -29,9 +29,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNREFUSED"
+      "code": "DEPTH_ZERO_SELF_SIGNED_CERT"
     },
-    "date": "2022-04-24T02:20:30.082Z"
+    "date": "2022-04-25T02:43:42.171Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -64,7 +64,7 @@
         }
       }
     },
-    "date": "2022-04-24T02:20:30.534Z"
+    "date": "2022-04-25T02:43:42.282Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2022-04-24T02:20:31.330Z"
+    "date": "2022-04-25T02:43:42.990Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -131,14 +131,14 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-24T02:20:31.911Z"
+    "date": "2022-04-25T02:43:43.223Z"
   },
   {
     "link": "https://www.karaokulta.com/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "write EPROTO 140068244871040:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: write EPROTO 140068244871040:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
       "config": {
         "url": "https://www.karaokulta.com/",
         "method": "get",
@@ -163,16 +163,16 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNRESET"
+      "code": "EPROTO"
     },
-    "date": "2022-04-24T02:20:32.189Z"
+    "date": "2022-04-25T02:43:43.482Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "connect ECONNREFUSED 34.227.188.100:443",
+      "message": "connect ECONNREFUSED 54.204.23.37:443",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 34.227.188.100:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: connect ECONNREFUSED 54.204.23.37:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -199,7 +199,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-24T02:20:34.324Z"
+    "date": "2022-04-25T02:43:45.751Z"
   },
   {
     "link": "https://unboxed.games",
@@ -233,7 +233,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-04-24T02:20:35.272Z"
+    "date": "2022-04-25T02:43:46.642Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -266,7 +266,7 @@
         }
       }
     },
-    "date": "2022-04-24T02:20:35.952Z"
+    "date": "2022-04-25T02:43:47.085Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -300,7 +300,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.018Z"
+    "date": "2022-04-25T02:44:31.866Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -334,7 +334,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.866Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -368,7 +368,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -402,7 +402,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "http://mantizgs.com/mgs/eng/",
@@ -436,7 +436,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -470,7 +470,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "https://ncite.mx/",
@@ -504,7 +504,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "http://www.tagwizz.com/",
@@ -538,7 +538,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -572,7 +572,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -606,7 +606,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.867Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -640,7 +640,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.019Z"
+    "date": "2022-04-25T02:44:31.868Z"
   },
   {
     "link": "http://www.cerevrovi.com/",
@@ -674,6 +674,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-04-24T02:21:20.020Z"
+    "date": "2022-04-25T02:44:31.869Z"
   }
 ]
