@@ -45,6 +45,8 @@
     
  - [Axolotl Bros](http://axolotlbrothers.com/)
     
+ - [BC Media Lab](https://www.bcmedialab.com/)
+    
  - [Bearboy Studios](https://www.bearboystudios.com/)
     
  - [Big Mini Geek](http://www.bigminigeek.com/)
@@ -77,6 +79,8 @@
     
  - [DAHLIA](http://deathrosa.com/)
     
+ - [Dark Dust](https://www.darkdust.mx/)
+    
  - [Dracma Studios](https://www.dracmastudios.com/)
     
  - [Dreidel](http://www.dreidel.mx/)
@@ -107,6 +111,8 @@
     
  - [Fuimos Nostros](https://fuimosnosotros.com/)
     
+ - [Funky Can Creative](https://www.popslinger.com/)
+    
  - [Fuxcorp](https://www.fuxcorp.net/)
     
  - [Game Coder Studios](http://gamecoderstudios.com/)
@@ -118,6 +124,8 @@
  - [Gnomael](https://gnomael.com/)
     
  - [Halberd Studios](http://halberdstudios.com/)
+    
+ - [Hammerbyte Games](https://hammerbyte.com/)
     
  - [Hannie Echo](http://hannie-echo.com/)
     
@@ -200,6 +208,8 @@
  - [Seashell Studio](http://www.seashellstudio.mx/en/home/)
     
  - [Shibidubi](https://www.shibidubi.com/)
+    
+ - [Snatch](https://www.snatchstudios.com/)
     
  - [Squad](http://squad.com.mx/)
     
