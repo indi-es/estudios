@@ -1,5 +1,39 @@
 [
   {
+    "link": "https://www.abstractstudios.com.mx/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND www.abstractstudios.com.mx",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.abstractstudios.com.mx\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://www.abstractstudios.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2022-05-07T02:22:39.956Z"
+  },
+  {
     "link": "https://www.bearboystudios.com/",
     "error": {
       "message": "Request failed with status code 404",
@@ -30,41 +64,7 @@
         }
       }
     },
-    "date": "2022-05-06T02:27:52.792Z"
-  },
-  {
-    "link": "https://www.abstractstudios.com.mx/",
-    "error": {
-      "message": "self signed certificate",
-      "name": "Error",
-      "stack": "Error: self signed certificate\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://www.abstractstudios.com.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "DEPTH_ZERO_SELF_SIGNED_CERT"
-    },
-    "date": "2022-05-06T02:27:53.537Z"
+    "date": "2022-05-07T02:22:40.458Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,14 +97,14 @@
         }
       }
     },
-    "date": "2022-05-06T02:27:53.626Z"
+    "date": "2022-05-07T02:22:41.316Z"
   },
   {
     "link": "https://www.karaokulta.com/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "write EPROTO 140601540937600:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1334:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: write EPROTO 140601540937600:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 80\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
       "config": {
         "url": "https://www.karaokulta.com/",
         "method": "get",
@@ -129,43 +129,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNRESET"
+      "code": "EPROTO"
     },
-    "date": "2022-05-06T02:27:54.965Z"
-  },
-  {
-    "link": "https://www.ludolab.org/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://www.ludolab.org/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2022-05-06T02:27:59.512Z"
+    "date": "2022-05-07T02:22:42.095Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -199,7 +165,41 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-05-06T02:27:59.911Z"
+    "date": "2022-05-07T02:22:44.194Z"
+  },
+  {
+    "link": "https://www.ludolab.org/",
+    "error": {
+      "message": "read ECONNRESET",
+      "name": "Error",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "config": {
+        "url": "https://www.ludolab.org/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2022-05-07T02:22:44.555Z"
   },
   {
     "link": "https://unboxed.games",
@@ -233,7 +233,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-05-06T02:28:00.286Z"
+    "date": "2022-05-07T02:22:45.345Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -267,7 +267,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-05-06T02:28:00.383Z"
+    "date": "2022-05-07T02:22:45.518Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,6 +300,40 @@
         }
       }
     },
-    "date": "2022-05-06T02:28:01.200Z"
+    "date": "2022-05-07T02:22:45.881Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-05-07T02:23:29.953Z"
   }
 ]
