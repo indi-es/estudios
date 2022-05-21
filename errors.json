@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-05-20T02:43:27.860Z"
+    "date": "2022-05-21T02:10:25.254Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-05-20T02:43:28.219Z"
+    "date": "2022-05-21T02:10:25.521Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2022-05-20T02:43:28.403Z"
+    "date": "2022-05-21T02:10:25.658Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-05-20T02:43:29.462Z"
+    "date": "2022-05-21T02:10:26.358Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -165,14 +165,48 @@
         }
       }
     },
-    "date": "2022-05-20T02:43:29.591Z"
+    "date": "2022-05-21T02:10:26.464Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2022-05-21T02:10:26.727Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -199,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-05-20T02:43:33.900Z"
+    "date": "2022-05-21T02:10:30.942Z"
   },
   {
     "link": "https://unboxed.games",
@@ -233,7 +267,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-05-20T02:43:34.851Z"
+    "date": "2022-05-21T02:10:31.686Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -267,7 +301,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-05-20T02:43:35.306Z"
+    "date": "2022-05-21T02:10:32.166Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,7 +334,7 @@
         }
       }
     },
-    "date": "2022-05-20T02:43:35.943Z"
+    "date": "2022-05-21T02:10:32.266Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -334,6 +368,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-05-20T02:44:17.860Z"
+    "date": "2022-05-21T02:11:15.259Z"
   }
 ]
