@@ -31,7 +31,40 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-06-03T02:40:30.182Z"
+    "date": "2022-06-04T02:31:57.436Z"
+  },
+  {
+    "link": "https://www.bearboystudios.com/",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.bearboystudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-06-04T02:31:58.007Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -65,40 +98,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-03T02:40:30.820Z"
-  },
-  {
-    "link": "https://www.bearboystudios.com/",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.bearboystudios.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-06-03T02:40:30.845Z"
+    "date": "2022-06-04T02:31:58.181Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-03T02:40:31.310Z"
+    "date": "2022-06-04T02:31:58.834Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -165,7 +165,40 @@
         }
       }
     },
-    "date": "2022-06-03T02:40:31.357Z"
+    "date": "2022-06-04T02:31:58.927Z"
+  },
+  {
+    "link": "https://maquivol.com/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://maquivol.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-06-04T02:31:58.980Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -199,7 +232,40 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-06-03T02:40:31.702Z"
+    "date": "2022-06-04T02:31:59.553Z"
+  },
+  {
+    "link": "https://maquivol.com/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://maquivol.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-06-04T02:32:00.387Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -233,7 +299,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-06-03T02:40:33.669Z"
+    "date": "2022-06-04T02:32:02.552Z"
   },
   {
     "link": "https://unboxed.games",
@@ -267,7 +333,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-06-03T02:40:34.715Z"
+    "date": "2022-06-04T02:32:03.263Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -301,7 +367,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-03T02:40:35.070Z"
+    "date": "2022-06-04T02:32:03.737Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -334,7 +400,7 @@
         }
       }
     },
-    "date": "2022-06-03T02:40:35.298Z"
+    "date": "2022-06-04T02:32:04.510Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -368,6 +434,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-03T02:41:20.166Z"
+    "date": "2022-06-04T02:32:47.427Z"
   }
 ]
