@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-06-06T02:47:18.850Z"
+    "date": "2022-06-07T02:43:39.530Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -64,16 +64,16 @@
         }
       }
     },
-    "date": "2022-06-06T02:47:19.171Z"
+    "date": "2022-06-07T02:43:45.477Z"
   },
   {
-    "link": "https://big-monster.net/",
+    "link": "https://www.ennuistudio.com/",
     "error": {
-      "message": "certificate has expired",
+      "message": "Request failed with status code 500",
       "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "https://big-monster.net/",
+        "url": "https://www.ennuistudio.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -95,10 +95,9 @@
           "forcedJSONParsing": true,
           "clarifyTimeoutError": false
         }
-      },
-      "code": "CERT_HAS_EXPIRED"
+      }
     },
-    "date": "2022-06-06T02:47:19.298Z"
+    "date": "2022-06-07T02:43:47.286Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,40 +131,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-06T02:47:19.769Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 500",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-06-06T02:47:19.851Z"
+    "date": "2022-06-07T02:43:47.450Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -199,41 +165,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-06-06T02:47:20.182Z"
-  },
-  {
-    "link": "https://alebrije.co/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://alebrije.co/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2022-06-06T02:47:22.100Z"
+    "date": "2022-06-07T02:43:49.301Z"
   },
   {
     "link": "https://unboxed.games",
@@ -267,7 +199,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-06-06T02:47:22.831Z"
+    "date": "2022-06-07T02:43:54.963Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -301,7 +233,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-06T02:47:23.381Z"
+    "date": "2022-06-07T02:43:55.210Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -334,7 +266,7 @@
         }
       }
     },
-    "date": "2022-06-06T02:47:23.546Z"
+    "date": "2022-06-07T02:43:57.054Z"
   },
   {
     "link": "http://www.bitallforce.com/",
@@ -368,7 +300,41 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-06T02:48:08.827Z"
+    "date": "2022-06-07T02:44:29.508Z"
+  },
+  {
+    "link": "https://hyperbeard.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://hyperbeard.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-06-07T02:44:29.508Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -402,7 +368,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-06T02:48:08.827Z"
+    "date": "2022-06-07T02:44:29.509Z"
   },
   {
     "link": "http://www.seashellstudio.mx/en/home/",
@@ -436,7 +402,41 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-06T02:48:08.828Z"
+    "date": "2022-06-07T02:44:29.509Z"
+  },
+  {
+    "link": "https://alebrije.co/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://alebrije.co/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-06-07T02:44:29.509Z"
   },
   {
     "link": "https://trespixeles.mx",
@@ -470,6 +470,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-06T02:48:08.828Z"
+    "date": "2022-06-07T02:44:29.509Z"
   }
 ]
