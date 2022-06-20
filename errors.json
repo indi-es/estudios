@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-06-19T03:03:59.031Z"
+    "date": "2022-06-20T02:46:04.298Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -64,7 +64,7 @@
         }
       }
     },
-    "date": "2022-06-19T03:03:59.584Z"
+    "date": "2022-06-20T02:46:05.024Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -98,7 +98,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-19T03:04:00.297Z"
+    "date": "2022-06-20T02:46:06.422Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -131,7 +131,7 @@
         }
       }
     },
-    "date": "2022-06-19T03:04:00.448Z"
+    "date": "2022-06-20T02:46:07.019Z"
   },
   {
     "link": "https://gargamel-estudio.com/en/",
@@ -164,7 +164,41 @@
         }
       }
     },
-    "date": "2022-06-19T03:04:00.906Z"
+    "date": "2022-06-20T02:46:07.251Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2022-06-20T02:46:07.267Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -198,7 +232,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-06-19T03:04:05.880Z"
+    "date": "2022-06-20T02:46:10.351Z"
   },
   {
     "link": "https://unboxed.games",
@@ -232,7 +266,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-06-19T03:04:06.941Z"
+    "date": "2022-06-20T02:46:11.510Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -266,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-06-19T03:04:07.145Z"
+    "date": "2022-06-20T02:46:11.844Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -299,7 +333,41 @@
         }
       }
     },
-    "date": "2022-06-19T03:04:07.561Z"
+    "date": "2022-06-20T02:46:12.855Z"
+  },
+  {
+    "link": "https://wetheforcestudios.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN wetheforcestudios.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN wetheforcestudios.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://wetheforcestudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-06-20T02:46:19.482Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -333,7 +401,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-19T03:04:49.018Z"
+    "date": "2022-06-20T02:46:54.267Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -367,6 +435,40 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-06-19T03:04:49.019Z"
+    "date": "2022-06-20T02:46:54.267Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:164:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-06-20T02:46:54.268Z"
   }
 ]
