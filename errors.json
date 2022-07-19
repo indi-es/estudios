@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-07-18T03:00:52.974Z"
+    "date": "2022-07-19T03:14:12.235Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-18T03:00:53.359Z"
+    "date": "2022-07-19T03:14:12.558Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2022-07-18T03:00:53.513Z"
+    "date": "2022-07-19T03:14:12.630Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-07-18T03:00:54.768Z"
+    "date": "2022-07-19T03:14:13.454Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -165,7 +165,7 @@
         }
       }
     },
-    "date": "2022-07-18T03:00:54.836Z"
+    "date": "2022-07-19T03:14:13.595Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -199,7 +199,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-07-18T03:00:55.600Z"
+    "date": "2022-07-19T03:14:13.907Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -232,14 +232,14 @@
         }
       }
     },
-    "date": "2022-07-18T03:00:58.427Z"
+    "date": "2022-07-19T03:14:15.874Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -266,7 +266,41 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-18T03:00:58.933Z"
+    "date": "2022-07-19T03:14:16.453Z"
+  },
+  {
+    "link": "https://trespixeles.mx",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://trespixeles.mx",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2022-07-19T03:14:17.394Z"
   },
   {
     "link": "https://unboxed.games",
@@ -300,7 +334,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-07-18T03:00:59.753Z"
+    "date": "2022-07-19T03:14:17.839Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -334,7 +368,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-07-18T03:01:00.274Z"
+    "date": "2022-07-19T03:14:18.118Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -368,7 +402,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-18T03:01:00.275Z"
+    "date": "2022-07-19T03:14:18.235Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -401,7 +435,7 @@
         }
       }
     },
-    "date": "2022-07-18T03:01:00.419Z"
+    "date": "2022-07-19T03:14:18.439Z"
   },
   {
     "link": "https://cosmogonia.mx/",
@@ -435,7 +469,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-07-18T03:01:42.899Z"
+    "date": "2022-07-19T03:15:02.175Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -469,6 +503,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-07-18T03:01:42.899Z"
+    "date": "2022-07-19T03:15:02.175Z"
   }
 ]
