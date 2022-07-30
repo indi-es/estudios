@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-07-29T03:12:40.090Z"
+    "date": "2022-07-30T03:04:13.928Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-29T03:12:40.424Z"
+    "date": "2022-07-30T03:04:14.271Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -98,7 +98,40 @@
         }
       }
     },
-    "date": "2022-07-29T03:12:40.529Z"
+    "date": "2022-07-30T03:04:14.363Z"
+  },
+  {
+    "link": "https://www.ennuistudio.com/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.ennuistudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-07-30T03:04:15.777Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,40 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-07-29T03:12:41.287Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 500",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-07-29T03:12:41.293Z"
+    "date": "2022-07-30T03:04:15.966Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -198,14 +198,14 @@
         }
       }
     },
-    "date": "2022-07-29T03:12:43.739Z"
+    "date": "2022-07-30T03:04:20.610Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -232,7 +232,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-29T03:12:44.316Z"
+    "date": "2022-07-30T03:04:21.509Z"
   },
   {
     "link": "https://unboxed.games",
@@ -266,7 +266,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-07-29T03:12:45.408Z"
+    "date": "2022-07-30T03:04:22.478Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -300,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-07-29T03:12:45.685Z"
+    "date": "2022-07-30T03:04:22.728Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -334,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-07-29T03:12:46.030Z"
+    "date": "2022-07-30T03:04:23.240Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -367,6 +367,6 @@
         }
       }
     },
-    "date": "2022-07-29T03:12:46.260Z"
+    "date": "2022-07-30T03:04:23.435Z"
   }
 ]
