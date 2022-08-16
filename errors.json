@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-08-15T03:11:33.865Z"
+    "date": "2022-08-16T03:06:25.769Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-15T03:11:34.154Z"
+    "date": "2022-08-16T03:06:26.069Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2022-08-15T03:11:34.176Z"
+    "date": "2022-08-16T03:06:26.248Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-08-15T03:11:34.906Z"
+    "date": "2022-08-16T03:06:26.652Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -165,7 +165,7 @@
         }
       }
     },
-    "date": "2022-08-15T03:11:35.015Z"
+    "date": "2022-08-16T03:06:26.708Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -199,7 +199,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-08-15T03:11:35.357Z"
+    "date": "2022-08-16T03:06:27.223Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -232,14 +232,14 @@
         }
       }
     },
-    "date": "2022-08-15T03:11:37.306Z"
+    "date": "2022-08-16T03:06:29.073Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -266,7 +266,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-15T03:11:37.892Z"
+    "date": "2022-08-16T03:06:29.344Z"
   },
   {
     "link": "https://unboxed.games",
@@ -300,41 +300,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-08-15T03:11:38.752Z"
-  },
-  {
-    "link": "https://www.metastudios.jp/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://www.metastudios.jp/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2022-08-15T03:11:39.225Z"
+    "date": "2022-08-16T03:06:30.038Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -368,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-15T03:11:39.437Z"
+    "date": "2022-08-16T03:06:31.398Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -401,7 +367,41 @@
         }
       }
     },
-    "date": "2022-08-15T03:11:39.651Z"
+    "date": "2022-08-16T03:06:31.674Z"
+  },
+  {
+    "link": "https://www.metastudios.jp/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://www.metastudios.jp/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2022-08-16T03:06:32.001Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -435,6 +435,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-08-15T03:12:23.874Z"
+    "date": "2022-08-16T03:07:15.796Z"
   }
 ]
