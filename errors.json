@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-08-31T03:49:53.117Z"
+    "date": "2022-09-01T03:22:11.016Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-31T03:49:53.503Z"
+    "date": "2022-09-01T03:22:11.869Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:53.617Z"
+    "date": "2022-09-01T03:22:11.962Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -132,7 +132,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-31T03:49:53.867Z"
+    "date": "2022-09-01T03:22:14.930Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -165,7 +165,7 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:54.270Z"
+    "date": "2022-09-01T03:22:16.081Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -199,7 +199,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-08-31T03:49:54.361Z"
+    "date": "2022-09-01T03:22:16.184Z"
   },
   {
     "link": "https://gargamel-estudio.com/en/",
@@ -232,16 +232,16 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:54.888Z"
+    "date": "2022-09-01T03:22:17.021Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "http://www.bitallforce.com/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "getaddrinfo EAI_AGAIN www.bitallforce.com",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.bitallforce.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "http://www.bitallforce.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -264,9 +264,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNREFUSED"
+      "code": "EAI_AGAIN"
     },
-    "date": "2022-08-31T03:49:54.985Z"
+    "date": "2022-09-01T03:22:22.185Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -299,14 +299,14 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:57.052Z"
+    "date": "2022-09-01T03:22:23.250Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -333,7 +333,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-31T03:49:57.724Z"
+    "date": "2022-09-01T03:22:24.379Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -366,7 +366,7 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:58.698Z"
+    "date": "2022-09-01T03:22:25.128Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -400,41 +400,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-08-31T03:49:59.118Z"
-  },
-  {
-    "link": "http://hannie-echo.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://hannie-echo.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2022-08-31T03:49:59.723Z"
+    "date": "2022-09-01T03:22:25.695Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -468,7 +434,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-08-31T03:49:59.867Z"
+    "date": "2022-09-01T03:22:25.922Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -501,7 +467,41 @@
         }
       }
     },
-    "date": "2022-08-31T03:49:59.994Z"
+    "date": "2022-09-01T03:22:26.124Z"
+  },
+  {
+    "link": "http://hannie-echo.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://hannie-echo.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-09-01T03:22:26.542Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -535,7 +535,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-08-31T03:50:43.118Z"
+    "date": "2022-09-01T03:23:01.016Z"
   },
   {
     "link": "https://unboxed.games",
@@ -569,6 +569,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-08-31T03:50:43.119Z"
+    "date": "2022-09-01T03:23:01.017Z"
   }
 ]
