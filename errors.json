@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-09-25T03:28:04.944Z"
+    "date": "2022-09-26T03:39:11.249Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-09-25T03:28:05.255Z"
+    "date": "2022-09-26T03:39:11.686Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -99,7 +99,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-09-25T03:28:05.321Z"
+    "date": "2022-09-26T03:39:11.688Z"
   },
   {
     "link": "https://carbonmachina.com/",
@@ -133,7 +133,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-09-25T03:28:05.527Z"
+    "date": "2022-09-26T03:39:12.118Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -167,7 +167,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-09-25T03:28:06.008Z"
+    "date": "2022-09-26T03:39:12.625Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -200,7 +200,7 @@
         }
       }
     },
-    "date": "2022-09-25T03:28:06.051Z"
+    "date": "2022-09-26T03:39:12.638Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -234,7 +234,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-09-25T03:28:06.558Z"
+    "date": "2022-09-26T03:39:13.393Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -267,14 +267,14 @@
         }
       }
     },
-    "date": "2022-09-25T03:28:08.961Z"
+    "date": "2022-09-26T03:39:15.955Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -301,14 +301,14 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-09-25T03:28:09.257Z"
+    "date": "2022-09-26T03:39:16.583Z"
   },
   {
     "link": "https://www.2dnutz.com/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://www.2dnutz.com/",
         "method": "get",
@@ -335,7 +335,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-09-25T03:28:09.386Z"
+    "date": "2022-09-26T03:39:16.720Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -368,7 +368,7 @@
         }
       }
     },
-    "date": "2022-09-25T03:28:10.239Z"
+    "date": "2022-09-26T03:39:17.775Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -402,41 +402,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-09-25T03:28:10.739Z"
-  },
-  {
-    "link": "http://hannie-echo.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://hannie-echo.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2022-09-25T03:28:10.959Z"
+    "date": "2022-09-26T03:39:18.103Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -470,7 +436,41 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-09-25T03:28:10.969Z"
+    "date": "2022-09-26T03:39:19.089Z"
+  },
+  {
+    "link": "http://hannie-echo.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://hannie-echo.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2022-09-26T03:39:19.267Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -503,7 +503,7 @@
         }
       }
     },
-    "date": "2022-09-25T03:28:11.144Z"
+    "date": "2022-09-26T03:39:19.290Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -537,7 +537,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-09-25T03:28:54.959Z"
+    "date": "2022-09-26T03:40:01.268Z"
   },
   {
     "link": "https://unboxed.games",
@@ -571,6 +571,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-09-25T03:28:54.959Z"
+    "date": "2022-09-26T03:40:01.268Z"
   }
 ]
