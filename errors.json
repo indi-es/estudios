@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-10-05T03:01:34.024Z"
+    "date": "2022-10-06T02:59:32.822Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -65,74 +65,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-10-05T03:01:34.389Z"
-  },
-  {
-    "link": "https://carbonmachina.com/",
-    "error": {
-      "message": "read ECONNRESET",
-      "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
-      "config": {
-        "url": "https://carbonmachina.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2022-10-05T03:01:34.794Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-10-05T03:01:35.632Z"
+    "date": "2022-10-06T02:59:33.150Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -166,7 +99,40 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-10-05T03:01:35.855Z"
+    "date": "2022-10-06T02:59:34.097Z"
+  },
+  {
+    "link": "https://www.ennuistudio.com/",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.ennuistudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-10-06T02:59:34.174Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -200,40 +166,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-10-05T03:01:37.069Z"
-  },
-  {
-    "link": "http://www.mumnotproud.com/",
-    "error": {
-      "message": "Request failed with status code 521",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 521\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://www.mumnotproud.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-10-05T03:01:39.185Z"
+    "date": "2022-10-06T02:59:34.784Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -266,7 +199,7 @@
         }
       }
     },
-    "date": "2022-10-05T03:01:40.670Z"
+    "date": "2022-10-06T02:59:37.537Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -300,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-10-05T03:01:41.511Z"
+    "date": "2022-10-06T02:59:38.211Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -333,7 +266,7 @@
         }
       }
     },
-    "date": "2022-10-05T03:01:42.706Z"
+    "date": "2022-10-06T02:59:39.009Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -367,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-10-05T03:01:43.106Z"
+    "date": "2022-10-06T02:59:39.670Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -401,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-10-05T03:01:46.761Z"
+    "date": "2022-10-06T02:59:39.747Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -434,7 +367,7 @@
         }
       }
     },
-    "date": "2022-10-05T03:01:46.984Z"
+    "date": "2022-10-06T02:59:39.953Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -468,7 +401,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2022-10-05T03:01:54.246Z"
+    "date": "2022-10-06T02:59:39.960Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -502,7 +435,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-10-05T03:02:24.004Z"
+    "date": "2022-10-06T03:00:22.794Z"
   },
   {
     "link": "https://unboxed.games",
@@ -536,6 +469,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-10-05T03:02:24.004Z"
+    "date": "2022-10-06T03:00:22.795Z"
   }
 ]
