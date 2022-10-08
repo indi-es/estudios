@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-10-07T03:10:32.949Z"
+    "date": "2022-10-08T02:54:27.544Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2022-10-07T03:10:33.314Z"
+    "date": "2022-10-08T02:54:27.963Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2022-10-07T03:10:34.610Z"
+    "date": "2022-10-08T02:54:28.771Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-10-07T03:10:34.889Z"
+    "date": "2022-10-08T02:54:28.804Z"
   },
   {
     "link": "https://www.tokyoplay.com/",
@@ -165,14 +165,14 @@
         }
       }
     },
-    "date": "2022-10-07T03:10:39.830Z"
+    "date": "2022-10-08T02:54:31.809Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -199,7 +199,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-10-07T03:10:40.374Z"
+    "date": "2022-10-08T02:54:32.928Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -232,7 +232,7 @@
         }
       }
     },
-    "date": "2022-10-07T03:10:41.424Z"
+    "date": "2022-10-08T02:54:33.527Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -266,7 +266,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-10-07T03:10:41.829Z"
+    "date": "2022-10-08T02:54:33.843Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -300,7 +300,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2022-10-07T03:10:42.242Z"
+    "date": "2022-10-08T02:54:34.188Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -334,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-10-07T03:10:42.270Z"
+    "date": "2022-10-08T02:54:34.213Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -367,7 +367,41 @@
         }
       }
     },
-    "date": "2022-10-07T03:10:42.523Z"
+    "date": "2022-10-08T02:54:34.446Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-10-08T02:55:17.568Z"
   },
   {
     "link": "https://unboxed.games",
@@ -401,6 +435,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-10-07T03:11:22.892Z"
+    "date": "2022-10-08T02:55:17.568Z"
   }
 ]
