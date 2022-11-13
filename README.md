@@ -17,6 +17,8 @@
     
  - [4M2Q GAMES](https://4m2q.com/)
     
+ - [5x5 Gaming](https://www.5x5gaming.com)
+    
  - [Abstract Studios](https://www.abstractstudios.com.mx/)
     
  - [Afterlife](http://www.afterlife.mx/)
@@ -34,6 +36,8 @@
  - [Amano](https://amano.games)
     
  - [Amber Studio Mexico](https://amberstudio.com/)
+    
+ - [Animactiva](http://animactiva.mx)
     
  - [Ansimuz Games](https://ansimuz.com/site/)
     
@@ -55,6 +59,8 @@
     
  - [Binmatter](https://www.binmatter.com/)
     
+ - [Bisper Studios](https://www.youtube.com/channel/UC4a4bLgsQlWt9kXrRsOZSXA)
+    
  - [Bit All Force](http://www.bitallforce.com/)
     
  - [Bleda Gaming Studios](https://netsites.mx/bledagamestudios/#xl_xr_page_index.html)
@@ -70,6 +76,8 @@
  - [CGBot](https://cgbot.com/)
     
  - [Chronograph Studio](https://www.chronographstudio.com/)
+    
+ - [Chundos Studio](http://www.chundos.com)
     
  - [Cometa Games](https://cometagames.mx/)
     
@@ -101,11 +109,15 @@
     
  - [Estudios Máquina Voladora](https://maquivol.com/)
     
+ - [Etherlight Studios](https://etherlightstudios.com)
+    
  - [Evil Geometry](https://www.flowcode.com/page/evilgeometry)
     
  - [Feline Arts](https://www.felinearts.net/)
     
  - [Fifth Mountain Studios](https://fifthmountain.net/)
+    
+ - [Figment](https://www.figment.com.mx/)
     
  - [Focka Games](https://www.fockagames.com/)
     
@@ -122,6 +134,12 @@
  - [GatoMocho](https://gatomocho.com/)
     
  - [Gnomael](https://gnomael.com/)
+    
+ - [Golden Pie](https://goldenpie.com)
+    
+ - [Growlinga](http://growlinga.com/es/)
+    
+ - [Gyroscopik Studios](https://www.gyroscopik.com)
     
  - [Halberd Studios](http://halberdstudios.com/)
     
@@ -149,11 +167,15 @@
     
  - [LunarCrown](http://lunarcrown.com/)
     
+ - [Macula Interactive](https://www.maculainteractive.com)
+    
  - [Man-Eater Games](http://www.maneatergames.com/)
     
  - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
     
  - [Maquivol Game Studio](https://maquivol.com/)
+    
+ - [Mars Games](http://mars-games.net/)
     
  - [Matrixcore Studio](https://matrixcorestudio.com)
     
@@ -197,6 +219,8 @@
     
  - [Pixelarium](http://www.pixelarium.com.mx/)
     
+ - [PoiesusGames](http://www.poiesusgames.com/)
+    
  - [Present Creative México](https://www.presentcreative.com/)
     
  - [Rainbowmads Studios](https://luxzord122.wixsite.com/rainbowmaddness)
@@ -217,6 +241,8 @@
     
  - [Tagwizz](http://www.tagwizz.com/)
     
+ - [Teporingo Games](https://linktr.ee/teporingosgames)
+    
  - [the-BigKey](http://the-bigkey.com/)
     
  - [THE BUNKER MEDIA](https://www.bunkermedia.com.mx/)
@@ -226,6 +252,8 @@
  - [Third world productions](http://thirdworldproductions.com.mx/)
     
  - [Tokyo Play](https://www.tokyoplay.com/)
+    
+ - [Tortuga Xel](https://tortugaxel.com/)
     
  - [Tres Pixeles](https://trespixeles.mx)
     
