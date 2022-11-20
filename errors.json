@@ -31,41 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-11-18T02:44:15.302Z"
-  },
-  {
-    "link": "http://artefactoestudio.com/",
-    "error": {
-      "message": "socket hang up",
-      "name": "Error",
-      "stack": "Error: socket hang up\n    at connResetException (internal/errors.js:639:14)\n    at Socket.socketOnEnd (_http_client.js:499:23)\n    at Socket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://artefactoestudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2022-11-18T02:44:15.604Z"
+    "date": "2022-11-20T02:45:03.879Z"
   },
   {
     "link": "https://www.bearboystudios.com/",
@@ -99,7 +65,41 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-11-18T02:44:15.612Z"
+    "date": "2022-11-20T02:45:04.127Z"
+  },
+  {
+    "link": "http://artefactoestudio.com/",
+    "error": {
+      "message": "socket hang up",
+      "name": "Error",
+      "stack": "Error: socket hang up\n    at connResetException (internal/errors.js:639:14)\n    at Socket.socketOnEnd (_http_client.js:499:23)\n    at Socket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "http://artefactoestudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2022-11-20T02:45:04.230Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -133,14 +133,81 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-11-18T02:44:16.208Z"
+    "date": "2022-11-20T02:45:04.738Z"
+  },
+  {
+    "link": "https://www.ennuistudio.com/",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.ennuistudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-11-20T02:45:04.951Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2022-11-20T02:45:05.174Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -167,7 +234,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-11-18T02:44:19.153Z"
+    "date": "2022-11-20T02:45:07.422Z"
   },
   {
     "link": "https://moshaonline.com",
@@ -201,7 +268,7 @@
       },
       "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
     },
-    "date": "2022-11-18T02:44:19.369Z"
+    "date": "2022-11-20T02:45:07.545Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -234,7 +301,7 @@
         }
       }
     },
-    "date": "2022-11-18T02:44:19.946Z"
+    "date": "2022-11-20T02:45:08.037Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -268,7 +335,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-11-18T02:44:20.468Z"
+    "date": "2022-11-20T02:45:08.550Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -302,7 +369,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2022-11-18T02:44:20.532Z"
+    "date": "2022-11-20T02:45:08.627Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -335,7 +402,7 @@
         }
       }
     },
-    "date": "2022-11-18T02:44:20.642Z"
+    "date": "2022-11-20T02:45:08.686Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -369,40 +436,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-11-18T02:44:21.493Z"
-  },
-  {
-    "link": "https://gnomael.com/",
-    "error": {
-      "message": "Request failed with status code 429",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 429\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://gnomael.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-11-18T02:44:23.534Z"
+    "date": "2022-11-20T02:45:09.233Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -436,7 +470,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.287Z"
+    "date": "2022-11-20T02:45:53.841Z"
   },
   {
     "link": "http://www.ensenasoft.com/",
@@ -470,7 +504,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.841Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -504,7 +538,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.841Z"
   },
   {
     "link": "http://mantizgs.com/mgs/eng/",
@@ -538,7 +572,41 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.841Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2022-11-20T02:45:53.841Z"
   },
   {
     "link": "https://ncite.mx/",
@@ -572,7 +640,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.842Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -606,7 +674,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.842Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -640,7 +708,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.288Z"
+    "date": "2022-11-20T02:45:53.842Z"
   },
   {
     "link": "https://unboxed.games",
@@ -674,7 +742,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.289Z"
+    "date": "2022-11-20T02:45:53.842Z"
   },
   {
     "link": "http://www.cerevrovi.com/",
@@ -708,6 +776,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-11-18T02:45:05.289Z"
+    "date": "2022-11-20T02:45:53.843Z"
   }
 ]
