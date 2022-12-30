@@ -31,40 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-12-29T02:04:55.618Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-12-29T02:04:56.320Z"
+    "date": "2022-12-30T02:04:55.736Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -98,14 +65,14 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-12-29T02:04:56.347Z"
+    "date": "2022-12-30T02:04:56.791Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -132,7 +99,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-12-29T02:04:59.400Z"
+    "date": "2022-12-30T02:04:59.711Z"
   },
   {
     "link": "https://moshaonline.com",
@@ -166,7 +133,7 @@
       },
       "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
     },
-    "date": "2022-12-29T02:04:59.775Z"
+    "date": "2022-12-30T02:04:59.829Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -199,7 +166,7 @@
         }
       }
     },
-    "date": "2022-12-29T02:05:00.147Z"
+    "date": "2022-12-30T02:05:00.720Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -233,7 +200,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2022-12-29T02:05:00.453Z"
+    "date": "2022-12-30T02:05:01.163Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -267,40 +234,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2022-12-29T02:05:01.440Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2022-12-29T02:05:01.694Z"
+    "date": "2022-12-30T02:05:01.277Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -334,7 +268,40 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2022-12-29T02:05:01.771Z"
+    "date": "2022-12-30T02:05:01.378Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2022-12-30T02:05:01.417Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -368,14 +335,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2022-12-29T02:05:02.666Z"
+    "date": "2022-12-30T02:05:02.016Z"
   },
   {
     "link": "http://www.mumnotproud.com/",
     "error": {
-      "message": "write EPROTO 140547177195392:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 40\n",
+      "message": "write EPROTO 140079516264320:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 40\n",
       "name": "Error",
-      "stack": "Error: write EPROTO 140547177195392:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 40\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
+      "stack": "Error: write EPROTO 140079516264320:error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1544:SSL alert number 40\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
       "config": {
         "url": "http://www.mumnotproud.com/",
         "method": "get",
@@ -402,7 +369,7 @@
       },
       "code": "EPROTO"
     },
-    "date": "2022-12-29T02:05:04.679Z"
+    "date": "2022-12-30T02:05:02.770Z"
   },
   {
     "link": "https://unboxed.games",
@@ -436,6 +403,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2022-12-29T02:05:45.630Z"
+    "date": "2022-12-30T02:05:45.743Z"
   }
 ]
