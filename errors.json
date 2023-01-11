@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-01-10T02:13:03.175Z"
+    "date": "2023-01-11T02:09:38.795Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-10T02:13:03.527Z"
+    "date": "2023-01-11T02:09:39.137Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-01-10T02:13:03.599Z"
+    "date": "2023-01-11T02:09:39.306Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -131,7 +131,7 @@
         }
       }
     },
-    "date": "2023-01-10T02:13:04.149Z"
+    "date": "2023-01-11T02:09:40.329Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -165,41 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-01-10T02:13:04.170Z"
-  },
-  {
-    "link": "http://hollowgames.com.mx/",
-    "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
-      "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
-      "config": {
-        "url": "http://hollowgames.com.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNREFUSED"
-    },
-    "date": "2023-01-10T02:13:04.888Z"
+    "date": "2023-01-11T02:09:40.537Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -233,14 +199,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-01-10T02:13:07.138Z"
+    "date": "2023-01-11T02:09:45.788Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -267,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-10T02:13:07.329Z"
+    "date": "2023-01-11T02:09:46.262Z"
   },
   {
     "link": "https://www.2dnutz.com/",
@@ -300,7 +266,7 @@
         }
       }
     },
-    "date": "2023-01-10T02:13:07.552Z"
+    "date": "2023-01-11T02:09:46.472Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -333,7 +299,7 @@
         }
       }
     },
-    "date": "2023-01-10T02:13:08.269Z"
+    "date": "2023-01-11T02:09:47.420Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -367,7 +333,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-01-10T02:13:08.622Z"
+    "date": "2023-01-11T02:09:47.778Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -401,7 +367,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-10T02:13:09.073Z"
+    "date": "2023-01-11T02:09:52.069Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -434,41 +400,7 @@
         }
       }
     },
-    "date": "2023-01-10T02:13:09.350Z"
-  },
-  {
-    "link": "http://hannie-echo.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://hannie-echo.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2023-01-10T02:13:09.505Z"
+    "date": "2023-01-11T02:09:52.437Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -502,7 +434,41 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-01-10T02:13:09.822Z"
+    "date": "2023-01-11T02:09:53.325Z"
+  },
+  {
+    "link": "http://hannie-echo.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://hannie-echo.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2023-01-11T02:09:58.678Z"
   },
   {
     "link": "http://www.mumnotproud.com/",
@@ -536,41 +502,7 @@
       },
       "code": "ERR_FR_TOO_MANY_REDIRECTS"
     },
-    "date": "2023-01-10T02:13:15.108Z"
-  },
-  {
-    "link": "https://www.navegante-entertainment.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://www.navegante-entertainment.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2023-01-10T02:13:53.199Z"
+    "date": "2023-01-11T02:10:17.297Z"
   },
   {
     "link": "https://unboxed.games",
@@ -604,6 +536,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-01-10T02:13:53.200Z"
+    "date": "2023-01-11T02:10:28.793Z"
   }
 ]
