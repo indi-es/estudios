@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-01-17T02:07:55.938Z"
+    "date": "2023-01-18T02:11:36.583Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-17T02:07:56.378Z"
+    "date": "2023-01-18T02:11:36.861Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-01-17T02:07:57.639Z"
+    "date": "2023-01-18T02:11:37.500Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-01-17T02:07:57.772Z"
+    "date": "2023-01-18T02:11:37.515Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -166,7 +166,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-01-17T02:08:03.112Z"
+    "date": "2023-01-18T02:11:40.274Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -200,14 +200,14 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-17T02:08:03.479Z"
+    "date": "2023-01-18T02:11:40.440Z"
   },
   {
     "link": "https://www.2dnutz.com/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://www.2dnutz.com/",
         "method": "get",
@@ -234,7 +234,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-17T02:08:03.599Z"
+    "date": "2023-01-18T02:11:40.513Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -267,7 +267,7 @@
         }
       }
     },
-    "date": "2023-01-17T02:08:04.496Z"
+    "date": "2023-01-18T02:11:41.306Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -301,7 +301,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-01-17T02:08:05.035Z"
+    "date": "2023-01-18T02:11:41.678Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -335,7 +335,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-01-17T02:08:05.417Z"
+    "date": "2023-01-18T02:11:42.241Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -368,41 +368,7 @@
         }
       }
     },
-    "date": "2023-01-17T02:08:05.611Z"
-  },
-  {
-    "link": "http://www.poiesusgames.com/",
-    "error": {
-      "message": "getaddrinfo ENOTFOUND www.poiesusgames.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo ENOTFOUND www.poiesusgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://www.poiesusgames.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ENOTFOUND"
-    },
-    "date": "2023-01-17T02:08:10.604Z"
+    "date": "2023-01-18T02:11:42.509Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -436,16 +402,16 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-01-17T02:08:15.038Z"
+    "date": "2023-01-18T02:11:42.783Z"
   },
   {
-    "link": "http://www.mumnotproud.com/",
+    "link": "http://www.poiesusgames.com/",
     "error": {
-      "message": "Maximum number of redirects exceeded",
-      "name": "Error [ERR_FR_TOO_MANY_REDIRECTS]",
-      "stack": "Error [ERR_FR_TOO_MANY_REDIRECTS]: Maximum number of redirects exceeded\n    at RedirectableRequest._processResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:371:24)\n    at ClientRequest.RedirectableRequest._onNativeResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:62:10)\n    at Object.onceWrapper (events.js:520:26)\n    at ClientRequest.emit (events.js:400:28)\n    at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:127:17)\n    at Socket.socketOnData (_http_client.js:515:22)\n    at Socket.emit (events.js:400:28)\n    at addChunk (internal/streams/readable.js:293:12)\n    at readableAddChunk (internal/streams/readable.js:267:9)",
+      "message": "getaddrinfo ENOTFOUND www.poiesusgames.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.poiesusgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
       "config": {
-        "url": "http://www.mumnotproud.com/",
+        "url": "http://www.poiesusgames.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -468,9 +434,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ERR_FR_TOO_MANY_REDIRECTS"
+      "code": "ENOTFOUND"
     },
-    "date": "2023-01-17T02:08:19.640Z"
+    "date": "2023-01-18T02:11:43.024Z"
   },
   {
     "link": "https://unboxed.games",
@@ -504,6 +470,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-01-17T02:08:45.940Z"
+    "date": "2023-01-18T02:12:26.590Z"
   }
 ]
