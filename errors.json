@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-05T02:14:33.738Z"
+    "date": "2023-02-06T02:05:53.519Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-05T02:14:34.082Z"
+    "date": "2023-02-06T02:05:53.915Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-02-05T02:14:34.272Z"
+    "date": "2023-02-06T02:05:54.106Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -131,7 +131,7 @@
         }
       }
     },
-    "date": "2023-02-05T02:14:35.423Z"
+    "date": "2023-02-06T02:05:55.288Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -165,7 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-05T02:14:35.685Z"
+    "date": "2023-02-06T02:05:55.508Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -199,14 +199,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-05T02:14:40.891Z"
+    "date": "2023-02-06T02:06:01.196Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -233,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-05T02:14:41.239Z"
+    "date": "2023-02-06T02:06:01.945Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -266,7 +266,7 @@
         }
       }
     },
-    "date": "2023-02-05T02:14:42.275Z"
+    "date": "2023-02-06T02:06:03.287Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -300,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-05T02:14:42.659Z"
+    "date": "2023-02-06T02:06:03.637Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -334,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-05T02:14:43.070Z"
+    "date": "2023-02-06T02:06:04.235Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -368,7 +368,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-02-05T02:14:43.196Z"
+    "date": "2023-02-06T02:06:04.239Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -401,7 +401,7 @@
         }
       }
     },
-    "date": "2023-02-05T02:14:43.498Z"
+    "date": "2023-02-06T02:06:04.638Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -435,7 +435,41 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-05T02:14:43.862Z"
+    "date": "2023-02-06T02:06:05.210Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2023-02-06T02:06:43.510Z"
   },
   {
     "link": "https://unboxed.games",
@@ -469,6 +503,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-02-05T02:15:23.744Z"
+    "date": "2023-02-06T02:06:43.510Z"
   }
 ]
