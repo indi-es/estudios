@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-08T02:13:53.413Z"
+    "date": "2023-02-09T02:13:11.829Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,16 +65,16 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-08T02:13:53.715Z"
+    "date": "2023-02-09T02:13:12.135Z"
   },
   {
-    "link": "https://www.ennuistudio.com/",
+    "link": "https://big-monster.net/",
     "error": {
-      "message": "Request failed with status code 403",
+      "message": "Request failed with status code 500",
       "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "https://www.ennuistudio.com/",
+        "url": "https://big-monster.net/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-02-08T02:13:54.448Z"
+    "date": "2023-02-09T02:13:12.421Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,16 +132,16 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-08T02:13:54.485Z"
+    "date": "2023-02-09T02:13:12.894Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "https://www.ennuistudio.com/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "Request failed with status code 403",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "https://www.ennuistudio.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -163,10 +163,9 @@
           "forcedJSONParsing": true,
           "clarifyTimeoutError": false
         }
-      },
-      "code": "ECONNREFUSED"
+      }
     },
-    "date": "2023-02-08T02:13:55.171Z"
+    "date": "2023-02-09T02:13:12.954Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -200,7 +199,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-08T02:13:57.640Z"
+    "date": "2023-02-09T02:13:15.404Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -234,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-08T02:13:57.952Z"
+    "date": "2023-02-09T02:13:15.640Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -267,7 +266,7 @@
         }
       }
     },
-    "date": "2023-02-08T02:13:58.837Z"
+    "date": "2023-02-09T02:13:16.615Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -301,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-08T02:13:59.172Z"
+    "date": "2023-02-09T02:13:17.009Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -335,40 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-08T02:13:59.680Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-02-08T02:13:59.969Z"
+    "date": "2023-02-09T02:13:17.886Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -402,7 +368,40 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-02-08T02:14:00.032Z"
+    "date": "2023-02-09T02:13:18.075Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-02-09T02:13:18.094Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -436,16 +435,16 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-08T02:14:00.771Z"
+    "date": "2023-02-09T02:13:18.506Z"
   },
   {
-    "link": "https://www.navegante-entertainment.com/",
+    "link": "http://www.chundos.com",
     "error": {
-      "message": "timeout of 50000ms exceeded",
+      "message": "getaddrinfo EAI_AGAIN www.chundos.com",
       "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.chundos.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
       "config": {
-        "url": "https://www.navegante-entertainment.com/",
+        "url": "http://www.chundos.com",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -468,9 +467,9 @@
           "clarifyTimeoutError": false
         }
       },
-      "code": "ECONNABORTED"
+      "code": "EAI_AGAIN"
     },
-    "date": "2023-02-08T02:14:43.433Z"
+    "date": "2023-02-09T02:13:28.745Z"
   },
   {
     "link": "https://unboxed.games",
@@ -504,6 +503,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-02-08T02:14:43.433Z"
+    "date": "2023-02-09T02:14:01.848Z"
   }
 ]
