@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-20T02:15:39.885Z"
+    "date": "2023-02-20T02:18:29.599Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-20T02:15:40.148Z"
+    "date": "2023-02-20T02:18:29.902Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -99,7 +99,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-20T02:15:40.761Z"
+    "date": "2023-02-20T02:18:30.876Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -132,7 +132,7 @@
         }
       }
     },
-    "date": "2023-02-20T02:15:40.767Z"
+    "date": "2023-02-20T02:18:30.895Z"
   },
   {
     "link": "http://gamecoderstudios.com/",
@@ -165,7 +165,7 @@
         }
       }
     },
-    "date": "2023-02-20T02:15:41.139Z"
+    "date": "2023-02-20T02:18:31.346Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -199,7 +199,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-20T02:15:43.272Z"
+    "date": "2023-02-20T02:18:33.654Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -233,7 +233,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-20T02:15:43.400Z"
+    "date": "2023-02-20T02:18:33.952Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -266,7 +266,7 @@
         }
       }
     },
-    "date": "2023-02-20T02:15:44.212Z"
+    "date": "2023-02-20T02:18:35.071Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -300,7 +300,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-20T02:15:44.526Z"
+    "date": "2023-02-20T02:18:35.446Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -334,7 +334,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-20T02:15:44.969Z"
+    "date": "2023-02-20T02:18:35.673Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -367,7 +367,7 @@
         }
       }
     },
-    "date": "2023-02-20T02:15:45.205Z"
+    "date": "2023-02-20T02:18:35.824Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -401,7 +401,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-02-20T02:15:45.383Z"
+    "date": "2023-02-20T02:18:36.223Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -435,7 +435,41 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-20T02:15:45.721Z"
+    "date": "2023-02-20T02:18:36.550Z"
+  },
+  {
+    "link": "https://blusagi.team",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND blusagi.team",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND blusagi.team\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://blusagi.team",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2023-02-20T02:18:37.454Z"
   },
   {
     "link": "https://unboxed.games",
@@ -469,6 +503,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-02-20T02:16:29.881Z"
+    "date": "2023-02-20T02:19:19.575Z"
   }
 ]
