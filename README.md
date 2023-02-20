@@ -65,6 +65,8 @@
     
  - [Bleda Gaming Studios](https://netsites.mx/bledagamestudios/#xl_xr_page_index.html)
     
+ - [Blusagi Team](https://blusagi.team)
+    
  - [Borland Games](https://borlandgames.com/)
     
  - [Bromio](https://www.bromio.com.mx/)
