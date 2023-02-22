@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-21T02:15:25.235Z"
+    "date": "2023-02-22T02:13:15.214Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-21T02:15:25.648Z"
+    "date": "2023-02-22T02:13:15.578Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-02-21T02:15:27.183Z"
+    "date": "2023-02-22T02:13:16.499Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,41 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-21T02:15:27.384Z"
-  },
-  {
-    "link": "http://hollowgames.com.mx/",
-    "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
-      "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
-      "config": {
-        "url": "http://hollowgames.com.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNREFUSED"
-    },
-    "date": "2023-02-21T02:15:28.982Z"
+    "date": "2023-02-22T02:13:16.588Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -200,7 +166,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-21T02:15:32.687Z"
+    "date": "2023-02-22T02:13:20.938Z"
   },
   {
     "link": "https://alebrije.co/",
@@ -234,7 +200,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-21T02:15:33.175Z"
+    "date": "2023-02-22T02:13:21.621Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -267,7 +233,7 @@
         }
       }
     },
-    "date": "2023-02-21T02:15:34.811Z"
+    "date": "2023-02-22T02:13:23.328Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -301,41 +267,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-02-21T02:15:35.138Z"
-  },
-  {
-    "link": "http://hannie-echo.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://hannie-echo.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2023-02-21T02:15:36.673Z"
+    "date": "2023-02-22T02:13:23.637Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -369,7 +301,41 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-02-21T02:15:36.967Z"
+    "date": "2023-02-22T02:13:24.806Z"
+  },
+  {
+    "link": "http://hannie-echo.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN hannie-echo.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN hannie-echo.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://hannie-echo.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2023-02-22T02:13:24.893Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -402,7 +368,7 @@
         }
       }
     },
-    "date": "2023-02-21T02:15:37.208Z"
+    "date": "2023-02-22T02:13:25.132Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -436,7 +402,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-21T02:15:40.024Z"
+    "date": "2023-02-22T02:13:25.512Z"
   },
   {
     "link": "https://blusagi.team",
@@ -470,109 +436,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-02-21T02:15:41.885Z"
-  },
-  {
-    "link": "http://www.dreidel.mx/",
-    "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
-      "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://www.dreidel.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNRESET"
-    },
-    "date": "2023-02-21T02:15:54.695Z"
-  },
-  {
-    "link": "https://big-monster.net/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://big-monster.net/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2023-02-21T02:16:15.241Z"
-  },
-  {
-    "link": "https://www.navegante-entertainment.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://www.navegante-entertainment.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2023-02-21T02:16:15.241Z"
+    "date": "2023-02-22T02:13:26.763Z"
   },
   {
     "link": "https://unboxed.games",
@@ -606,6 +470,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-02-21T02:16:15.241Z"
+    "date": "2023-02-22T02:14:05.229Z"
   }
 ]
