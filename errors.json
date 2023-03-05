@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-04T02:10:34.397Z"
+    "date": "2023-03-05T02:26:27.047Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-04T02:10:34.794Z"
+    "date": "2023-03-05T02:26:27.305Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -98,7 +98,7 @@
         }
       }
     },
-    "date": "2023-03-04T02:10:35.652Z"
+    "date": "2023-03-05T02:26:28.506Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -132,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-03-04T02:10:35.655Z"
+    "date": "2023-03-05T02:26:28.655Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -166,7 +166,41 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2023-03-04T02:10:36.233Z"
+    "date": "2023-03-05T02:26:29.618Z"
+  },
+  {
+    "link": "http://www.bitallforce.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN www.bitallforce.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN www.bitallforce.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://www.bitallforce.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2023-03-05T02:26:37.502Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -200,14 +234,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-04T02:10:38.132Z"
+    "date": "2023-03-05T02:26:39.061Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -234,7 +268,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-04T02:10:38.406Z"
+    "date": "2023-03-05T02:26:39.585Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -267,7 +301,7 @@
         }
       }
     },
-    "date": "2023-03-04T02:10:39.330Z"
+    "date": "2023-03-05T02:26:44.490Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -301,7 +335,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-04T02:10:40.217Z"
+    "date": "2023-03-05T02:26:45.142Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -334,7 +368,7 @@
         }
       }
     },
-    "date": "2023-03-04T02:10:40.494Z"
+    "date": "2023-03-05T02:26:45.300Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -368,7 +402,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-03-04T02:10:40.623Z"
+    "date": "2023-03-05T02:26:45.571Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -402,7 +436,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-04T02:10:41.196Z"
+    "date": "2023-03-05T02:26:45.959Z"
   },
   {
     "link": "https://blusagi.team",
@@ -436,7 +470,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-04T02:10:42.765Z"
+    "date": "2023-03-05T02:26:46.963Z"
   },
   {
     "link": "http://www.seashellstudio.mx/en/home/",
@@ -469,7 +503,7 @@
         }
       }
     },
-    "date": "2023-03-04T02:10:44.658Z"
+    "date": "2023-03-05T02:26:51.442Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -503,7 +537,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-04T02:11:24.420Z"
+    "date": "2023-03-05T02:27:17.058Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -537,7 +571,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-04T02:11:24.421Z"
+    "date": "2023-03-05T02:27:17.058Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -571,7 +605,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-04T02:11:24.421Z"
+    "date": "2023-03-05T02:27:17.058Z"
   },
   {
     "link": "https://unboxed.games",
@@ -605,6 +639,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-04T02:11:24.421Z"
+    "date": "2023-03-05T02:27:17.058Z"
   }
 ]
