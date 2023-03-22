@@ -39,6 +39,8 @@
     
  - [Amber Studio Mexico](https://amberstudio.com/)
     
+ - [Amens Games](https://amensgames.com)
+    
  - [Animactiva](http://animactiva.mx)
     
  - [Ansimuz Games](https://ansimuz.com/site/)
@@ -54,6 +56,8 @@
  - [BC Media Lab](https://www.bcmedialab.com/)
     
  - [Bearboy Studios](https://www.bearboystudios.com/)
+    
+ - [Bewolf Studio](https://bewolfstudio.com)
     
  - [Big Mini Geek](http://www.bigminigeek.com/)
     
@@ -73,11 +77,15 @@
     
  - [Bromio](https://www.bromio.com.mx/)
     
+ - [Calixjumio](https://calixjumio.me)
+    
  - [Carbon Machina](https://carbonmachina.com/)
     
  - [Cerevrovi](http://www.cerevrovi.com/)
     
  - [CGBot](https://cgbot.com/)
+    
+ - [Chillito Games](https://chilli-to-games.fmpromotion.mx)
     
  - [Chronograph Studio](https://www.chronographstudio.com/)
     
@@ -91,7 +99,17 @@
     
  - [DAHLIA](http://deathrosa.com/)
     
+ - [Daltair](https://www.deviantart.com/daltair)
+    
  - [Dark Dust](https://www.darkdust.mx/)
+    
+ - [Dark Dust Studio](https://www.darkdust.mx)
+    
+ - [Deadbolt Interactive](https://www.deadboltinteractive.com)
+    
+ - [Digital Vault Studio](https://www.digitalvaultstudio.com/en/)
+    
+ - [Dog Biscuit Studios](https://dogbiscuitstudios.mx)
     
  - [Dracma Studios](https://www.dracmastudios.com/)
     
@@ -117,6 +135,8 @@
     
  - [Evil Geometry](https://www.flowcode.com/page/evilgeometry)
     
+ - [Fat Panda](https://www.linkedin.com/company/fat-panda-games/about/)
+    
  - [Feline Arts](https://www.felinearts.net/)
     
  - [Fifth Mountain Studios](https://fifthmountain.net/)
@@ -133,9 +153,13 @@
     
  - [Game Coder Studios](http://gamecoderstudios.com/)
     
+ - [Games Rom Entertainment](https://gamesrom.com.mx)
+    
  - [Gargamel Estudio](https://gargamel-estudio.com/en/)
     
  - [GatoMocho](https://gatomocho.com/)
+    
+ - [Globant](https://www.globant.com)
     
  - [Gnomael](https://gnomael.com/)
     
@@ -155,7 +179,13 @@
     
  - [HyperBeard Games](https://hyperbeard.com/)
     
+ - [Ihtoa Games](https://ihtoa.games)
+    
+ - [Infinity Ward](https://www.infinityward.com)
+    
  - [Inmersys](https://www.inmersys.com/)
+    
+ - [JeeTP Games](https://jeetpgames.com)
     
  - [KaraOKulta](https://www.karaokulta.com/)
     
@@ -165,7 +195,11 @@
     
  - [Larva](http://larvagamestudios.com/)
     
+ - [Learny Games](http://learny.com.mx)
+    
  - [Lienzo](https://www.lienzo.mx/es/nuevo-home/)
+    
+ - [Lionbridge](https://www.lionbridge.com)
     
  - [Ludolab](https://www.ludolab.org/)
     
@@ -199,6 +233,8 @@
     
  - [Mum Not Proud](http://www.mumnotproud.com/)
     
+ - [Nachon Lab](https://nachonlab.itch.io)
+    
  - [Navegante](https://www.navegante-entertainment.com/)
     
  - [Ncite](https://ncite.mx/)
@@ -213,31 +249,55 @@
     
  - [Nuke Games](https://www.nukegames.mx/)
     
+ - [OddMenIn Studios](https://www.linkedin.com/company/oddmenin-studios/about/)
+    
  - [Ogre Pixel](http://ogrepixel.com/)
     
+ - [One Game Studio](https://www.onegame.studio)
+    
  - [Onward](https://www.computerlove.mx)
+    
+ - [Oribe Ware Games](https://oribewaregames.com/landingoribewaregames/)
     
  - [Patoli Studio](https://patolistudio.com/)
     
  - [Pink Bear Games](https://pinkbeargames.com/)
     
+ - [Pinknoise](https://www.pinknoisestudios.com)
+    
  - [Pixelarium](http://www.pixelarium.com.mx/)
+    
+ - [Pixel Perfect Studio](https://www.imcsw.com)
+    
+ - [Playstudios México](https://www.playstudios.com)
     
  - [PoiesusGames](http://www.poiesusgames.com/)
     
  - [Present Creative México](https://www.presentcreative.com/)
     
+ - [PTW / 1518 Studios](https://www.ptw.com)
+    
+ - [QUACHIC games](https://quachic.games)
+    
+ - [Ra6tz Studio](https://twitter.com/ra6tz)
+    
  - [Rainbowmads Studios](https://luxzord122.wixsite.com/rainbowmaddness)
     
  - [RCK Games](https://rckgames.com/)
+    
+ - [RockPoli Games](https://www.linkedin.com/company/rockpoli-games/about/)
     
  - [SDPlay](http://sdplay.mx/)
     
  - [Seashell Studio](http://www.seashellstudio.mx/en/home/)
     
+ - [Sebery Games](https://www.seberygames.com)
+    
  - [Shibidubi](https://www.shibidubi.com/)
     
  - [Snatch](https://www.snatchstudios.com/)
+    
+ - [SpaceBoy México](https://spaceboy.mx)
     
  - [Squad](http://squad.com.mx/)
     
@@ -261,7 +321,11 @@
     
  - [Tres Pixeles](https://trespixeles.mx)
     
+ - [Üfun Games](https://www.ufungames.com)
+    
  - [Unboxed Games LLC](https://unboxed.games)
+    
+ - [VR Demons](https://vrdemons.com)
     
  - [Wabisabi Games](https://www.wabisabi.games/)
     
