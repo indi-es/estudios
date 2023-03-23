@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-22T14:43:59.989Z"
+    "date": "2023-03-23T01:58:26.838Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-22T14:44:00.297Z"
+    "date": "2023-03-23T01:58:27.054Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -98,40 +98,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:00.452Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-03-22T14:44:01.069Z"
+    "date": "2023-03-23T01:58:27.245Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -165,7 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-03-22T14:44:01.093Z"
+    "date": "2023-03-23T01:58:27.598Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -199,14 +166,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-22T14:44:04.158Z"
+    "date": "2023-03-23T01:58:30.103Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -233,7 +200,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-22T14:44:04.412Z"
+    "date": "2023-03-23T01:58:30.363Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -266,7 +233,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:05.088Z"
+    "date": "2023-03-23T01:58:31.629Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -300,7 +267,40 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-22T14:44:05.892Z"
+    "date": "2023-03-23T01:58:32.347Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-03-23T01:58:32.472Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -334,40 +334,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-03-22T14:44:06.046Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-03-22T14:44:06.127Z"
+    "date": "2023-03-23T01:58:32.516Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -401,7 +368,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-22T14:44:06.748Z"
+    "date": "2023-03-23T01:58:33.200Z"
   },
   {
     "link": "https://blusagi.team",
@@ -435,7 +402,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-22T14:44:09.447Z"
+    "date": "2023-03-23T01:58:34.783Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -468,7 +435,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:10.097Z"
+    "date": "2023-03-23T01:58:36.786Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -501,7 +468,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:10.630Z"
+    "date": "2023-03-23T01:58:37.178Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -534,7 +501,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:11.574Z"
+    "date": "2023-03-23T01:58:38.068Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -567,7 +534,7 @@
         }
       }
     },
-    "date": "2023-03-22T14:44:12.615Z"
+    "date": "2023-03-23T01:58:39.008Z"
   },
   {
     "link": "https://amensgames.com",
@@ -601,41 +568,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-03-22T14:44:19.507Z"
-  },
-  {
-    "link": "http://www.tagwizz.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "http://www.tagwizz.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2023-03-22T14:44:50.004Z"
+    "date": "2023-03-23T01:58:44.811Z"
   },
   {
     "link": "https://unboxed.games",
@@ -669,7 +602,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-22T14:44:50.004Z"
+    "date": "2023-03-23T01:59:16.852Z"
   },
   {
     "link": "https://goldenpie.com",
@@ -703,6 +636,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-22T14:44:50.004Z"
+    "date": "2023-03-23T01:59:16.853Z"
   }
 ]
