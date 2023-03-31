@@ -295,6 +295,8 @@
     
  - [Shibidubi](https://www.shibidubi.com/)
     
+ - [Sketchy Ceviche](https://sketchy-ceviche.carrd.co/)
+    
  - [Snatch](https://www.snatchstudios.com/)
     
  - [SpaceBoy México](https://spaceboy.mx)
