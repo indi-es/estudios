@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-31T06:02:42.363Z"
+    "date": "2023-04-01T01:57:01.503Z"
   },
   {
     "link": "http://artefactoestudio.com/",
@@ -65,7 +65,40 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-31T06:02:42.707Z"
+    "date": "2023-04-01T01:57:01.771Z"
+  },
+  {
+    "link": "https://www.ennuistudio.com/",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.ennuistudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-04-01T01:57:02.560Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -99,40 +132,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-03-31T06:02:43.427Z"
-  },
-  {
-    "link": "https://www.ennuistudio.com/",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.ennuistudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-03-31T06:02:43.506Z"
+    "date": "2023-04-01T01:57:02.599Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -166,14 +166,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-31T06:02:47.553Z"
+    "date": "2023-04-01T01:57:06.036Z"
   },
   {
     "link": "https://alebrije.co/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://alebrije.co/",
         "method": "get",
@@ -200,7 +200,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-31T06:02:48.252Z"
+    "date": "2023-04-01T01:57:06.419Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -233,7 +233,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:50.311Z"
+    "date": "2023-04-01T01:57:07.501Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -267,7 +267,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-03-31T06:02:51.366Z"
+    "date": "2023-04-01T01:57:08.602Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,7 +300,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:51.622Z"
+    "date": "2023-04-01T01:57:08.928Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -334,7 +334,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-03-31T06:02:51.915Z"
+    "date": "2023-04-01T01:57:09.015Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -368,7 +368,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-31T06:02:52.385Z"
+    "date": "2023-04-01T01:57:10.031Z"
   },
   {
     "link": "https://blusagi.team",
@@ -402,7 +402,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-03-31T06:02:53.429Z"
+    "date": "2023-04-01T01:57:12.454Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -435,7 +435,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:53.762Z"
+    "date": "2023-04-01T01:57:12.817Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -468,7 +468,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:54.621Z"
+    "date": "2023-04-01T01:57:13.445Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -501,7 +501,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:55.704Z"
+    "date": "2023-04-01T01:57:14.511Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -534,7 +534,7 @@
         }
       }
     },
-    "date": "2023-03-31T06:02:57.184Z"
+    "date": "2023-04-01T01:57:15.833Z"
   },
   {
     "link": "https://amensgames.com",
@@ -568,7 +568,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-03-31T06:03:03.287Z"
+    "date": "2023-04-01T01:57:22.486Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -602,7 +602,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-31T06:03:32.374Z"
+    "date": "2023-04-01T01:57:51.508Z"
   },
   {
     "link": "https://unboxed.games",
@@ -636,7 +636,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-31T06:03:32.374Z"
+    "date": "2023-04-01T01:57:51.508Z"
   },
   {
     "link": "https://goldenpie.com",
@@ -670,7 +670,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-31T06:03:32.375Z"
+    "date": "2023-04-01T01:57:51.508Z"
   },
   {
     "link": "https://ihtoa.games",
@@ -704,6 +704,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-03-31T06:03:32.375Z"
+    "date": "2023-04-01T01:57:51.508Z"
   }
 ]
