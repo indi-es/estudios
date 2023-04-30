@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-04-29T01:56:58.659Z"
+    "date": "2023-04-30T01:58:43.670Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -64,7 +64,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:56:59.158Z"
+    "date": "2023-04-30T01:58:44.267Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:56:59.762Z"
+    "date": "2023-04-30T01:58:44.766Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -131,7 +131,41 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-04-29T01:56:59.844Z"
+    "date": "2023-04-30T01:58:44.866Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2023-04-30T01:58:45.569Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -165,7 +199,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-04-29T01:57:03.013Z"
+    "date": "2023-04-30T01:58:47.914Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -198,7 +232,40 @@
         }
       }
     },
-    "date": "2023-04-29T01:57:04.494Z"
+    "date": "2023-04-30T01:58:49.175Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-04-30T01:58:50.622Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -232,40 +299,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-04-29T01:57:05.500Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-04-29T01:57:05.519Z"
+    "date": "2023-04-30T01:58:50.716Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -299,7 +333,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-04-29T01:57:06.111Z"
+    "date": "2023-04-30T01:58:51.007Z"
   },
   {
     "link": "https://blusagi.team",
@@ -333,7 +367,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-04-29T01:57:07.905Z"
+    "date": "2023-04-30T01:58:51.867Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -366,7 +400,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:57:09.500Z"
+    "date": "2023-04-30T01:58:52.162Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -399,7 +433,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:57:09.846Z"
+    "date": "2023-04-30T01:58:52.441Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -432,7 +466,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:57:10.976Z"
+    "date": "2023-04-30T01:58:53.586Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -465,7 +499,7 @@
         }
       }
     },
-    "date": "2023-04-29T01:57:12.230Z"
+    "date": "2023-04-30T01:58:54.474Z"
   },
   {
     "link": "https://amensgames.com",
@@ -499,7 +533,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-04-29T01:57:17.960Z"
+    "date": "2023-04-30T01:59:01.892Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -533,7 +567,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-04-29T01:57:48.648Z"
+    "date": "2023-04-30T01:59:33.677Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -567,16 +601,16 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-04-29T01:57:48.648Z"
+    "date": "2023-04-30T01:59:33.677Z"
   },
   {
-    "link": "http://www.mumnotproud.com/",
+    "link": "https://www.navegante-entertainment.com/",
     "error": {
       "message": "timeout of 50000ms exceeded",
       "name": "Error",
       "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
       "config": {
-        "url": "http://www.mumnotproud.com/",
+        "url": "https://www.navegante-entertainment.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -601,7 +635,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-04-29T01:57:48.649Z"
+    "date": "2023-04-30T01:59:33.677Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -635,7 +669,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-04-29T01:57:48.649Z"
+    "date": "2023-04-30T01:59:33.678Z"
   },
   {
     "link": "https://unboxed.games",
@@ -669,6 +703,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-04-29T01:57:48.651Z"
+    "date": "2023-04-30T01:59:33.678Z"
   }
 ]
