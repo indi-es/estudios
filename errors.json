@@ -31,7 +31,74 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-06T01:51:00.428Z"
+    "date": "2023-05-07T02:03:02.074Z"
+  },
+  {
+    "link": "https://1simplegame.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://1simplegame.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2023-05-07T02:03:02.144Z"
+  },
+  {
+    "link": "https://big-monster.net/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://big-monster.net/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-05-07T02:03:03.217Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -64,7 +131,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:01.484Z"
+    "date": "2023-05-07T02:03:03.299Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -98,7 +165,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-05-06T01:51:01.504Z"
+    "date": "2023-05-07T02:03:03.317Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -132,7 +199,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-06T01:51:04.356Z"
+    "date": "2023-05-07T02:03:06.046Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -165,7 +232,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:05.395Z"
+    "date": "2023-05-07T02:03:07.302Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -198,7 +265,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:06.405Z"
+    "date": "2023-05-07T02:03:08.434Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -232,7 +299,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-05-06T01:51:06.604Z"
+    "date": "2023-05-07T02:03:08.613Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -266,7 +333,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-06T01:51:06.891Z"
+    "date": "2023-05-07T02:03:08.992Z"
   },
   {
     "link": "https://blusagi.team",
@@ -300,7 +367,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-06T01:51:07.866Z"
+    "date": "2023-05-07T02:03:10.272Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -333,7 +400,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:08.128Z"
+    "date": "2023-05-07T02:03:10.504Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -366,7 +433,41 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:08.579Z"
+    "date": "2023-05-07T02:03:11.088Z"
+  },
+  {
+    "link": "https://jeetpgames.com",
+    "error": {
+      "message": "write EPROTO 140529758398336:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1563:SSL alert number 80\n",
+      "name": "Error",
+      "stack": "Error: write EPROTO 140529758398336:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1563:SSL alert number 80\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
+      "config": {
+        "url": "https://jeetpgames.com",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EPROTO"
+    },
+    "date": "2023-05-07T02:03:11.814Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -399,7 +500,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:09.605Z"
+    "date": "2023-05-07T02:03:12.100Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -432,7 +533,7 @@
         }
       }
     },
-    "date": "2023-05-06T01:51:10.634Z"
+    "date": "2023-05-07T02:03:13.332Z"
   },
   {
     "link": "https://amensgames.com",
@@ -466,7 +567,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-05-06T01:51:17.813Z"
+    "date": "2023-05-07T02:03:19.905Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -500,7 +601,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-06T01:51:50.434Z"
+    "date": "2023-05-07T02:03:52.078Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -534,7 +635,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-06T01:51:50.435Z"
+    "date": "2023-05-07T02:03:52.078Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -568,7 +669,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-06T01:51:50.435Z"
+    "date": "2023-05-07T02:03:52.079Z"
   },
   {
     "link": "https://unboxed.games",
@@ -602,6 +703,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-06T01:51:50.435Z"
+    "date": "2023-05-07T02:03:52.079Z"
   }
 ]
