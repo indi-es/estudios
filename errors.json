@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-14T02:00:31.313Z"
+    "date": "2023-05-15T01:59:36.341Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -64,7 +64,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:32.104Z"
+    "date": "2023-05-15T01:59:36.790Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -97,7 +97,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:32.915Z"
+    "date": "2023-05-15T01:59:37.498Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -131,7 +131,41 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-05-14T02:00:32.978Z"
+    "date": "2023-05-15T01:59:37.632Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2023-05-15T01:59:38.285Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -165,7 +199,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-14T02:00:36.510Z"
+    "date": "2023-05-15T01:59:40.896Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -198,7 +232,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:37.876Z"
+    "date": "2023-05-15T01:59:42.263Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -231,7 +265,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:39.107Z"
+    "date": "2023-05-15T01:59:43.158Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -265,7 +299,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-05-14T02:00:39.433Z"
+    "date": "2023-05-15T01:59:43.567Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -299,7 +333,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-14T02:00:40.135Z"
+    "date": "2023-05-15T01:59:44.126Z"
   },
   {
     "link": "https://blusagi.team",
@@ -333,7 +367,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-05-14T02:00:42.535Z"
+    "date": "2023-05-15T01:59:46.213Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -366,7 +400,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:43.122Z"
+    "date": "2023-05-15T01:59:52.418Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -399,41 +433,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:43.624Z"
-  },
-  {
-    "link": "https://jeetpgames.com",
-    "error": {
-      "message": "write EPROTO 140684175751040:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1563:SSL alert number 80\n",
-      "name": "Error",
-      "stack": "Error: write EPROTO 140684175751040:error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1563:SSL alert number 80\n\n    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)",
-      "config": {
-        "url": "https://jeetpgames.com",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EPROTO"
-    },
-    "date": "2023-05-14T02:00:44.253Z"
+    "date": "2023-05-15T01:59:52.966Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -466,7 +466,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:44.557Z"
+    "date": "2023-05-15T01:59:54.426Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -499,7 +499,7 @@
         }
       }
     },
-    "date": "2023-05-14T02:00:46.094Z"
+    "date": "2023-05-15T01:59:55.709Z"
   },
   {
     "link": "https://amensgames.com",
@@ -533,7 +533,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-05-14T02:00:52.578Z"
+    "date": "2023-05-15T01:59:56.281Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -567,7 +567,7 @@
       },
       "code": "ERR_FR_TOO_MANY_REDIRECTS"
     },
-    "date": "2023-05-14T02:00:55.550Z"
+    "date": "2023-05-15T01:59:59.445Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -601,7 +601,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-14T02:01:21.306Z"
+    "date": "2023-05-15T02:00:26.155Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -635,7 +635,41 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-14T02:01:21.306Z"
+    "date": "2023-05-15T02:00:26.155Z"
+  },
+  {
+    "link": "https://www.navegante-entertainment.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:169:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.navegante-entertainment.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2023-05-15T02:00:26.155Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -669,7 +703,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-14T02:01:21.306Z"
+    "date": "2023-05-15T02:00:26.155Z"
   },
   {
     "link": "https://unboxed.games",
@@ -703,6 +737,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-05-14T02:01:21.307Z"
+    "date": "2023-05-15T02:00:26.156Z"
   }
 ]
