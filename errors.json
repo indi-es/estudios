@@ -31,14 +31,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-12T02:17:39.933Z"
+    "date": "2023-06-13T02:07:35.414Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://www.ennuistudio.com/",
         "method": "get",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-12T02:17:40.676Z"
+    "date": "2023-06-13T02:07:36.208Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -99,7 +99,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-12T02:17:40.847Z"
+    "date": "2023-06-13T02:07:36.292Z"
   },
   {
     "link": "https://gargamel-estudio.com/en/",
@@ -132,7 +132,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:41.314Z"
+    "date": "2023-06-13T02:07:36.780Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -166,7 +166,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-12T02:17:43.370Z"
+    "date": "2023-06-13T02:07:38.668Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -200,14 +200,14 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-12T02:17:43.522Z"
+    "date": "2023-06-13T02:07:38.810Z"
   },
   {
     "link": "https://www.computerlove.mx",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://www.computerlove.mx",
         "method": "get",
@@ -234,7 +234,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-12T02:17:44.231Z"
+    "date": "2023-06-13T02:07:39.620Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -267,7 +267,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:44.663Z"
+    "date": "2023-06-13T02:07:40.188Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -300,7 +300,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:44.902Z"
+    "date": "2023-06-13T02:07:40.388Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -334,7 +334,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-06-12T02:17:44.910Z"
+    "date": "2023-06-13T02:07:40.464Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -368,7 +368,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-12T02:17:45.614Z"
+    "date": "2023-06-13T02:07:40.942Z"
   },
   {
     "link": "https://blusagi.team",
@@ -402,7 +402,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-12T02:17:47.201Z"
+    "date": "2023-06-13T02:07:42.576Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -435,7 +435,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:49.546Z"
+    "date": "2023-06-13T02:07:45.117Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -468,7 +468,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:49.648Z"
+    "date": "2023-06-13T02:07:45.185Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -501,7 +501,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:49.879Z"
+    "date": "2023-06-13T02:07:45.726Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -534,7 +534,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:51.606Z"
+    "date": "2023-06-13T02:07:46.442Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -567,7 +567,7 @@
         }
       }
     },
-    "date": "2023-06-12T02:17:52.267Z"
+    "date": "2023-06-13T02:07:47.260Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -601,7 +601,7 @@
       },
       "code": "ERR_FR_TOO_MANY_REDIRECTS"
     },
-    "date": "2023-06-12T02:17:55.349Z"
+    "date": "2023-06-13T02:07:49.812Z"
   },
   {
     "link": "https://amensgames.com",
@@ -635,7 +635,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-06-12T02:17:57.340Z"
+    "date": "2023-06-13T02:07:52.716Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -669,7 +669,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-12T02:18:29.924Z"
+    "date": "2023-06-13T02:08:25.420Z"
   },
   {
     "link": "https://unboxed.games",
@@ -703,6 +703,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-12T02:18:29.924Z"
+    "date": "2023-06-13T02:08:25.421Z"
   }
 ]
