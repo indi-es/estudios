@@ -31,14 +31,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-22T02:08:21.147Z"
+    "date": "2023-06-23T02:21:07.152Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://www.ennuistudio.com/",
         "method": "get",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-22T02:08:22.056Z"
+    "date": "2023-06-23T02:21:07.955Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -99,7 +99,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-22T02:08:22.161Z"
+    "date": "2023-06-23T02:21:08.143Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -133,7 +133,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-22T02:08:25.085Z"
+    "date": "2023-06-23T02:21:10.584Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -167,14 +167,14 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-22T02:08:25.197Z"
+    "date": "2023-06-23T02:21:11.537Z"
   },
   {
     "link": "https://www.computerlove.mx",
     "error": {
-      "message": "Client network socket disconnected before secure TLS connection was established",
+      "message": "read ECONNRESET",
       "name": "Error",
-      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
       "config": {
         "url": "https://www.computerlove.mx",
         "method": "get",
@@ -201,7 +201,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-22T02:08:26.027Z"
+    "date": "2023-06-23T02:21:12.282Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -234,40 +234,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:26.780Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-06-22T02:08:26.978Z"
+    "date": "2023-06-23T02:21:12.992Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -301,7 +268,40 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-06-22T02:08:26.982Z"
+    "date": "2023-06-23T02:21:13.184Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-06-23T02:21:13.207Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -335,7 +335,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-22T02:08:27.666Z"
+    "date": "2023-06-23T02:21:13.909Z"
   },
   {
     "link": "https://blusagi.team",
@@ -369,7 +369,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-22T02:08:29.047Z"
+    "date": "2023-06-23T02:21:15.021Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -402,7 +402,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:34.939Z"
+    "date": "2023-06-23T02:21:15.312Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -435,7 +435,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:35.026Z"
+    "date": "2023-06-23T02:21:15.375Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -468,7 +468,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:35.263Z"
+    "date": "2023-06-23T02:21:16.030Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -501,7 +501,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:36.196Z"
+    "date": "2023-06-23T02:21:16.741Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -534,41 +534,7 @@
         }
       }
     },
-    "date": "2023-06-22T02:08:36.845Z"
-  },
-  {
-    "link": "https://amensgames.com",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN amensgames.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN amensgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "https://amensgames.com",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2023-06-22T02:08:39.068Z"
+    "date": "2023-06-23T02:21:17.738Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -602,7 +568,41 @@
       },
       "code": "ERR_FR_TOO_MANY_REDIRECTS"
     },
-    "date": "2023-06-22T02:08:39.219Z"
+    "date": "2023-06-23T02:21:20.384Z"
+  },
+  {
+    "link": "https://amensgames.com",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN amensgames.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN amensgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://amensgames.com",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2023-06-23T02:21:24.650Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -636,7 +636,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-22T02:09:11.158Z"
+    "date": "2023-06-23T02:21:57.166Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -670,7 +670,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-22T02:09:11.158Z"
+    "date": "2023-06-23T02:21:57.166Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -704,7 +704,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-22T02:09:11.158Z"
+    "date": "2023-06-23T02:21:57.167Z"
   },
   {
     "link": "https://unboxed.games",
@@ -738,7 +738,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-22T02:09:11.158Z"
+    "date": "2023-06-23T02:21:57.167Z"
   },
   {
     "link": "https://ihtoa.games",
@@ -772,6 +772,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-22T02:09:11.158Z"
+    "date": "2023-06-23T02:21:57.167Z"
   }
 ]
