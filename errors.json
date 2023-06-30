@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-29T02:17:32.581Z"
+    "date": "2023-06-30T02:15:13.337Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -65,7 +65,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-29T02:17:33.554Z"
+    "date": "2023-06-30T02:15:14.292Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -99,7 +99,41 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-29T02:17:33.721Z"
+    "date": "2023-06-30T02:15:14.433Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2023-06-30T02:15:14.894Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -133,7 +167,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-29T02:17:36.585Z"
+    "date": "2023-06-30T02:15:17.125Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -167,14 +201,14 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-06-29T02:17:36.888Z"
+    "date": "2023-06-30T02:15:17.383Z"
   },
   {
     "link": "https://www.computerlove.mx",
     "error": {
-      "message": "read ECONNRESET",
+      "message": "Client network socket disconnected before secure TLS connection was established",
       "name": "Error",
-      "stack": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (internal/errors.js:639:14)\n    at TLSSocket.onConnectEnd (_tls_wrap.js:1570:19)\n    at TLSSocket.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://www.computerlove.mx",
         "method": "get",
@@ -201,74 +235,7 @@
       },
       "code": "ECONNRESET"
     },
-    "date": "2023-06-29T02:17:37.551Z"
-  },
-  {
-    "link": "http://alusorstroke.com",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://alusorstroke.com",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-06-29T02:17:38.310Z"
-  },
-  {
-    "link": "http://www.jara-ai.com/",
-    "error": {
-      "message": "getaddrinfo ENOTFOUND www.jara-ai.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo ENOTFOUND www.jara-ai.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://www.jara-ai.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ENOTFOUND"
-    },
-    "date": "2023-06-29T02:17:38.357Z"
+    "date": "2023-06-30T02:15:18.453Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -302,7 +269,74 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-06-29T02:17:38.543Z"
+    "date": "2023-06-30T02:15:20.306Z"
+  },
+  {
+    "link": "http://alusorstroke.com",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "http://alusorstroke.com",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-06-30T02:15:20.473Z"
+  },
+  {
+    "link": "http://www.jara-ai.com/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND www.jara-ai.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.jara-ai.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://www.jara-ai.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2023-06-30T02:15:20.525Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -335,7 +369,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:38.610Z"
+    "date": "2023-06-30T02:15:20.719Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -369,7 +403,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-29T02:17:39.226Z"
+    "date": "2023-06-30T02:15:21.731Z"
   },
   {
     "link": "https://blusagi.team",
@@ -403,7 +437,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-06-29T02:17:40.823Z"
+    "date": "2023-06-30T02:15:22.458Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -436,7 +470,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:43.056Z"
+    "date": "2023-06-30T02:15:23.153Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -469,7 +503,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:43.143Z"
+    "date": "2023-06-30T02:15:23.204Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -502,7 +536,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:43.817Z"
+    "date": "2023-06-30T02:15:23.954Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -535,7 +569,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:44.444Z"
+    "date": "2023-06-30T02:15:24.723Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -568,7 +602,7 @@
         }
       }
     },
-    "date": "2023-06-29T02:17:45.232Z"
+    "date": "2023-06-30T02:15:25.978Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -602,7 +636,7 @@
       },
       "code": "ERR_FR_TOO_MANY_REDIRECTS"
     },
-    "date": "2023-06-29T02:17:48.029Z"
+    "date": "2023-06-30T02:15:29.145Z"
   },
   {
     "link": "https://amensgames.com",
@@ -636,7 +670,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-06-29T02:17:50.847Z"
+    "date": "2023-06-30T02:15:32.494Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -670,7 +704,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-29T02:18:22.573Z"
+    "date": "2023-06-30T02:16:03.342Z"
   },
   {
     "link": "https://maquivol.com/",
@@ -704,7 +738,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-29T02:18:22.574Z"
+    "date": "2023-06-30T02:16:03.342Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -738,7 +772,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-29T02:18:22.574Z"
+    "date": "2023-06-30T02:16:03.342Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -772,7 +806,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-29T02:18:22.574Z"
+    "date": "2023-06-30T02:16:03.342Z"
   },
   {
     "link": "https://unboxed.games",
@@ -806,6 +840,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-06-29T02:18:22.575Z"
+    "date": "2023-06-30T02:16:03.342Z"
   }
 ]
