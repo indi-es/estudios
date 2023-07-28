@@ -261,6 +261,8 @@
     
  - [Oribe Ware Games](https://oribewaregames.com/landingoribewaregames/)
     
+ - [Pandita Studio](https://panditastudio.com)
+    
  - [Patoli Studio](https://patolistudio.com/)
     
  - [Pink Bear Games](https://pinkbeargames.com/)
