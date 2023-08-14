@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:29.927Z"
+    "date": "2023-08-14T01:37:15.545Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -65,7 +65,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-08-13T01:38:32.032Z"
+    "date": "2023-08-14T01:37:18.016Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -99,7 +99,40 @@
       },
       "code": "ECONNREFUSED"
     },
-    "date": "2023-08-13T01:38:35.845Z"
+    "date": "2023-08-14T01:37:19.606Z"
+  },
+  {
+    "link": "http://larvagamestudios.com/",
+    "error": {
+      "message": "Request failed with status code 502",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 502\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "http://larvagamestudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-08-14T01:37:20.419Z"
   },
   {
     "link": "https://ncite.mx/",
@@ -132,41 +165,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:38.557Z"
-  },
-  {
-    "link": "http://artefactoestudio.com/",
-    "error": {
-      "message": "getaddrinfo EAI_AGAIN artefactoestudio.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo EAI_AGAIN artefactoestudio.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://artefactoestudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "EAI_AGAIN"
-    },
-    "date": "2023-08-13T01:38:40.065Z"
+    "date": "2023-08-14T01:37:22.696Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -200,7 +199,41 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:40.608Z"
+    "date": "2023-08-14T01:37:24.975Z"
+  },
+  {
+    "link": "http://artefactoestudio.com/",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN artefactoestudio.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN artefactoestudio.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://artefactoestudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2023-08-14T01:37:25.710Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -234,7 +267,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-08-13T01:38:41.000Z"
+    "date": "2023-08-14T01:37:25.979Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -268,7 +301,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:41.876Z"
+    "date": "2023-08-14T01:37:26.857Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -301,7 +334,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:42.710Z"
+    "date": "2023-08-14T01:37:27.866Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -335,7 +368,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:42.752Z"
+    "date": "2023-08-14T01:37:27.904Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -368,7 +401,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:43.156Z"
+    "date": "2023-08-14T01:37:28.212Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -402,7 +435,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-08-13T01:38:43.363Z"
+    "date": "2023-08-14T01:37:28.223Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -436,7 +469,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:44.186Z"
+    "date": "2023-08-14T01:37:28.767Z"
   },
   {
     "link": "https://blusagi.team",
@@ -470,7 +503,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-08-13T01:38:46.418Z"
+    "date": "2023-08-14T01:37:29.810Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -503,7 +536,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:47.634Z"
+    "date": "2023-08-14T01:37:30.133Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -536,7 +569,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:47.670Z"
+    "date": "2023-08-14T01:37:30.164Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -569,7 +602,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:48.123Z"
+    "date": "2023-08-14T01:37:30.617Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -602,7 +635,7 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:49.515Z"
+    "date": "2023-08-14T01:37:31.648Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -635,7 +668,41 @@
         }
       }
     },
-    "date": "2023-08-13T01:38:50.950Z"
+    "date": "2023-08-14T01:37:32.714Z"
+  },
+  {
+    "link": "https://twitter.com/ra6tz",
+    "error": {
+      "message": "Maximum number of redirects exceeded",
+      "name": "Error [ERR_FR_TOO_MANY_REDIRECTS]",
+      "stack": "Error [ERR_FR_TOO_MANY_REDIRECTS]: Maximum number of redirects exceeded\n    at RedirectableRequest._processResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:371:24)\n    at ClientRequest.RedirectableRequest._onNativeResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:62:10)\n    at Object.onceWrapper (events.js:520:26)\n    at ClientRequest.emit (events.js:400:28)\n    at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:127:17)\n    at HTTPParser.execute (<anonymous>)\n    at TLSSocket.socketOnData (_http_client.js:515:22)\n    at TLSSocket.emit (events.js:400:28)\n    at addChunk (internal/streams/readable.js:293:12)",
+      "config": {
+        "url": "https://twitter.com/ra6tz",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ERR_FR_TOO_MANY_REDIRECTS"
+    },
+    "date": "2023-08-14T01:37:36.446Z"
   },
   {
     "link": "https://amensgames.com",
@@ -669,41 +736,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-08-13T01:38:56.584Z"
-  },
-  {
-    "link": "https://twitter.com/ra6tz",
-    "error": {
-      "message": "Maximum number of redirects exceeded",
-      "name": "Error [ERR_FR_TOO_MANY_REDIRECTS]",
-      "stack": "Error [ERR_FR_TOO_MANY_REDIRECTS]: Maximum number of redirects exceeded\n    at RedirectableRequest._processResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:371:24)\n    at ClientRequest.RedirectableRequest._onNativeResponse (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:62:10)\n    at Object.onceWrapper (events.js:520:26)\n    at ClientRequest.emit (events.js:400:28)\n    at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)\n    at HTTPParser.parserOnHeadersComplete (_http_common.js:127:17)\n    at TLSSocket.socketOnData (_http_client.js:515:22)\n    at TLSSocket.emit (events.js:400:28)\n    at addChunk (internal/streams/readable.js:293:12)\n    at readableAddChunk (internal/streams/readable.js:267:9)",
-      "config": {
-        "url": "https://twitter.com/ra6tz",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ERR_FR_TOO_MANY_REDIRECTS"
-    },
-    "date": "2023-08-13T01:38:56.645Z"
+    "date": "2023-08-14T01:37:39.862Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -737,7 +770,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-08-13T01:39:19.927Z"
+    "date": "2023-08-14T01:38:05.531Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -771,7 +804,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-08-13T01:39:19.928Z"
+    "date": "2023-08-14T01:38:05.532Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -805,7 +838,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-08-13T01:39:19.928Z"
+    "date": "2023-08-14T01:38:05.534Z"
   },
   {
     "link": "https://unboxed.games",
@@ -839,6 +872,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-08-13T01:39:19.928Z"
+    "date": "2023-08-14T01:38:05.536Z"
   }
 ]
