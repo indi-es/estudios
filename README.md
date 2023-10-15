@@ -313,6 +313,8 @@
     
  - [Teporingo Games](https://linktr.ee/teporingosgames)
     
+ - [The Atomic Life](https://www.theatomiclife.com/)
+    
  - [the-BigKey](http://the-bigkey.com/)
     
  - [THE BUNKER MEDIA](https://www.bunkermedia.com.mx/)
