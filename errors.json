@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:25.191Z"
+    "date": "2023-11-12T01:45:37.823Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -65,7 +65,41 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-11-11T01:39:26.394Z"
+    "date": "2023-11-12T01:45:39.378Z"
+  },
+  {
+    "link": "https://www.fuxcorp.net/",
+    "error": {
+      "message": "Hostname/IP does not match certificate's altnames: Host: www.fuxcorp.net. is not in the cert's altnames: DNS:*.myorderbox.com, DNS:myorderbox.com",
+      "name": "Error",
+      "stack": "Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: www.fuxcorp.net. is not in the cert's altnames: DNS:*.myorderbox.com, DNS:myorderbox.com\n    at new NodeError (internal/errors.js:322:7)\n    at Object.checkServerIdentity (tls.js:347:12)\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1525:27)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://www.fuxcorp.net/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ERR_TLS_CERT_ALTNAME_INVALID"
+    },
+    "date": "2023-11-12T01:45:39.629Z"
   },
   {
     "link": "http://gamecoderstudios.com/",
@@ -98,7 +132,41 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:26.945Z"
+    "date": "2023-11-12T01:45:39.656Z"
+  },
+  {
+    "link": "http://hollowgames.com.mx/",
+    "error": {
+      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "http://hollowgames.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2023-11-12T01:45:39.867Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -132,7 +200,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:30.489Z"
+    "date": "2023-11-12T01:45:42.231Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -166,7 +234,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-11-11T01:39:31.087Z"
+    "date": "2023-11-12T01:45:42.660Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -199,7 +267,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:31.125Z"
+    "date": "2023-11-12T01:45:43.026Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -233,7 +301,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:31.429Z"
+    "date": "2023-11-12T01:45:43.398Z"
   },
   {
     "link": "https://www.ajalgamedevs.com",
@@ -267,7 +335,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-11-11T01:39:32.694Z"
+    "date": "2023-11-12T01:45:44.380Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -300,7 +368,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:32.919Z"
+    "date": "2023-11-12T01:45:44.558Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -334,7 +402,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:32.994Z"
+    "date": "2023-11-12T01:45:44.595Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -368,7 +436,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-11-11T01:39:33.148Z"
+    "date": "2023-11-12T01:45:44.858Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -401,7 +469,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:36.464Z"
+    "date": "2023-11-12T01:45:44.892Z"
   },
   {
     "link": "https://hammerbyte.com/",
@@ -434,7 +502,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:36.833Z"
+    "date": "2023-11-12T01:45:45.653Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -468,7 +536,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:36.975Z"
+    "date": "2023-11-12T01:45:45.663Z"
   },
   {
     "link": "https://blusagi.team",
@@ -502,7 +570,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:38.281Z"
+    "date": "2023-11-12T01:45:47.219Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -535,40 +603,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:38.550Z"
-  },
-  {
-    "link": "https://www.deviantart.com/daltair",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.deviantart.com/daltair",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-11-11T01:39:38.565Z"
+    "date": "2023-11-12T01:45:47.331Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -601,7 +636,40 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:38.677Z"
+    "date": "2023-11-12T01:45:47.546Z"
+  },
+  {
+    "link": "https://www.deviantart.com/daltair",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.deviantart.com/daltair",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-11-12T01:45:47.610Z"
   },
   {
     "link": "https://dogbiscuitstudios.mx",
@@ -635,7 +703,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-11T01:39:38.695Z"
+    "date": "2023-11-12T01:45:47.906Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -668,7 +736,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:38.735Z"
+    "date": "2023-11-12T01:45:47.972Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -701,7 +769,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:39.180Z"
+    "date": "2023-11-12T01:45:48.910Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -734,7 +802,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:39.835Z"
+    "date": "2023-11-12T01:45:49.884Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -767,7 +835,7 @@
         }
       }
     },
-    "date": "2023-11-11T01:39:40.303Z"
+    "date": "2023-11-12T01:45:50.201Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -801,7 +869,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-11T01:40:15.205Z"
+    "date": "2023-11-12T01:46:27.832Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -835,7 +903,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-11T01:40:15.205Z"
+    "date": "2023-11-12T01:46:27.833Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -869,7 +937,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-11T01:40:15.205Z"
+    "date": "2023-11-12T01:46:27.833Z"
   },
   {
     "link": "https://unboxed.games",
@@ -903,6 +971,40 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-11T01:40:15.206Z"
+    "date": "2023-11-12T01:46:27.833Z"
+  },
+  {
+    "link": "https://ihtoa.games",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:179:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://ihtoa.games",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2023-11-12T01:46:27.834Z"
   }
 ]
