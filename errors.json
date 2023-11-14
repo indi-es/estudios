@@ -31,7 +31,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:43:59.463Z"
+    "date": "2023-11-14T01:42:00.873Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -65,7 +65,40 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-11-13T01:44:00.673Z"
+    "date": "2023-11-14T01:42:02.023Z"
+  },
+  {
+    "link": "https://maquivol.com/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://maquivol.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-11-14T01:42:02.238Z"
   },
   {
     "link": "http://gamecoderstudios.com/",
@@ -98,16 +131,16 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:01.276Z"
+    "date": "2023-11-14T01:42:02.285Z"
   },
   {
-    "link": "http://hollowgames.com.mx/",
+    "link": "https://maquivol.com/",
     "error": {
-      "message": "connect ECONNREFUSED 165.227.39.231:80",
+      "message": "Request failed with status code 500",
       "name": "Error",
-      "stack": "Error: connect ECONNREFUSED 165.227.39.231:80\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "http://hollowgames.com.mx/",
+        "url": "https://maquivol.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -129,10 +162,9 @@
           "forcedJSONParsing": true,
           "clarifyTimeoutError": false
         }
-      },
-      "code": "ECONNREFUSED"
+      }
     },
-    "date": "2023-11-13T01:44:01.626Z"
+    "date": "2023-11-14T01:42:03.269Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -166,7 +198,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:44:06.050Z"
+    "date": "2023-11-14T01:42:04.668Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -200,7 +232,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2023-11-13T01:44:06.304Z"
+    "date": "2023-11-14T01:42:04.942Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -233,7 +265,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:06.695Z"
+    "date": "2023-11-14T01:42:05.138Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -267,7 +299,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:44:07.127Z"
+    "date": "2023-11-14T01:42:05.565Z"
   },
   {
     "link": "https://www.ajalgamedevs.com",
@@ -301,7 +333,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-11-13T01:44:08.228Z"
+    "date": "2023-11-14T01:42:06.299Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -334,7 +366,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:08.412Z"
+    "date": "2023-11-14T01:42:06.360Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -368,107 +400,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:44:08.551Z"
-  },
-  {
-    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-    "error": {
-      "message": "Request failed with status code 404",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-11-13T01:44:08.795Z"
-  },
-  {
-    "link": "https://hammerbyte.com/",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://hammerbyte.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-11-13T01:44:17.472Z"
-  },
-  {
-    "link": "http://www.poiesusgames.com/",
-    "error": {
-      "message": "getaddrinfo ENOTFOUND www.poiesusgames.com",
-      "name": "Error",
-      "stack": "Error: getaddrinfo ENOTFOUND www.poiesusgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
-      "config": {
-        "url": "http://www.poiesusgames.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ENOTFOUND"
-    },
-    "date": "2023-11-13T01:44:17.572Z"
+    "date": "2023-11-14T01:42:06.444Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -502,7 +434,107 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2023-11-13T01:44:18.112Z"
+    "date": "2023-11-14T01:42:06.799Z"
+  },
+  {
+    "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+    "error": {
+      "message": "Request failed with status code 404",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-11-14T01:42:09.710Z"
+  },
+  {
+    "link": "http://www.poiesusgames.com/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND www.poiesusgames.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.poiesusgames.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://www.poiesusgames.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2023-11-14T01:42:10.131Z"
+  },
+  {
+    "link": "https://hammerbyte.com/",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://hammerbyte.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-11-14T01:42:10.174Z"
   },
   {
     "link": "https://blusagi.team",
@@ -536,40 +568,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:44:19.141Z"
-  },
-  {
-    "link": "https://linktr.ee/teporingosgames",
-    "error": {
-      "message": "Request failed with status code 406",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://linktr.ee/teporingosgames",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      }
-    },
-    "date": "2023-11-13T01:44:19.300Z"
+    "date": "2023-11-14T01:42:11.638Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -602,7 +601,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:19.623Z"
+    "date": "2023-11-14T01:42:11.830Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -635,7 +634,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:19.664Z"
+    "date": "2023-11-14T01:42:11.852Z"
   },
   {
     "link": "https://dogbiscuitstudios.mx",
@@ -669,7 +668,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2023-11-13T01:44:19.778Z"
+    "date": "2023-11-14T01:42:11.977Z"
   },
   {
     "link": "https://www.linkedin.com/company/fat-panda-games/about/",
@@ -702,7 +701,40 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:19.824Z"
+    "date": "2023-11-14T01:42:12.054Z"
+  },
+  {
+    "link": "https://linktr.ee/teporingosgames",
+    "error": {
+      "message": "Request failed with status code 406",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://linktr.ee/teporingosgames",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.4"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        }
+      }
+    },
+    "date": "2023-11-14T01:42:12.466Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -735,7 +767,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:20.708Z"
+    "date": "2023-11-14T01:42:12.686Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -768,7 +800,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:21.894Z"
+    "date": "2023-11-14T01:42:13.019Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -801,7 +833,7 @@
         }
       }
     },
-    "date": "2023-11-13T01:44:22.434Z"
+    "date": "2023-11-14T01:42:13.577Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -835,7 +867,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-13T01:44:49.478Z"
+    "date": "2023-11-14T01:42:50.883Z"
   },
   {
     "link": "https://www.navegante-entertainment.com/",
@@ -869,7 +901,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-13T01:44:49.478Z"
+    "date": "2023-11-14T01:42:50.883Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -903,7 +935,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-13T01:44:49.478Z"
+    "date": "2023-11-14T01:42:50.884Z"
   },
   {
     "link": "https://unboxed.games",
@@ -937,40 +969,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2023-11-13T01:44:49.478Z"
-  },
-  {
-    "link": "https://ihtoa.games",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:303:16)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:179:12)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://ihtoa.games",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.4"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1,
-        "transitional": {
-          "silentJSONParsing": true,
-          "forcedJSONParsing": true,
-          "clarifyTimeoutError": false
-        }
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2023-11-13T01:44:49.478Z"
+    "date": "2023-11-14T01:42:50.884Z"
   }
 ]
