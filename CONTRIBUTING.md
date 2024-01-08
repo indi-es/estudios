@@ -83,7 +83,7 @@ El formato que se sigue es [JavaScript Object Notation (JSON)](https://www.json.
 | `state` | Estado del estudio |
 | `city` | Ciudad del estudio |
 | `inactive` | puede tener los siguientes valores  inactive = true si está inactivo, false si está activo. |
-| `last_time_active` | Fecha de la última vez que se verifico que estaba activo |
+| `last_time_active` | Fecha de la última vez que se verifico que estaba activo. Formato en [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601). |
 | `twitter` | Twitter del estudio |
 | `facebook` | Facebook del estudio |
 | `instagram` | Instagram del estudio |
