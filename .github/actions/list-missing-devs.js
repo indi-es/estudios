@@ -6,7 +6,7 @@ const githubUrl =
   'https://raw.githubusercontent.com/indi-es/juegos/main/data.json';
 
 function normalizeName(value) {
-  return value.toLowerCase().replace(/\s/g, '');
+  return value.toLowerCase().replace(/\s/g, '').replace(/-/g, '');
 }
 
 async function getGamesDict() {

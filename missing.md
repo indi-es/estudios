@@ -1,5 +1,5 @@
 # Faltan
-> 435 Estudios que posiblemente hace falta agregar/normalizar.
+> 432 Estudios que posiblemente hace falta agregar/normalizar.
 
 ---
 
@@ -26,12 +26,11 @@
 | Maquivol | 6 |
 | Spaceboy | 6 |
 | Tortuga Axel | 6 |
+| Vivi-Insecta | 6 |
 | Noodle Dev | 6 |
 | Create For Life Studio | 6 |
 | Paola Robledo | 6 |
 | Dimtv.Entertainment | 5 |
-| Man Eater Games | 4 |
-| Vivi-Insecta | 4 |
 | El Faro Studios | 4 |
 | Videogames Academy MX | 4 |
 | Amano Games | 4 |
@@ -97,7 +96,6 @@
 | nikancode | 2 |
 | Héctor Guerrero | 2 |
 | Joven Paul | 2 |
-| Vivi -Insecta- | 2 |
 | AzaC | 2 |
 | Jorge T. Vargas | 2 |
 | Morla Games | 2 |
@@ -399,7 +397,6 @@
 | Leslie | 1 |
 | Francisco Collette | 1 |
 | Farda Games | 1 |
-| The Big Key | 1 |
 | Crayon Lion | 1 |
 | Alejandro Robles | 1 |
 | N3TWORK Inc. | 1 |
@@ -442,7 +439,7 @@
 | Juan Aguilera | 1 |
 
 # Están en los dos pero con nombres diferentes
-> 18 Estudios que hay que normalizar.
+> 20 Estudios que hay que normalizar.
 
 ---
 
@@ -455,6 +452,7 @@
 | BitAll Force | Bit All Force |
 | GameCoder Studios | Game Coder Studios |
 | Luisquid | luisquid |
+| Man Eater Games | Man-Eater Games |
 | FUXCorp | Fuxcorp |
 | GoldenPie | Golden Pie |
 | Medio Inestable | medioinestable |
@@ -465,4 +463,5 @@
 | OneGameStudio | One Game Studio |
 | The Bunker Media | THE BUNKER MEDIA |
 | BeWolf Studio | Bewolf Studio |
+| The Big Key | the-BigKey |
 | Third World Productions | Third world productions |
