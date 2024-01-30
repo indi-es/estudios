@@ -440,3 +440,29 @@
 | Reef Software | 1 |
 | Bonsai Games | 1 |
 | Juan Aguilera | 1 |
+
+# Están en los dos pero con nombres diferentes
+> 18 Estudios que hay que normalizar.
+
+---
+
+| Juegos DB |  Esudios DB |
+|-----------|-------------|
+| EnsenaSoft | Ensenasoft |
+| Calix Jumio | Calixjumio |
+| NachonLAB | Nachon Lab |
+| Poiesus Games | PoiesusGames |
+| BitAll Force | Bit All Force |
+| GameCoder Studios | Game Coder Studios |
+| Luisquid | luisquid |
+| FUXCorp | Fuxcorp |
+| GoldenPie | Golden Pie |
+| Medio Inestable | medioinestable |
+| Kara Okulta | KaraOKulta |
+| AxolotlBros | Axolotl Bros |
+| Dead Bolt Interactive | Deadbolt Interactive |
+| Rockpoli Games | RockPoli Games |
+| OneGameStudio | One Game Studio |
+| The Bunker Media | THE BUNKER MEDIA |
+| BeWolf Studio | Bewolf Studio |
+| Third World Productions | Third world productions |
