@@ -46,12 +46,15 @@ async function getMissing() {
   const db = await getStudiosFromDb();
   const gamesDevs = await getGames();
   const missing = gamesDevs.filter((item) => !db.has(item));
+  const missingList = missing.map((item) => `- ${item}`).join('\n');
   await saveFile(
     '../../missing.md',
     `# Faltan
 > ${missing.length} Estudios que posiblemente hace falta agregar/normalizar.
+
 ---
-${missing.join('\n')}
+
+${missingList}
 `
   );
 }
