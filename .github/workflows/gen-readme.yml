@@ -21,6 +21,8 @@ jobs:
         run: (cd .github/actions && npm i --only=prod)
       - name: Generate Readme
         run: (cd .github/actions && npm run generate)
+      - name: Generate missing
+        run: (cd .github/actions && npm run missing)
       - name: Add and commit changes
         uses: EndBug/add-and-commit@v7
         with:
