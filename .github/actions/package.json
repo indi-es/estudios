@@ -8,7 +8,7 @@
   "scripts": {
     "site-check": "node site-checker.js",
     "generate": "node gen-readme.js",
-    "generate": "node list-missing-devs.js",
+    "generate-missing": "node list-missing-devs.js",
     "lint": "eslint './**/*.js'",
     "lint:fix": "eslint --fix './**/*.js'",
     "lint:format": "prettier --write --ignore-unknown ./**/*.js"

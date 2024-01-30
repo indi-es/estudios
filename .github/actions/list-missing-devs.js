@@ -1,10 +1,50 @@
 import fetch from 'node-fetch';
-import { getFile, saveFile, sortByName } from './utils.js';
+import { getFile, saveFile } from './utils.js';
 
 const githubUrl =
   'https://raw.githubusercontent.com/indi-es/juegos/main/data.json';
 
-async function getGames() {
+function normalizeName(value) {
+  return value.toLowerCase().replace(/\s/g, '');
+}
+
+async function getGamesDict() {
+  try {
+    const response = await fetch(githubUrl);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    const { games } = data;
+
+    const result = games.reduce((previous, current) => {
+      const developers = (current?.developers ? current.developers : []).map(
+        (item) => item
+      );
+
+      developers.forEach((element) => {
+        const key = normalizeName(element);
+        const ob = { originalDev: element, ...current };
+        if (!(key in previous)) {
+          previous[key] = [ob];
+        } else {
+          previous[key] = [...previous[key], ob];
+        }
+      });
+
+      return previous;
+    }, {});
+
+    return result;
+  } catch (error) {
+    console.error('Error downloading or saving the JSON file:', error.message);
+    return [];
+  }
+}
+
+export async function getGames() {
   try {
     const response = await fetch(githubUrl);
 
@@ -19,7 +59,10 @@ async function getGames() {
       ...new Set(
         games.reduce((previous, current) => {
           const developers = current?.developers ? current.developers : [];
-          return [...previous, ...developers.map((item) => item.toLowerCase())];
+          return [
+            ...previous,
+            ...developers.map((item) => normalizeName(item)),
+          ];
         }, [])
       ),
     ];
@@ -34,7 +77,7 @@ async function getStudiosFromDb() {
     const db = await getFile('../../developers.json');
     const parsed = JSON.parse(db);
     return new Set(
-      parsed.developers.map((current) => current.name.toLowerCase())
+      parsed.developers.map((current) => normalizeName(current.name))
     );
   } catch (error) {
     console.error('Error reading the JSON file:', error.message);
@@ -44,9 +87,18 @@ async function getStudiosFromDb() {
 
 async function getMissing() {
   const db = await getStudiosFromDb();
-  const gamesDevs = await getGames();
-  const missing = gamesDevs.filter((item) => !db.has(item));
-  const missingList = missing.map((item) => `- ${item}`).join('\n');
+  const gamesDevs = await getGamesDict();
+
+  const missing = Object.keys(gamesDevs)
+    .filter((key) => !db.has(key))
+    .reduce((prev, key) => [...prev, gamesDevs[key]], []);
+
+  const missingList = missing
+    .map((item) => {
+      const name = item[0].originalDev;
+      return `| ${name} | ${item.length} |`;
+    })
+    .join('\n');
   await saveFile(
     '../../missing.md',
     `# Faltan
@@ -54,9 +106,12 @@ async function getMissing() {
 
 ---
 
+| Nombre | № de juegos |
+|--------|-------------|
 ${missingList}
 `
   );
 }
 
+getGamesDict();
 getMissing();
