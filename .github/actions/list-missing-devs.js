@@ -91,12 +91,17 @@ async function getMissing() {
 
   const missing = Object.keys(gamesDevs)
     .filter((key) => !db.has(key))
-    .reduce((prev, key) => [...prev, gamesDevs[key]], []);
+    .reduce((prev, key) => [...prev, gamesDevs[key]], [])
+    .map((item) => ({
+      devName: item[0].originalDev,
+      numberOfGames: item.length,
+    }))
+    .sort((a, b) => b.numberOfGames - a.numberOfGames);
 
   const missingList = missing
     .map((item) => {
-      const name = item[0].originalDev;
-      return `| ${name} | ${item.length} |`;
+      const { devName, numberOfGames } = item;
+      return `| ${devName} | ${numberOfGames} |`;
     })
     .join('\n');
   await saveFile(

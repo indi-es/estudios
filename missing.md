@@ -5,34 +5,115 @@
 
 | Nombre | № de juegos |
 |--------|-------------|
-| Quetzalcoatl Games | 3 |
-| Most | 12 |
-| kechus | 1 |
 | 67 Bits | 66 |
-| LosthinK | 3 |
-| Cataxis | 11 |
-| Diego "Diegovz01" Vázquez | 2 |
-| jota-gil | 1 |
-| Nabo Games | 3 |
-| Mabox | 1 |
-| Nibiru | 1 |
+| Alebrije Studios | 21 |
 | Asdonaur | 20 |
+| Kaxan Games | 13 |
+| Most | 12 |
+| Rapt | 12 |
+| Dougieus | 12 |
+| Yokan | 12 |
+| Cataxis | 11 |
+| Gnomael Games | 11 |
 | Luis León | 9 |
+| Washa Washa Games | 9 |
+| Zuper Hugo! | 9 |
+| Larva Game Studio | 9 |
+| Big Monster Games | 8 |
+| Kavorkaplay | 8 |
+| La Ventanita | 7 |
+| ZombieByte | 7 |
+| Maquivol | 6 |
+| Spaceboy | 6 |
+| Tortuga Axel | 6 |
+| Noodle Dev | 6 |
+| Create For Life Studio | 6 |
+| Paola Robledo | 6 |
+| Dimtv.Entertainment | 5 |
+| Man Eater Games | 4 |
+| Vivi-Insecta | 4 |
+| El Faro Studios | 4 |
+| Videogames Academy MX | 4 |
+| Amano Games | 4 |
+| AngekNg | 4 |
+| Fat Panda Games | 4 |
+| Brian | 4 |
+| Quetzalcoatl Games | 3 |
+| LosthinK | 3 |
+| Nabo Games | 3 |
 | Larva Game Studios | 3 |
 | Oscar Toledo | 3 |
-| UNDEAD | 1 |
+| PaleBlueDuck | 3 |
+| ZeichiGames | 3 |
+| Oribe Ware | 3 |
+| Fáyer | 3 |
+| Dream Dog | 3 |
+| Yogome | 3 |
+| Slang Studio | 3 |
+| Orion_Black | 3 |
+| Antonio Freyre | 3 |
+| Fayer | 3 |
+| Ranflosoft | 3 |
+| Juan Enrique Pedraza Rejon | 3 |
+| Farelas | 3 |
+| BigMiniBoss Game Studio | 3 |
+| Diego "Diegovz01" Vázquez | 2 |
 | Unosquare | 2 |
-| Washa Washa Games | 9 |
-| Kaxan Games | 13 |
+| Mácula Interactive | 2 |
+| ORartgames | 2 |
+| Render Farm Studios | 2 |
+| UnChild Games | 2 |
+| Sheldrybox Studios | 2 |
+| Neggi Studio | 2 |
+| Pam Montiel | 2 |
+| Providencia Solano | 2 |
+| Carlos Amador | 2 |
+| Kokonut Games | 2 |
+| Moiron | 2 |
+| ZhucklyDev | 2 |
+| SilverS | 2 |
+| Lobosandia | 2 |
+| Heli Hernandez | 2 |
+| Rafael Jiménez | 2 |
+| Abraham Carreola Monroy | 2 |
+| Germán Coronel | 2 |
+| Fenomeno Mx | 2 |
+| Marroquina | 2 |
+| Phractal Studios | 2 |
+| Teleponk | 2 |
+| Futugrafic Studios | 2 |
+| Na'Chok | 2 |
+| Evoga Entertainment | 2 |
+| 2think design studio | 2 |
+| Diego Nachón | 2 |
+| Mostro Games | 2 |
+| Bearboy | 2 |
+| We The Force Studios | 2 |
+| FerAnimaciones | 2 |
+| Etherlight | 2 |
+| Mokiki Games | 2 |
+| OCK | 2 |
+| Alain | 2 |
+| nikancode | 2 |
+| Héctor Guerrero | 2 |
+| Joven Paul | 2 |
+| Vivi -Insecta- | 2 |
+| AzaC | 2 |
+| Jorge T. Vargas | 2 |
+| Morla Games | 2 |
+| Chihuas Games | 2 |
+| Fairyland | 2 |
+| kechus | 1 |
+| jota-gil | 1 |
+| Mabox | 1 |
+| Nibiru | 1 |
+| UNDEAD | 1 |
 | ILCOIN Development team | 1 |
 | Chaos Industries | 1 |
 | Miguel Angel Cortes Sosa | 1 |
 | Adrian Hernandez | 1 |
-| Maquivol | 6 |
 | Giselle Gonzalez | 1 |
 | Bruno Chávez | 1 |
-| Mácula Interactive | 2 |
-| Alebrije Studios | 21 |
 | César Reinoso | 1 |
 | Gasca Ruíz Fernando | 1 |
 | González Ramírez Gabriel | 1 |
@@ -40,79 +121,47 @@
 | Juárez Martínez Ares Ulises | 1 |
 | Romero Lucero Alan | 1 |
 | Sánchez Cabrera Uriel Jeddan | 1 |
-| Rapt | 12 |
-| Dougieus | 12 |
-| Yokan | 12 |
 | Dragon Vein Studios | 1 |
-| Spaceboy | 6 |
 | Nuclear Fiction | 1 |
 | armandorollo | 1 |
 | Daniel Santalla & Ana Bolio | 1 |
 | Blue Train | 1 |
-| ORartgames | 2 |
-| PaleBlueDuck | 3 |
 | Leonardo Gonzalez/Tobispartan | 1 |
 | Sabarasa Entertainment | 1 |
-| Render Farm Studios | 2 |
 | Roberto Bravo | 1 |
 | Pumpkin Head Studio | 1 |
 | Mazatlanonline | 1 |
 | Axolotlan | 1 |
-| UnChild Games | 2 |
-| Zuper Hugo! | 9 |
 | Skylaxx Studio | 1 |
-| Larva Game Studio | 9 |
 | BigMiniBoss | 1 |
 | Gemu Lab | 1 |
-| Gnomael Games | 11 |
-| Sheldrybox Studios | 2 |
 | Dracielle | 1 |
 | ShinKikuchiVT | 1 |
 | Meldarion | 1 |
 | Sferea Games | 1 |
 | dBlabs | 1 |
-| Neggi Studio | 2 |
 | Nervo Studios | 1 |
-| Man Eater Games | 4 |
-| Tortuga Axel | 6 |
 | ScrewBit Games | 1 |
 | Black and Pink Indie Games | 1 |
-| ZeichiGames | 3 |
-| Pam Montiel | 2 |
 | Michelle MacVilchport | 1 |
-| Vivi-Insecta | 4 |
 | María Teresa Contreras Mata | 1 |
-| Providencia Solano | 2 |
 | UdeGAMES | 1 |
 | Bruma | 1 |
 | Cesar Eduardo Contreras Suarez | 1 |
-| La Ventanita | 7 |
-| El Faro Studios | 4 |
-| Noodle Dev | 6 |
 | Elevator Games | 1 |
-| Carlos Amador | 2 |
-| Kokonut Games | 2 |
-| Moiron | 2 |
 | ORPSRAC | 1 |
 | JAV_Studio | 1 |
-| ZhucklyDev | 2 |
-| SilverS | 2 |
 | aylingalindo | 1 |
-| Videogames Academy MX | 4 |
 | A Hdez | 1 |
 | UNODC | 1 |
 | A. Rios | 1 |
 | Jaime Ruiz | 1 |
 | Sebastian Ferreira | 1 |
-| Lobosandia | 2 |
 | Laura Quintanilla | 1 |
-| Oribe Ware | 3 |
-| ZombieByte | 7 |
 | Ing. Morris Behar (Padre del desarrollo de videojuegos en México) | 1 |
 | Wood Dice | 1 |
 | Vic Piña | 1 |
 | Jade Madrigal Mora | 1 |
-| Big Monster Games | 8 |
 | Lilith's Coven | 1 |
 | MoeRex | 1 |
 | Lalilosa | 1 |
@@ -125,7 +174,6 @@
 | Phill | 1 |
 | Shibidubi Games | 1 |
 | Jinsen | 1 |
-| Heli Hernandez | 2 |
 | Denys Moysin | 1 |
 | Dulce Villavicencio | 1 |
 | Enrique Magaña | 1 |
@@ -136,42 +184,27 @@
 | Paulina Marín | 1 |
 | Santiago Zamarripa | 1 |
 | Iván Carballar | 1 |
-| Rafael Jiménez | 2 |
 | Dahlia Academia | 1 |
-| Abraham Carreola Monroy | 2 |
 | Mauricio Avila | 1 |
-| Fáyer | 3 |
-| Germán Coronel | 2 |
 | black_vice | 1 |
 | Kyon Games | 1 |
-| Fenomeno Mx | 2 |
-| Amano Games | 4 |
 | PinkChocoball | 1 |
-| Marroquina | 2 |
 | NeosHunter | 1 |
 | ARIKO | 1 |
-| Phractal Studios | 2 |
 | Jaguar Games | 1 |
 | Jesús Tapia | 1 |
-| Teleponk | 2 |
 | Andrea Elizabeth | 1 |
 | Playstorm Studios | 1 |
 | Alan Gallart | 1 |
 | URSUS Game Studios | 1 |
 | Bsalud3 | 1 |
-| Futugrafic Studios | 2 |
-| Dream Dog | 3 |
 | rubenbc7 | 1 |
 | James Baxter | 1 |
 | Ari | 1 |
 | Chars y Olenka | 1 |
-| Yogome | 3 |
 | Federico Castillo | 1 |
 | Radical Studios | 1 |
 | CCC123p | 1 |
-| Na'Chok | 2 |
-| Evoga Entertainment | 2 |
-| Create For Life Studio | 6 |
 | Spectra | 1 |
 | Yunge | 1 |
 | ItsChanged | 1 |
@@ -181,8 +214,6 @@
 | Somos Viko | 1 |
 | Ficha Studio | 1 |
 | Angel price | 1 |
-| AngekNg | 4 |
-| Fat Panda Games | 4 |
 | PixelNeutro | 1 |
 | Incisor Studios | 1 |
 | The Amazing Bizarre Circus | 1 |
@@ -192,27 +223,19 @@
 | RinUsago | 1 |
 | TaniaNaOH | 1 |
 | Dark7Phenix | 1 |
-| 2think design studio | 2 |
-| Slang Studio | 3 |
 | Navegante Entertainment | 1 |
 | ESTACION PI Y DISEÑO | 1 |
 | David Ávila y otros... | 1 |
-| Kavorkaplay | 8 |
-| Brian | 4 |
-| Diego Nachón | 2 |
 | Daniel Nachón | 1 |
 | Santi S. | 1 |
 | Aztec Tech Games | 1 |
 | Edgar Mendoza | 1 |
-| Mostro Games | 2 |
 | Aether Tower | 1 |
 | Torito Game Studios | 1 |
 | Cathalla | 1 |
-| Dimtv.Entertainment | 5 |
 | LuQui | 1 |
 | Carlos Garza | 1 |
 | Carf Darko | 1 |
-| Orion_Black | 3 |
 | Little Sasquatch | 1 |
 | Andrés Hernández Ărvîzu | 1 |
 | Gerardo | 1 |
@@ -223,9 +246,7 @@
 | Daniel Xolot/D’Xolot | 1 |
 | Arturo Fernandez | 1 |
 | RAELTHYK | 1 |
-| Antonio Freyre | 3 |
 | Hunab Ku Games Studio | 1 |
-| Bearboy | 2 |
 | Yessica Arrez | 1 |
 | Iker Lozoya Sánchez | 1 |
 | Angel Madera | 1 |
@@ -239,18 +260,14 @@
 | Andrew2115 | 1 |
 | Say.say9 | 1 |
 | Alberto serna | 1 |
-| We The Force Studios | 2 |
 | Kinelga | 1 |
 | Reyes Industries | 1 |
 | Caly Studios | 1 |
-| Fayer | 3 |
 | Pato | 1 |
 | Codex Studio | 1 |
-| Ranflosoft | 3 |
 | Rodrigo Saco | 1 |
 | WalGallen | 1 |
 | Elizabeth G. R. | 1 |
-| Paola Robledo | 6 |
 | Jesús Orlando C. P. | 1 |
 | Paulina Fernanda G. R. | 1 |
 | Sascha Ram | 1 |
@@ -264,7 +281,6 @@
 | Ángel Castro | 1 |
 | Daniel Andres P. C. | 1 |
 | War Industries Games | 1 |
-| FerAnimaciones | 2 |
 | DevCup | 1 |
 | Jobs Laru | 1 |
 | Lorraine Studio | 1 |
@@ -285,8 +301,6 @@
 | AaronEva | 1 |
 | Meta Studios Creative Agency K.K | 1 |
 | Francisco Javier Romero morato | 1 |
-| Etherlight | 2 |
-| Mokiki Games | 2 |
 | Noah | 1 |
 | ZuraD | 1 |
 | Khazu75 | 1 |
@@ -296,7 +310,6 @@
 | Guillermo | 1 |
 | Soul Shell | 1 |
 | Katatema | 1 |
-| OCK | 2 |
 | Fedra Martínez | 1 |
 | Amadeo Arrollo | 1 |
 | Antony Morales | 1 |
@@ -318,7 +331,6 @@
 | Anabel Ríos | 1 |
 | Jazmín Gonzáles | 1 |
 | Afrodita Casas | 1 |
-| Juan Enrique Pedraza Rejon | 3 |
 | PawFury | 1 |
 | Daniel Zazueta | 1 |
 | Abe | 1 |
@@ -328,23 +340,18 @@
 | Edguma James | 1 |
 | Intertum | 1 |
 | Sabarasa México | 1 |
-| Farelas | 3 |
 | TheWingedBlue | 1 |
 | Alberto Calva | 1 |
 | Brayan Nafarrate | 1 |
 | Aus_Lissajous(Axel) | 1 |
 | Joven Paul y Mario Carballo | 1 |
-| Alain | 2 |
-| nikancode | 2 |
 | Team Robot Black Hat | 1 |
 | Al-link | 1 |
 | Gabriel Garza | 1 |
 | Berenice Prieto | 1 |
-| Héctor Guerrero | 2 |
 | Adrián Tomé Rodríguez | 1 |
 | Hugo Gutiérrez | 1 |
 | Kyutahub | 1 |
-| Joven Paul | 2 |
 | Daniel Arturo (Vala) | 1 |
 | Majo Félix | 1 |
 | Ricardo Cervantes | 1 |
@@ -355,18 +362,14 @@
 | cesarflores1 | 1 |
 | Enkeli | 1 |
 | Jaime Araiza | 1 |
-| BigMiniBoss Game Studio | 3 |
 | Afterlife Game Studios | 1 |
 | ZitrusStudio | 1 |
 | Camileytor2008 | 1 |
-| Vivi -Insecta- | 2 |
 | MacLothric | 1 |
 | Rigby Granguillhome | 1 |
 | Artcle Studio | 1 |
 | TomatoDev | 1 |
-| AzaC | 2 |
 | Bixelium | 1 |
-| Jorge T. Vargas | 2 |
 | LTS Interactive | 1 |
 | Colossal Head Games | 1 |
 | Juan Felipe Bojorges | 1 |
@@ -378,7 +381,6 @@
 | Robin Elric | 1 |
 | Daniel Thorne | 1 |
 | Minority Media | 1 |
-| Morla Games | 2 |
 | MRRogerCB | 1 |
 | Tboxfinn | 1 |
 | kalsetas | 1 |
@@ -386,7 +388,6 @@
 | Alexco99 | 1 |
 | Charlo Hdz | 1 |
 | LoneWolf9 | 1 |
-| Chihuas Games | 2 |
 | Tlacuache Bros | 1 |
 | Rodrigo Vicente | 1 |
 | Dave Sánchez | 1 |
@@ -411,7 +412,6 @@
 | Daniel | 1 |
 | Cold_Stone | 1 |
 | Ing. Paisen & Nefertari Neff | 1 |
-| Fairyland | 2 |
 | Iván Espadas | 1 |
 | The Saint Road Team | 1 |
 | Rodrigo Pacheco | 1 |
