@@ -1,11 +1,10 @@
 # Faltan
-> 432 Estudios que posiblemente hace falta agregar/normalizar.
+> 429 Estudios que posiblemente hace falta agregar/normalizar.
 
 ---
 
 | Nombre | № de juegos |
 |--------|-------------|
-| 67 Bits | 66 |
 | Alebrije Studios | 21 |
 | Asdonaur | 20 |
 | Kaxan Games | 13 |
@@ -33,11 +32,9 @@
 | Dimtv.Entertainment | 5 |
 | El Faro Studios | 4 |
 | Videogames Academy MX | 4 |
-| Amano Games | 4 |
 | AngekNg | 4 |
 | Fat Panda Games | 4 |
 | Brian | 4 |
-| Quetzalcoatl Games | 3 |
 | LosthinK | 3 |
 | Nabo Games | 3 |
 | Larva Game Studios | 3 |
@@ -46,8 +43,10 @@
 | ZeichiGames | 3 |
 | Oribe Ware | 3 |
 | Fáyer | 3 |
+| Etherlight | 3 |
 | Dream Dog | 3 |
 | Yogome | 3 |
+| Quetzalcoatl Games | 3 |
 | Slang Studio | 3 |
 | Orion_Black | 3 |
 | Antonio Freyre | 3 |
@@ -89,7 +88,6 @@
 | Bearboy | 2 |
 | We The Force Studios | 2 |
 | FerAnimaciones | 2 |
-| Etherlight | 2 |
 | Mokiki Games | 2 |
 | OCK | 2 |
 | Alain | 2 |
@@ -342,7 +340,6 @@
 | Alberto Calva | 1 |
 | Brayan Nafarrate | 1 |
 | Aus_Lissajous(Axel) | 1 |
-| Joven Paul y Mario Carballo | 1 |
 | Team Robot Black Hat | 1 |
 | Al-link | 1 |
 | Gabriel Garza | 1 |

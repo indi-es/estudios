@@ -22,7 +22,7 @@ jobs:
       - name: Generate Readme
         run: (cd .github/actions && npm run generate)
       - name: Generate missing
-        run: (cd .github/actions && npm run missing)
+        run: (cd .github/actions && npm run generate-missing)
       - name: Add and commit changes
         uses: EndBug/add-and-commit@v7
         with:
