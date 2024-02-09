@@ -177,6 +177,10 @@
     
  - [Hannie Echo](http://hannie-echo.com/)
     
+ - [Headless](https://www.headlessvideogames.com/)
+    
+ - [HESKIL STUDIO](https://heskil.com)
+    
  - [Hollow Games](http://hollowgames.com.mx/)
     
  - [HyperBeard Games](https://hyperbeard.com/)
