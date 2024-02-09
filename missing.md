@@ -1,5 +1,5 @@
 # Faltan
-> 429 Estudios que posiblemente hace falta agregar/normalizar.
+> 416 Estudios que posiblemente hace falta agregar/normalizar.
 
 ---
 
@@ -7,13 +7,11 @@
 |--------|-------------|
 | Alebrije Studios | 21 |
 | Asdonaur | 20 |
-| Kaxan Games | 13 |
 | Most | 12 |
 | Rapt | 12 |
 | Dougieus | 12 |
 | Yokan | 12 |
 | Cataxis | 11 |
-| Gnomael Games | 11 |
 | Luis León | 9 |
 | Washa Washa Games | 9 |
 | Zuper Hugo! | 9 |
@@ -23,27 +21,21 @@
 | La Ventanita | 7 |
 | ZombieByte | 7 |
 | Maquivol | 6 |
-| Spaceboy | 6 |
 | Tortuga Axel | 6 |
 | Vivi-Insecta | 6 |
 | Noodle Dev | 6 |
-| Create For Life Studio | 6 |
 | Paola Robledo | 6 |
 | Dimtv.Entertainment | 5 |
 | El Faro Studios | 4 |
 | Videogames Academy MX | 4 |
 | AngekNg | 4 |
-| Fat Panda Games | 4 |
 | Brian | 4 |
 | LosthinK | 3 |
 | Nabo Games | 3 |
-| Larva Game Studios | 3 |
 | Oscar Toledo | 3 |
 | PaleBlueDuck | 3 |
 | ZeichiGames | 3 |
-| Oribe Ware | 3 |
 | Fáyer | 3 |
-| Etherlight | 3 |
 | Dream Dog | 3 |
 | Yogome | 3 |
 | Quetzalcoatl Games | 3 |
@@ -57,7 +49,6 @@
 | BigMiniBoss Game Studio | 3 |
 | Diego "Diegovz01" Vázquez | 2 |
 | Unosquare | 2 |
-| Mácula Interactive | 2 |
 | ORartgames | 2 |
 | Render Farm Studios | 2 |
 | UnChild Games | 2 |
@@ -66,7 +57,6 @@
 | Pam Montiel | 2 |
 | Providencia Solano | 2 |
 | Carlos Amador | 2 |
-| Kokonut Games | 2 |
 | Moiron | 2 |
 | ZhucklyDev | 2 |
 | SilverS | 2 |
@@ -82,11 +72,8 @@
 | Futugrafic Studios | 2 |
 | Na'Chok | 2 |
 | Evoga Entertainment | 2 |
-| 2think design studio | 2 |
 | Diego Nachón | 2 |
 | Mostro Games | 2 |
-| Bearboy | 2 |
-| We The Force Studios | 2 |
 | FerAnimaciones | 2 |
 | Mokiki Games | 2 |
 | OCK | 2 |
@@ -436,7 +423,7 @@
 | Juan Aguilera | 1 |
 
 # Están en los dos pero con nombres diferentes
-> 20 Estudios que hay que normalizar.
+> 16 Estudios que hay que normalizar.
 
 ---
 
@@ -444,21 +431,17 @@
 |-----------|-------------|
 | EnsenaSoft | Ensenasoft |
 | Calix Jumio | Calixjumio |
-| NachonLAB | Nachon Lab |
-| Poiesus Games | PoiesusGames |
-| BitAll Force | Bit All Force |
-| GameCoder Studios | Game Coder Studios |
+| NachonLAB | NachonLab |
+| Spaceboy | SpaceBoy |
 | Luisquid | luisquid |
 | Man Eater Games | Man-Eater Games |
-| FUXCorp | Fuxcorp |
 | GoldenPie | Golden Pie |
-| Medio Inestable | medioinestable |
+| Medio Inestable | medio inestable |
+| Create For Life Studio | Create for Life Studio |
 | Kara Okulta | KaraOKulta |
 | AxolotlBros | Axolotl Bros |
+| We The Force Studios | We the Force Studios |
 | Dead Bolt Interactive | Deadbolt Interactive |
 | Rockpoli Games | RockPoli Games |
 | OneGameStudio | One Game Studio |
-| The Bunker Media | THE BUNKER MEDIA |
-| BeWolf Studio | Bewolf Studio |
 | The Big Key | the-BigKey |
-| Third World Productions | Third world productions |
