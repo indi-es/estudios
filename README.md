@@ -15,7 +15,7 @@
     
  - [2D Nutz](https://www.2dnutz.com/)
     
- - [2think](https://2think.itch.io)
+ - [2think design studio](https://2think.itch.io)
     
  - [4M2Q GAMES](https://4m2q.com/)
     
@@ -55,9 +55,9 @@
     
  - [BC Media Lab](https://www.bcmedialab.com/)
     
- - [Bearboy Studios](https://www.bearboystudios.com/)
+ - [Bearboy](https://www.bearboystudios.com/)
     
- - [Bewolf Studio](https://bewolfstudio.com)
+ - [BeWolf Studio](https://bewolfstudio.com)
     
  - [Big Mini Geek](http://www.bigminigeek.com/)
     
@@ -67,7 +67,7 @@
     
  - [Bisper Studios](https://www.youtube.com/channel/UC4a4bLgsQlWt9kXrRsOZSXA)
     
- - [Bit All Force](http://www.bitallforce.com/)
+ - [BitAll Force](http://www.bitallforce.com/)
     
  - [Bleda Gaming Studios](https://netsites.mx/bledagamestudios/#xl_xr_page_index.html)
     
@@ -95,7 +95,7 @@
     
  - [Cosmogonia](https://cosmogonia.mx/)
     
- - [Create for Life](https://www.createforlife.me/)
+ - [Create for Life Studio](https://www.createforlife.me/)
     
  - [Culto Interactivo](https://linktr.ee/culto_interactivo)
     
@@ -133,11 +133,11 @@
     
  - [Estudios Máquina Voladora](https://maquivol.com/)
     
- - [Etherlight Studios](https://etherlightstudios.com)
+ - [Etherlight](https://etherlightstudios.com)
     
  - [Evil Geometry](https://www.flowcode.com/page/evilgeometry)
     
- - [Fat Panda](https://www.linkedin.com/company/fat-panda-games/about/)
+ - [Fat Panda Games](https://www.fatpanda.tv)
     
  - [Feline Arts](https://www.felinearts.net/)
     
@@ -151,9 +151,9 @@
     
  - [Funky Can Creative](https://www.popslinger.com/)
     
- - [Fuxcorp](https://www.fuxcorp.net/)
+ - [FUXCorp](https://www.fuxcorp.net/)
     
- - [Game Coder Studios](http://gamecoderstudios.com/)
+ - [GameCoder Studios](http://gamecoderstudios.com/)
     
  - [Games Rom Entertainment](https://gamesrom.com.mx)
     
@@ -163,7 +163,7 @@
     
  - [Globant](https://www.globant.com)
     
- - [Gnomael](https://gnomael.com/)
+ - [Gnomael Games](https://gnomael.com/)
     
  - [Golden Pie](https://goldenpie.com)
     
@@ -195,11 +195,13 @@
     
  - [KaraOKulta](https://www.karaokulta.com/)
     
+ - [Kaxan Games](http://www.kaxangames.com/)
+    
  - [Keywords Studios](https://www.keywordsstudios.com/)
     
- - [Kokonut](https://www.kokonutstudio.com/)
+ - [Kokonut Games](https://www.kokonutstudio.com/)
     
- - [Larva](http://larvagamestudios.com/)
+ - [Larva Game Studios](http://larvagamestudios.com/)
     
  - [Learny Games](http://learny.com.mx)
     
@@ -211,13 +213,11 @@
     
  - [LunarCrown](http://lunarcrown.com/)
     
- - [Macula Interactive](https://www.maculainteractive.com)
+ - [Mácula Interactive](https://www.maculainteractive.com)
     
  - [Man-Eater Games](http://www.maneatergames.com/)
     
  - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
-    
- - [Maquivol Game Studio](https://maquivol.com/)
     
  - [Mars Games](http://mars-games.net/)
     
@@ -227,7 +227,7 @@
     
  - [Mecha Studios](https://www.mechastudios.com/)
     
- - [medioinestable](https://medio-inestable.github.io/)
+ - [medio inestable](https://medio-inestable.github.io/)
     
  - [Megalixir Games](http://megalixirgames.com/)
     
@@ -243,7 +243,7 @@
     
  - [Mum Not Proud](http://www.mumnotproud.com/)
     
- - [Nachon Lab](https://nachonlab.itch.io)
+ - [NachonLab](https://nachonlab.itch.io)
     
  - [Navegante](https://www.navegante-entertainment.com/)
     
@@ -269,7 +269,7 @@
     
  - [Onward](https://www.computerlove.mx)
     
- - [Oribe Ware Games](https://oribewaregames.com/landingoribewaregames/)
+ - [Oribe Ware](https://oribewaregames.com/landingoribewaregames/)
     
  - [Pandita Studio](https://panditastudio.com)
     
@@ -285,7 +285,7 @@
     
  - [Playstudios México](https://www.playstudios.com)
     
- - [PoiesusGames](http://www.poiesusgames.com/)
+ - [Poiesus Games](http://www.poiesusgames.com/)
     
  - [Present Creative México](https://www.presentcreative.com/)
     
@@ -296,6 +296,8 @@
  - [Ra6tz Studio](https://twitter.com/ra6tz)
     
  - [Rainbowmads Studios](https://luxzord122.wixsite.com/rainbowmaddness)
+    
+ - [Raptware](https://www.raptware.com/)
     
  - [RCK Games](https://rckgames.com/)
     
@@ -313,7 +315,7 @@
     
  - [Snatch](https://www.snatchstudios.com/)
     
- - [SpaceBoy México](https://spaceboy.mx)
+ - [SpaceBoy](https://spaceboy.mx)
     
  - [Squad](http://squad.com.mx/)
     
@@ -327,11 +329,11 @@
     
  - [the-BigKey](http://the-bigkey.com/)
     
- - [THE BUNKER MEDIA](https://www.bunkermedia.com.mx/)
+ - [The Bunker Media](https://www.bunkermedia.com.mx/)
     
  - [The Dreamerians](https://www.thedreamerians.com/)
     
- - [Third world productions](http://thirdworldproductions.com.mx/)
+ - [Third World Productions](http://thirdworldproductions.com.mx/)
     
  - [Tokyo Play](https://www.tokyoplay.com/)
     
@@ -353,7 +355,7 @@
     
  - [Watanoge](https://watanoge.com/)
     
- - [We the Force](https://wetheforcestudios.com/)
+ - [We the Force Studios](https://wetheforcestudios.com/)
     
  - [Xibalba Studios](https://www.xibalbastudios.com/)
     
