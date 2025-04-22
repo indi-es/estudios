@@ -26,7 +26,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:29.080Z"
+    "date": "2025-04-22T02:20:44.060Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -55,14 +55,14 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:29.108Z"
+    "date": "2025-04-22T02:20:44.078Z"
   },
   {
     "link": "https://ansimuz.com/site/",
     "error": {
-      "message": "Request failed with status code 404",
+      "message": "Request failed with status code 429",
       "name": "Error",
-      "stack": "Error: Request failed with status code 404\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
         "url": "https://ansimuz.com/site/",
         "method": "get",
@@ -83,7 +83,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:29.411Z"
+    "date": "2025-04-22T02:20:44.252Z"
   },
   {
     "link": "https://www.chronographstudio.com/",
@@ -112,7 +112,7 @@
       },
       "code": "ERR_TLS_CERT_ALTNAME_INVALID"
     },
-    "date": "2025-04-21T02:25:29.786Z"
+    "date": "2025-04-22T02:20:45.019Z"
   },
   {
     "link": "https://cosmogonia.mx/",
@@ -140,7 +140,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:29.988Z"
+    "date": "2025-04-22T02:20:45.250Z"
   },
   {
     "link": "https://estacionpi.mx/",
@@ -169,7 +169,7 @@
       },
       "code": "ERR_TLS_CERT_ALTNAME_INVALID"
     },
-    "date": "2025-04-21T02:25:30.066Z"
+    "date": "2025-04-22T02:20:45.620Z"
   },
   {
     "link": "https://www.flowcode.com/page/evilgeometry",
@@ -197,7 +197,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:30.428Z"
+    "date": "2025-04-22T02:20:45.832Z"
   },
   {
     "link": "https://gnomael.com/",
@@ -226,7 +226,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:30.430Z"
+    "date": "2025-04-22T02:20:45.992Z"
   },
   {
     "link": "https://nefariousgamestudios.com/",
@@ -255,36 +255,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:31.450Z"
-  },
-  {
-    "link": "https://alebrije.co/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://alebrije.co/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2025-04-21T02:25:33.211Z"
+    "date": "2025-04-22T02:20:47.031Z"
   },
   {
     "link": "https://www.mismatch.studio/",
@@ -313,7 +284,36 @@
       },
       "code": "ERR_TLS_CERT_ALTNAME_INVALID"
     },
-    "date": "2025-04-21T02:25:33.665Z"
+    "date": "2025-04-22T02:20:48.774Z"
+  },
+  {
+    "link": "https://alebrije.co/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://alebrije.co/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-04-22T02:20:49.000Z"
   },
   {
     "link": "https://www.dracmastudios.com/",
@@ -341,7 +341,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:33.689Z"
+    "date": "2025-04-22T02:20:49.262Z"
   },
   {
     "link": "https://www.computerlove.mx",
@@ -370,7 +370,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:34.248Z"
+    "date": "2025-04-22T02:20:49.647Z"
   },
   {
     "link": "https://www.ajalgamedevs.com",
@@ -399,7 +399,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:34.679Z"
+    "date": "2025-04-22T02:20:50.070Z"
   },
   {
     "link": "http://hannie-echo.com/",
@@ -428,7 +428,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:34.895Z"
+    "date": "2025-04-22T02:20:50.217Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -457,7 +457,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-04-21T02:25:34.916Z"
+    "date": "2025-04-22T02:20:50.330Z"
   },
   {
     "link": "http://www.jara-ai.com/",
@@ -486,7 +486,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:35.024Z"
+    "date": "2025-04-22T02:20:50.385Z"
   },
   {
     "link": "https://netsites.mx/bledagamestudios/#xl_xr_page_index.html",
@@ -515,7 +515,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:35.085Z"
+    "date": "2025-04-22T02:20:50.422Z"
   },
   {
     "link": "http://www.poiesusgames.com/",
@@ -544,7 +544,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:35.586Z"
+    "date": "2025-04-22T02:20:50.933Z"
   },
   {
     "link": "https://blusagi.team",
@@ -573,7 +573,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:36.477Z"
+    "date": "2025-04-22T02:20:51.805Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -601,7 +601,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:36.516Z"
+    "date": "2025-04-22T02:20:52.194Z"
   },
   {
     "link": "https://chilli-to-games.fmpromotion.mx",
@@ -629,7 +629,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:37.136Z"
+    "date": "2025-04-22T02:20:52.343Z"
   },
   {
     "link": "https://www.deadboltinteractive.com",
@@ -657,7 +657,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:37.309Z"
+    "date": "2025-04-22T02:20:52.486Z"
   },
   {
     "link": "https://dogbiscuitstudios.mx",
@@ -686,7 +686,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-04-21T02:25:37.572Z"
+    "date": "2025-04-22T02:20:52.704Z"
   },
   {
     "link": "https://jeetpgames.com",
@@ -714,7 +714,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:38.107Z"
+    "date": "2025-04-22T02:20:53.303Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -742,7 +742,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:38.576Z"
+    "date": "2025-04-22T02:20:53.670Z"
   },
   {
     "link": "https://www.onegame.studio",
@@ -770,7 +770,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:38.945Z"
+    "date": "2025-04-22T02:20:54.314Z"
   },
   {
     "link": "https://www.ufungames.com",
@@ -798,7 +798,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:39.803Z"
+    "date": "2025-04-22T02:20:55.137Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -826,7 +826,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:39.868Z"
+    "date": "2025-04-22T02:20:55.186Z"
   },
   {
     "link": "https://quachic.games",
@@ -855,7 +855,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2025-04-21T02:25:40.885Z"
+    "date": "2025-04-22T02:20:56.289Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -883,7 +883,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:41.792Z"
+    "date": "2025-04-22T02:20:56.925Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -911,7 +911,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:41.822Z"
+    "date": "2025-04-22T02:20:57.027Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -940,7 +940,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-04-21T02:25:43.124Z"
+    "date": "2025-04-22T02:20:58.096Z"
   },
   {
     "link": "http://www.cerevrovi.com/",
@@ -968,7 +968,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:44.139Z"
+    "date": "2025-04-22T02:20:59.157Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -996,7 +996,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:44.583Z"
+    "date": "2025-04-22T02:20:59.611Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -1024,7 +1024,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-04-21T02:25:45.414Z"
+    "date": "2025-04-22T02:21:00.888Z"
   },
   {
     "link": "http://growlinga.com/es/",
@@ -1053,7 +1053,7 @@
       },
       "code": "EAI_AGAIN"
     },
-    "date": "2025-04-21T02:25:46.051Z"
+    "date": "2025-04-22T02:21:01.361Z"
   },
   {
     "link": "https://www.ennuistudio.com/",
@@ -1082,6 +1082,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-04-21T02:26:19.098Z"
+    "date": "2025-04-22T02:21:34.047Z"
   }
 ]
