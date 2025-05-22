@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
@@ -22,7 +24,7 @@ jobs:
       - name: Generate missing
         run: (cd .github/actions && npm run generate-missing)
       - name: Add and commit changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           add: "README.md"
           author_name: "Mario Carballo"
