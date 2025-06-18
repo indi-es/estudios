@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-06-17T02:39:15.967Z"
+    "date": "2025-06-18T02:30:01.209Z"
   },
   {
     "link": "http://mars-games.net/",
@@ -54,7 +54,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:20.912Z"
+    "date": "2025-06-18T02:30:11.378Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -82,7 +82,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:21.488Z"
+    "date": "2025-06-18T02:30:11.713Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -110,7 +110,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:22.303Z"
+    "date": "2025-06-18T02:30:15.134Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -138,7 +138,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:22.427Z"
+    "date": "2025-06-18T02:30:15.179Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -166,7 +166,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:23.065Z"
+    "date": "2025-06-18T02:30:16.395Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -195,7 +195,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-06-17T02:39:23.442Z"
+    "date": "2025-06-18T02:30:16.986Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -223,7 +223,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:23.919Z"
+    "date": "2025-06-18T02:30:17.949Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -251,7 +251,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-06-17T02:39:24.877Z"
+    "date": "2025-06-18T02:30:18.616Z"
   },
   {
     "link": "http://www.afterlife.mx/",
@@ -280,7 +280,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-06-17T02:40:05.463Z"
+    "date": "2025-06-18T02:30:50.500Z"
   },
   {
     "link": "http://www.ensenasoft.com/",
@@ -309,7 +309,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-06-17T02:40:05.463Z"
+    "date": "2025-06-18T02:30:50.500Z"
   },
   {
     "link": "https://www.lienzo.mx/es/nuevo-home/",
@@ -338,7 +338,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-06-17T02:40:05.463Z"
+    "date": "2025-06-18T02:30:50.500Z"
   },
   {
     "link": "https://ncite.mx/",
@@ -367,7 +367,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-06-17T02:40:05.464Z"
+    "date": "2025-06-18T02:30:50.500Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -396,6 +396,35 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-06-17T02:40:05.465Z"
+    "date": "2025-06-18T02:30:50.500Z"
+  },
+  {
+    "link": "https://ihtoa.games",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://ihtoa.games",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-06-18T02:30:50.501Z"
   }
 ]
