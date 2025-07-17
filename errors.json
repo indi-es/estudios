@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-16T02:47:39.913Z"
+    "date": "2025-07-17T02:47:59.887Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -55,7 +55,36 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-16T02:47:45.106Z"
+    "date": "2025-07-17T02:48:05.183Z"
+  },
+  {
+    "link": "http://animactiva.mx",
+    "error": {
+      "message": "getaddrinfo EAI_AGAIN animactiva.mx",
+      "name": "Error",
+      "stack": "Error: getaddrinfo EAI_AGAIN animactiva.mx\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://animactiva.mx",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "EAI_AGAIN"
+    },
+    "date": "2025-07-17T02:48:06.211Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -83,7 +112,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:46.426Z"
+    "date": "2025-07-17T02:48:06.279Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -111,7 +140,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:48.461Z"
+    "date": "2025-07-17T02:48:07.669Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -139,7 +168,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:48.549Z"
+    "date": "2025-07-17T02:48:07.754Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -167,7 +196,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:49.282Z"
+    "date": "2025-07-17T02:48:08.432Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -196,7 +225,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-16T02:47:49.821Z"
+    "date": "2025-07-17T02:48:08.885Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -224,7 +253,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:50.532Z"
+    "date": "2025-07-17T02:48:09.486Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -252,6 +281,151 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-16T02:47:51.783Z"
+    "date": "2025-07-17T02:48:10.529Z"
+  },
+  {
+    "link": "http://halberdstudios.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "http://halberdstudios.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-07-17T02:48:49.249Z"
+  },
+  {
+    "link": "https://www.popslinger.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.popslinger.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-07-17T02:48:49.249Z"
+  },
+  {
+    "link": "https://amensgames.com",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://amensgames.com",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-07-17T02:48:49.249Z"
+  },
+  {
+    "link": "https://ihtoa.games",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://ihtoa.games",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-07-17T02:48:49.250Z"
+  },
+  {
+    "link": "https://www.headlessvideogames.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.headlessvideogames.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-07-17T02:48:49.250Z"
   }
 ]
