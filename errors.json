@@ -1,34 +1,5 @@
 [
   {
-    "link": "https://big-monster.net/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://big-monster.net/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2025-07-23T02:50:51.811Z"
-  },
-  {
     "link": "https://www.bromio.com.mx/",
     "error": {
       "message": "certificate has expired",
@@ -55,7 +26,36 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-23T02:50:52.041Z"
+    "date": "2025-07-24T02:49:44.327Z"
+  },
+  {
+    "link": "https://big-monster.net/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://big-monster.net/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-07-24T02:49:44.336Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -84,35 +84,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-23T02:50:56.639Z"
-  },
-  {
-    "link": "http://animactiva.mx",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://animactiva.mx",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-07-23T02:50:57.027Z"
+    "date": "2025-07-24T02:49:48.916Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -140,7 +112,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:50:57.476Z"
+    "date": "2025-07-24T02:49:49.658Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -168,7 +140,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:50:58.395Z"
+    "date": "2025-07-24T02:49:50.583Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -196,7 +168,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:50:58.990Z"
+    "date": "2025-07-24T02:49:51.794Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -224,7 +196,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:50:59.093Z"
+    "date": "2025-07-24T02:49:51.846Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -252,7 +224,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:50:59.665Z"
+    "date": "2025-07-24T02:49:53.192Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -281,7 +253,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-07-23T02:50:59.932Z"
+    "date": "2025-07-24T02:49:54.163Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -309,7 +281,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:51:00.627Z"
+    "date": "2025-07-24T02:49:54.744Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -337,16 +309,16 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-07-23T02:51:01.610Z"
+    "date": "2025-07-24T02:49:56.041Z"
   },
   {
-    "link": "https://ihtoa.games",
+    "link": "http://megalixirgames.com/",
     "error": {
       "message": "timeout of 50000ms exceeded",
       "name": "Error",
       "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
       "config": {
-        "url": "https://ihtoa.games",
+        "url": "http://megalixirgames.com/",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -366,6 +338,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-07-23T02:51:41.303Z"
+    "date": "2025-07-24T02:50:33.810Z"
   }
 ]
