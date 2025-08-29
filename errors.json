@@ -1,34 +1,5 @@
 [
   {
-    "link": "https://big-monster.net/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://big-monster.net/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2025-08-28T02:17:55.942Z"
-  },
-  {
     "link": "https://www.bromio.com.mx/",
     "error": {
       "message": "certificate has expired",
@@ -55,7 +26,64 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-08-28T02:17:56.068Z"
+    "date": "2025-08-29T02:18:26.777Z"
+  },
+  {
+    "link": "https://cgbot.com/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://cgbot.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-08-29T02:18:27.433Z"
+  },
+  {
+    "link": "https://big-monster.net/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://big-monster.net/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-08-29T02:18:31.198Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -84,7 +112,36 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-08-28T02:17:59.600Z"
+    "date": "2025-08-29T02:18:32.068Z"
+  },
+  {
+    "link": "https://moshaonline.com",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://moshaonline.com",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-08-29T02:18:32.285Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -112,7 +169,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:17:59.925Z"
+    "date": "2025-08-29T02:18:32.308Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -141,7 +198,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-08-28T02:18:01.170Z"
+    "date": "2025-08-29T02:18:33.438Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -170,7 +227,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-08-28T02:18:01.304Z"
+    "date": "2025-08-29T02:18:33.791Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -198,7 +255,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:03.307Z"
+    "date": "2025-08-29T02:18:35.359Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -226,7 +283,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:05.129Z"
+    "date": "2025-08-29T02:18:36.859Z"
   },
   {
     "link": "https://vrdemons.com",
@@ -255,7 +312,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-08-28T02:18:05.202Z"
+    "date": "2025-08-29T02:18:36.912Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -283,7 +340,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:06.935Z"
+    "date": "2025-08-29T02:18:38.241Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -311,7 +368,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:07.073Z"
+    "date": "2025-08-29T02:18:38.293Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -339,7 +396,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:08.593Z"
+    "date": "2025-08-29T02:18:38.874Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -368,7 +425,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-08-28T02:18:09.212Z"
+    "date": "2025-08-29T02:18:39.283Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -396,7 +453,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-08-28T02:18:12.714Z"
+    "date": "2025-08-29T02:18:40.929Z"
   },
   {
     "link": "https://www.dmtriad.com/",
@@ -425,36 +482,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-08-28T02:18:45.354Z"
-  },
-  {
-    "link": "https://moshaonline.com",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
-      "config": {
-        "url": "https://moshaonline.com",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2025-08-28T02:18:45.354Z"
+    "date": "2025-08-29T02:19:15.833Z"
   },
   {
     "link": "http://mars-games.net/",
@@ -483,6 +511,6 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2025-08-28T02:18:45.354Z"
+    "date": "2025-08-29T02:19:15.834Z"
   }
 ]
