@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-05T02:14:30.501Z"
+    "date": "2025-09-06T02:10:39.145Z"
   },
   {
     "link": "https://www.bromio.com.mx/",
@@ -55,7 +55,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-05T02:14:30.695Z"
+    "date": "2025-09-06T02:10:39.211Z"
   },
   {
     "link": "https://fuimosnosotros.com/",
@@ -83,7 +83,36 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:31.837Z"
+    "date": "2025-09-06T02:10:40.614Z"
+  },
+  {
+    "link": "https://pinkbeargames.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://pinkbeargames.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-09-06T02:10:41.359Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -112,7 +141,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-05T02:14:34.573Z"
+    "date": "2025-09-06T02:10:42.186Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -140,7 +169,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:34.772Z"
+    "date": "2025-09-06T02:10:42.473Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -169,7 +198,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-05T02:14:36.033Z"
+    "date": "2025-09-06T02:10:43.288Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -198,7 +227,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-05T02:14:36.263Z"
+    "date": "2025-09-06T02:10:43.864Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -226,7 +255,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:37.606Z"
+    "date": "2025-09-06T02:10:44.937Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -254,35 +283,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:38.434Z"
-  },
-  {
-    "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-09-05T02:14:39.524Z"
+    "date": "2025-09-06T02:10:45.469Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -310,16 +311,16 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:39.553Z"
+    "date": "2025-09-06T02:10:45.835Z"
   },
   {
-    "link": "https://linktr.ee/savagekitties",
+    "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
     "error": {
-      "message": "Request failed with status code 406",
+      "message": "Request failed with status code 403",
       "name": "Error",
-      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
       "config": {
-        "url": "https://linktr.ee/savagekitties",
+        "url": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
         "method": "get",
         "headers": {
           "Accept": "application/json, text/plain, */*",
@@ -338,7 +339,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:40.017Z"
+    "date": "2025-09-06T02:10:45.994Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -367,7 +368,35 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-05T02:14:40.632Z"
+    "date": "2025-09-06T02:10:47.048Z"
+  },
+  {
+    "link": "https://linktr.ee/savagekitties",
+    "error": {
+      "message": "Request failed with status code 406",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://linktr.ee/savagekitties",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-09-06T02:10:47.085Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -395,6 +424,35 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-05T02:14:42.699Z"
+    "date": "2025-09-06T02:10:48.906Z"
+  },
+  {
+    "link": "https://www.dmtriad.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at Object.onceWrapper (events.js:519:28)\n    at RedirectableRequest.emit (events.js:400:28)\n    at Timeout.<anonymous> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:166:13)\n    at listOnTimeout (internal/timers.js:557:17)\n    at processTimers (internal/timers.js:500:7)",
+      "config": {
+        "url": "https://www.dmtriad.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2025-09-06T02:11:28.526Z"
   }
 ]
