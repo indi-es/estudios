@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-07T02:19:22.796Z"
+    "date": "2025-09-08T02:20:30.368Z"
   },
   {
     "link": "https://big-monster.net/",
@@ -55,7 +55,36 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-07T02:19:22.797Z"
+    "date": "2025-09-08T02:20:30.375Z"
+  },
+  {
+    "link": "https://www.dmtriad.com/",
+    "error": {
+      "message": "connect ECONNREFUSED 208.91.197.46:443",
+      "name": "Error",
+      "stack": "Error: connect ECONNREFUSED 208.91.197.46:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)",
+      "config": {
+        "url": "https://www.dmtriad.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNREFUSED"
+    },
+    "date": "2025-09-08T02:20:30.667Z"
   },
   {
     "link": "https://fuimosnosotros.com/",
@@ -83,36 +112,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:24.055Z"
-  },
-  {
-    "link": "https://pinkbeargames.com/",
-    "error": {
-      "message": "certificate has expired",
-      "name": "Error",
-      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
-      "config": {
-        "url": "https://pinkbeargames.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "CERT_HAS_EXPIRED"
-    },
-    "date": "2025-09-07T02:19:25.115Z"
+    "date": "2025-09-08T02:20:31.500Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -141,7 +141,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-07T02:19:25.902Z"
+    "date": "2025-09-08T02:20:34.598Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -169,7 +169,36 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:26.192Z"
+    "date": "2025-09-08T02:20:35.177Z"
+  },
+  {
+    "link": "https://pinkbeargames.com/",
+    "error": {
+      "message": "certificate has expired",
+      "name": "Error",
+      "stack": "Error: certificate has expired\n    at TLSSocket.onConnectSecure (_tls_wrap.js:1515:34)\n    at TLSSocket.emit (events.js:400:28)\n    at TLSSocket._finishInit (_tls_wrap.js:937:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:709:12)",
+      "config": {
+        "url": "https://pinkbeargames.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "CERT_HAS_EXPIRED"
+    },
+    "date": "2025-09-08T02:20:37.318Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -198,7 +227,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-07T02:19:27.336Z"
+    "date": "2025-09-08T02:20:37.324Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -227,7 +256,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-07T02:19:27.691Z"
+    "date": "2025-09-08T02:20:37.388Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -255,7 +284,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:28.742Z"
+    "date": "2025-09-08T02:20:38.525Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -283,35 +312,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:29.561Z"
-  },
-  {
-    "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-09-07T02:19:30.280Z"
+    "date": "2025-09-08T02:20:39.353Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -339,7 +340,35 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:30.360Z"
+    "date": "2025-09-08T02:20:39.958Z"
+  },
+  {
+    "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-09-08T02:20:40.029Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -367,7 +396,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:30.824Z"
+    "date": "2025-09-08T02:20:40.390Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -396,7 +425,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-07T02:19:31.396Z"
+    "date": "2025-09-08T02:20:40.850Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -424,6 +453,6 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-07T02:19:33.172Z"
+    "date": "2025-09-08T02:20:42.708Z"
   }
 ]
