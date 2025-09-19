@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-18T02:12:37.436Z"
+    "date": "2025-09-19T02:16:31.506Z"
   },
   {
     "link": "https://www.bromio.com.mx/",
@@ -55,7 +55,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-18T02:12:37.544Z"
+    "date": "2025-09-19T02:16:31.686Z"
   },
   {
     "link": "https://fuimosnosotros.com/",
@@ -83,7 +83,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:38.862Z"
+    "date": "2025-09-19T02:16:33.132Z"
   },
   {
     "link": "https://pinkbeargames.com/",
@@ -112,7 +112,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-18T02:12:40.373Z"
+    "date": "2025-09-19T02:16:33.829Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -141,7 +141,35 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-18T02:12:41.478Z"
+    "date": "2025-09-19T02:16:34.464Z"
+  },
+  {
+    "link": "http://www.seashellstudio.mx/en/home/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "http://www.seashellstudio.mx/en/home/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-09-19T02:16:34.577Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -169,7 +197,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:41.955Z"
+    "date": "2025-09-19T02:16:34.885Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -198,7 +226,36 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-18T02:12:43.310Z"
+    "date": "2025-09-19T02:16:35.575Z"
+  },
+  {
+    "link": "http://www.pixelarium.com.mx/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND www.pixelarium.com.mx",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.pixelarium.com.mx\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "http://www.pixelarium.com.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2025-09-19T02:16:35.625Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -227,7 +284,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-18T02:12:43.586Z"
+    "date": "2025-09-19T02:16:36.025Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -255,35 +312,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:45.133Z"
-  },
-  {
-    "link": "https://www.deviantart.com/daltair",
-    "error": {
-      "message": "Request failed with status code 403",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://www.deviantart.com/daltair",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-09-18T02:12:45.378Z"
+    "date": "2025-09-19T02:16:37.147Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -311,35 +340,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:46.146Z"
-  },
-  {
-    "link": "https://linktr.ee/culto_interactivo",
-    "error": {
-      "message": "Request failed with status code 406",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "https://linktr.ee/culto_interactivo",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-09-18T02:12:47.001Z"
+    "date": "2025-09-19T02:16:37.680Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -367,7 +368,35 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:47.027Z"
+    "date": "2025-09-19T02:16:38.579Z"
+  },
+  {
+    "link": "https://linktr.ee/culto_interactivo",
+    "error": {
+      "message": "Request failed with status code 406",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 406\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://linktr.ee/culto_interactivo",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-09-19T02:16:38.871Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -395,7 +424,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:48.311Z"
+    "date": "2025-09-19T02:16:44.214Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -424,7 +453,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-18T02:12:48.501Z"
+    "date": "2025-09-19T02:16:44.627Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -452,6 +481,6 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-18T02:12:52.185Z"
+    "date": "2025-09-19T02:16:46.325Z"
   }
 ]
