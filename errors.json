@@ -26,7 +26,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-19T02:16:31.506Z"
+    "date": "2025-09-20T02:10:01.433Z"
   },
   {
     "link": "https://www.bromio.com.mx/",
@@ -55,7 +55,36 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-19T02:16:31.686Z"
+    "date": "2025-09-20T02:10:01.642Z"
+  },
+  {
+    "link": "https://www.dmtriad.com/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND www.dmtriad.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND www.dmtriad.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)",
+      "config": {
+        "url": "https://www.dmtriad.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2025-09-20T02:10:01.785Z"
   },
   {
     "link": "https://fuimosnosotros.com/",
@@ -83,7 +112,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:33.132Z"
+    "date": "2025-09-20T02:10:03.616Z"
   },
   {
     "link": "https://pinkbeargames.com/",
@@ -112,7 +141,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-19T02:16:33.829Z"
+    "date": "2025-09-20T02:10:04.609Z"
   },
   {
     "link": "http://megalixirgames.com/",
@@ -141,35 +170,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-19T02:16:34.464Z"
-  },
-  {
-    "link": "http://www.seashellstudio.mx/en/home/",
-    "error": {
-      "message": "Request failed with status code 500",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
-      "config": {
-        "url": "http://www.seashellstudio.mx/en/home/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2025-09-19T02:16:34.577Z"
+    "date": "2025-09-20T02:10:05.967Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -197,7 +198,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:34.885Z"
+    "date": "2025-09-20T02:10:06.348Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -226,7 +227,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-19T02:16:35.575Z"
+    "date": "2025-09-20T02:10:06.992Z"
   },
   {
     "link": "http://www.pixelarium.com.mx/",
@@ -255,7 +256,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2025-09-19T02:16:35.625Z"
+    "date": "2025-09-20T02:10:07.006Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -284,7 +285,35 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-19T02:16:36.025Z"
+    "date": "2025-09-20T02:10:07.469Z"
+  },
+  {
+    "link": "https://www.deviantart.com/daltair",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1333:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://www.deviantart.com/daltair",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2025-09-20T02:10:08.343Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -312,7 +341,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:37.147Z"
+    "date": "2025-09-20T02:10:08.361Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -340,7 +369,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:37.680Z"
+    "date": "2025-09-20T02:10:08.885Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -368,7 +397,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:38.579Z"
+    "date": "2025-09-20T02:10:09.826Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -396,7 +425,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:38.871Z"
+    "date": "2025-09-20T02:10:10.011Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -424,7 +453,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:44.214Z"
+    "date": "2025-09-20T02:10:10.723Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -453,7 +482,7 @@
       },
       "code": "CERT_HAS_EXPIRED"
     },
-    "date": "2025-09-19T02:16:44.627Z"
+    "date": "2025-09-20T02:10:11.362Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -481,6 +510,6 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2025-09-19T02:16:46.325Z"
+    "date": "2025-09-20T02:10:12.770Z"
   }
 ]
