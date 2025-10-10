@@ -323,6 +323,8 @@
     
  - [Sketchy Ceviche](https://sketchy-ceviche.carrd.co/)
     
+ - [Skydivers Studio](https://www.skydiverstudio.com/)
+    
  - [Snatch](https://www.snatchstudios.com/)
     
  - [SpaceBoy](https://spaceboy.mx)
