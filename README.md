@@ -141,6 +141,8 @@
     
  - [Etherlight](https://etherlightstudios.com)
     
+ - [Everblue Studio](https://everbluestudio.com/)
+    
  - [Evil Geometry](https://evilgeometry.com/)
     
  - [Fat Panda Games](https://www.fatpanda.tv)
@@ -265,6 +267,8 @@
     
  - [NuezWare](https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania)
     
+ - [NuezWare](https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania)
+    
  - [Nuke Games](https://www.nukegames.mx/)
     
  - [OddMenIn Studios](https://www.linkedin.com/company/oddmenin-studios/about/)
@@ -311,6 +315,8 @@
     
  - [RockPoli Games](https://www.linkedin.com/company/rockpoli-games/about/)
     
+ - [Salem Electrónica](https://salem-electronica.itch.io/)
+    
  - [Savage Kitties Studio](https://linktr.ee/savagekitties)
     
  - [SDPlay](http://sdplay.mx/)
@@ -335,7 +341,11 @@
     
  - [SusGames](https://www.susgamesdev.com)
     
+ - [Tachido Games](https://www.tachidogames.com/)
+    
  - [Tagwizz](http://www.tagwizz.com/)
+    
+ - [Team Igloo](https://linktr.ee/TeamIgloo)
     
  - [Teporingo Games](https://linktr.ee/teporingosgames)
     
