@@ -25,6 +25,8 @@
     
  - [Afterlife](http://www.afterlife.mx/)
     
+ - [Ajal Devs](https://www.delphyedu.com/)
+    
  - [Ajal Game Studio](https://www.ajalgamedevs.com)
     
  - [Alebrije Estudios](https://alebrije.co/)
@@ -43,7 +45,7 @@
     
  - [Animactiva](http://animactiva.mx)
     
- - [Ansimuz Games](https://ansimuz.com/site/)
+ - [Ansimuz Games](https://ansimuz.com/)
     
  - [Arcella Sound](https://www.arcellasound.com/)
     
@@ -71,6 +73,8 @@
     
  - [Bleda Gaming Studios](https://netsites.mx/bledagamestudios/#xl_xr_page_index.html)
     
+ - [Bliuper Studios](https://bliuperstudios.com/)
+    
  - [Blusagi Team](https://blusagi.team)
     
  - [Borland Games](https://borlandgames.com/)
@@ -90,6 +94,8 @@
  - [Chronograph Studio](https://www.chronographstudio.com/)
     
  - [Chundos Studio](http://www.chundos.com)
+    
+ - [CiberFly Studios](https://ciberflystudios.com)
     
  - [Cometa Games](https://cometagames.mx/)
     
@@ -135,7 +141,7 @@
     
  - [Etherlight](https://etherlightstudios.com)
     
- - [Evil Geometry](https://www.flowcode.com/page/evilgeometry)
+ - [Evil Geometry](https://evilgeometry.com/)
     
  - [Fat Panda Games](https://www.fatpanda.tv)
     
@@ -235,7 +241,7 @@
     
  - [Minibuu](http://minibuu.com/)
     
- - [Mismatch Studio](https://www.mismatch.studio/)
+ - [Mismatch Studio](https://mismatch.studio/)
     
  - [Mosha Games](https://moshaonline.com)
     
@@ -267,6 +273,8 @@
     
  - [One Game Studio](https://www.onegame.studio)
     
+ - [Oniric Mob](https://oniricmob.com/)
+    
  - [Onward](https://www.computerlove.mx)
     
  - [Oribe Ware](https://oribewaregames.com/landingoribewaregames/)
@@ -285,7 +293,7 @@
     
  - [Playstudios México](https://www.playstudios.com)
     
- - [Poiesus Games](http://www.poiesusgames.com/)
+ - [Poiesus Games](http://www.poiesusgames.com.mx/)
     
  - [Present Creative México](https://www.presentcreative.com/)
     
@@ -302,6 +310,8 @@
  - [RCK Games](https://rckgames.com/)
     
  - [RockPoli Games](https://www.linkedin.com/company/rockpoli-games/about/)
+    
+ - [Savage Kitties Studio](https://linktr.ee/savagekitties)
     
  - [SDPlay](http://sdplay.mx/)
     
@@ -320,6 +330,8 @@
  - [Squad](http://squad.com.mx/)
     
  - [Super Mega Punch](http://www.supermegapunch.com/)
+    
+ - [SusGames](https://www.susgamesdev.com)
     
  - [Tagwizz](http://www.tagwizz.com/)
     
@@ -365,11 +377,11 @@
 
  - [Brainwash Gang](https://brainwash-gang.itch.io)
     
- - [luisquid](https://luisquid.me)
-    
  - [Meta studios creative agency](https://www.metastudios.jp/)
     
  - [Original Fire Games](https://www.originalfiregames.com/)
+    
+ - [Squid Makes](https://squidmakes.games)
     
 
   
