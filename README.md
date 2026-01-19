@@ -79,6 +79,8 @@
     
  - [Borland Games](https://borlandgames.com/)
     
+ - [Brain-dead Rabbit Games](https://www.braindeadrabbit.com/)
+    
  - [Bromio](https://www.bromio.com.mx/)
     
  - [Calixjumio](https://calixjumio.me)
