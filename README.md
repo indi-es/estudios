@@ -227,7 +227,7 @@
     
  - [Man-Eater Games](http://www.maneatergames.com/)
     
- - [Mantiz Game Studios](http://mantizgs.com/mgs/eng/)
+ - [Mantiz Game Studios](https://mx.linkedin.com/company/mantiz-game-studios)
     
  - [Mars Games](http://mars-games.net/)
     
