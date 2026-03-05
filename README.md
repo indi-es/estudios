@@ -151,6 +151,8 @@
     
  - [Feline Arts](https://www.felinearts.net/)
     
+ - [FeralSquid](https://www.feralsquid.com/)
+    
  - [Fifth Mountain Studios](https://fifthmountain.net/)
     
  - [Figment](https://www.figment.com.mx/)
