@@ -241,6 +241,8 @@
     
  - [medio inestable](https://medio-inestable.github.io/)
     
+ - [Mega Game Studios](https://megagamestudios.com/)
+    
  - [Megalixir Games](http://megalixirgames.com/)
     
  - [Michiyuki Project](https://www.thescorchfarer.com/)
@@ -248,6 +250,8 @@
  - [Minibuu](http://minibuu.com/)
     
  - [Mismatch Studio](https://mismatch.studio/)
+    
+ - [Mooo Mobile Games Lab](https://play.google.com/store/apps/dev?id=6815415802427117952)
     
  - [Mosha Games](https://moshaonline.com)
     
@@ -332,6 +336,8 @@
  - [Shibidubi](https://www.shibidubi.com/)
     
  - [Sketchy Ceviche](https://sketchy-ceviche.carrd.co/)
+    
+ - [Skull Queens Games](https://store.steampowered.com/publisher/skullqueensgames)
     
  - [Skydivers Studio](https://www.skydiverstudio.com/)
     
