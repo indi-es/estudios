@@ -1,4 +1,4 @@
-# Workflow para generar el badge de que sitios siguen vivos
+# Workflow para generar el Readme
 ---
 name: Generate README.md based on json files
 
@@ -8,25 +8,23 @@ on:
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.REPO_TOKEN }}
+      - uses: actions/checkout@v7
       - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v6
         with:
-          node-version: 14.x
+          node-version: lts/*
       - name: install deps
-        run: (cd .github/actions && npm i --only=prod)
+        run: cd .github/actions && npm ci --omit=dev
       - name: Generate Readme
-        run: (cd .github/actions && npm run generate)
+        run: cd .github/actions && npm run generate
       - name: Generate missing
-        run: (cd .github/actions && npm run generate-missing)
+        run: cd .github/actions && npm run generate-missing
       - name: Add and commit changes
-        uses: EndBug/add-and-commit@v9
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          add: "README.md"
-          author_name: "Mario Carballo"
-          author_email: "afk@ellugar.co"
-          message: "[bot] Generate README.md based on .json files"
+          commit_message: "[bot] Generate README.md based on .json files"
+          file_pattern: README.md
