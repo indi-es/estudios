@@ -95,6 +95,8 @@
     
  - [Chillito Games](https://chilli-to-games.fmpromotion.mx)
     
+ - [Choco Cosmos Games](https://chococosmosgames.com/)
+    
  - [Chronograph Studio](https://www.chronographstudio.com/)
     
  - [Chundos Studio](http://www.chundos.com)
