@@ -279,8 +279,6 @@
     
  - [NuezWare](https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania)
     
- - [NuezWare](https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania)
-    
  - [Nuke Games](https://www.nukegames.mx/)
     
  - [OddMenIn Studios](https://www.linkedin.com/company/oddmenin-studios/about/)
