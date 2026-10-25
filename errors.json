@@ -1,5 +1,33 @@
 [
   {
+    "link": "https://cometagames.mx/",
+    "error": {
+      "message": "Request failed with status code 403",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 403\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (node:events:526:24)\n    at endReadableNT (node:internal/streams/readable:1764:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+      "config": {
+        "url": "https://cometagames.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2026-10-25T17:13:54.422Z"
+  },
+  {
     "link": "https://www.fuxcorp.net/",
     "error": {
       "message": "getaddrinfo ENOTFOUND www.fuxcorp.net",
@@ -26,7 +54,35 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2026-10-25T17:12:39.584Z"
+    "date": "2026-10-25T17:13:54.917Z"
+  },
+  {
+    "link": "https://gargamel-estudio.com/en/",
+    "error": {
+      "message": "Request failed with status code 500",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (node:events:526:24)\n    at endReadableNT (node:internal/streams/readable:1764:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+      "config": {
+        "url": "https://gargamel-estudio.com/en/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    },
+    "date": "2026-10-25T17:13:55.462Z"
   },
   {
     "link": "http://lunarcrown.com/",
@@ -55,35 +111,7 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2026-10-25T17:12:40.127Z"
-  },
-  {
-    "link": "https://gargamel-estudio.com/en/",
-    "error": {
-      "message": "Request failed with status code 500",
-      "name": "Error",
-      "stack": "Error: Request failed with status code 500\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (node:events:526:24)\n    at endReadableNT (node:internal/streams/readable:1764:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
-      "config": {
-        "url": "https://gargamel-estudio.com/en/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      }
-    },
-    "date": "2026-10-25T17:12:40.307Z"
+    "date": "2026-10-25T17:13:55.492Z"
   },
   {
     "link": "https://www.mechastudios.com/",
@@ -111,7 +139,7 @@
         "maxBodyLength": -1
       }
     },
-    "date": "2026-10-25T17:12:40.625Z"
+    "date": "2026-10-25T17:13:55.785Z"
   },
   {
     "link": "http://www.supermegapunch.com/",
@@ -140,7 +168,65 @@
       },
       "code": "ENOTFOUND"
     },
-    "date": "2026-10-25T17:12:41.366Z"
+    "date": "2026-10-25T17:13:56.423Z"
+  },
+  {
+    "link": "https://www.tokyoplay.com/",
+    "error": {
+      "message": "Client network socket disconnected before secure TLS connection was established",
+      "name": "Error",
+      "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:internal/tls/wrap:1827:19)\n    at TLSSocket.emit (node:events:526:24)\n    at endReadableNT (node:internal/streams/readable:1764:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+      "config": {
+        "url": "https://www.tokyoplay.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNRESET"
+    },
+    "date": "2026-10-25T17:13:56.856Z"
+  },
+  {
+    "link": "http://megalixirgames.com/",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND megalixirgames.com",
+      "name": "Error",
+      "stack": "Error: getaddrinfo ENOTFOUND megalixirgames.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26)",
+      "config": {
+        "url": "http://megalixirgames.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ENOTFOUND"
+    },
+    "date": "2026-10-25T17:13:57.896Z"
   },
   {
     "link": "http://squad.com.mx/",
@@ -169,384 +255,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.453Z"
-  },
-  {
-    "link": "http://www.tagwizz.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at Socket.emitRequestTimeout (node:_http_client:1122:9)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://www.tagwizz.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.453Z"
-  },
-  {
-    "link": "https://www.thedreamerians.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.thedreamerians.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.454Z"
-  },
-  {
-    "link": "https://www.tokyoplay.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.tokyoplay.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.454Z"
-  },
-  {
-    "link": "https://www.wabisabi.games/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.wabisabi.games/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.454Z"
-  },
-  {
-    "link": "https://www.wasdstudio.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.wasdstudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.455Z"
-  },
-  {
-    "link": "http://www.washawasha.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at Socket.emitRequestTimeout (node:_http_client:1122:9)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://www.washawasha.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.455Z"
-  },
-  {
-    "link": "https://wetheforcestudios.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://wetheforcestudios.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.455Z"
-  },
-  {
-    "link": "https://nelpastel.mx/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://nelpastel.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.455Z"
-  },
-  {
-    "link": "https://moshaonline.com",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://moshaonline.com",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.457Z"
-  },
-  {
-    "link": "http://megalixirgames.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at Socket.emitRequestTimeout (node:_http_client:1122:9)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://megalixirgames.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.457Z"
-  },
-  {
-    "link": "http://sdplay.mx/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at Socket.emitRequestTimeout (node:_http_client:1122:9)\n    at Socket.wrapper (node:events:639:12)\n    at Socket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://sdplay.mx/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.457Z"
-  },
-  {
-    "link": "https://luxzord122.wixsite.com/rainbowmaddness",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://luxzord122.wixsite.com/rainbowmaddness",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.457Z"
-  },
-  {
-    "link": "https://mismatch.studio/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://mismatch.studio/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.457Z"
+    "date": "2026-10-25T17:13:58.206Z"
   },
   {
     "link": "https://www.xibalbastudios.com/",
@@ -575,7 +284,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.457Z"
+    "date": "2026-10-25T17:13:58.209Z"
   },
   {
     "link": "https://www.2dnutz.com/",
@@ -604,7 +313,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.458Z"
+    "date": "2026-10-25T17:13:58.209Z"
   },
   {
     "link": "https://eliptica.com.mx/",
@@ -633,7 +342,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.458Z"
+    "date": "2026-10-25T17:13:58.209Z"
   },
   {
     "link": "https://www.ludolab.org/",
@@ -662,7 +371,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.459Z"
+    "date": "2026-10-25T17:13:58.211Z"
   },
   {
     "link": "https://www.thescorchfarer.com/",
@@ -691,7 +400,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.459Z"
+    "date": "2026-10-25T17:13:58.211Z"
   },
   {
     "link": "https://amano.games",
@@ -720,7 +429,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.460Z"
+    "date": "2026-10-25T17:13:58.211Z"
   },
   {
     "link": "https://ectoplasma.mx/",
@@ -749,7 +458,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.460Z"
+    "date": "2026-10-25T17:13:58.211Z"
   },
   {
     "link": "https://trespixeles.mx",
@@ -778,7 +487,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.461Z"
+    "date": "2026-10-25T17:13:58.211Z"
   },
   {
     "link": "https://www.binmatter.com/",
@@ -807,7 +516,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.461Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "https://www.keywordsstudios.com/",
@@ -836,7 +545,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.462Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "https://www.metastudios.jp/",
@@ -865,7 +574,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.462Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "https://watanoge.com/",
@@ -894,7 +603,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.462Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "https://unboxed.games",
@@ -923,7 +632,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "http://thirdworldproductions.com.mx/",
@@ -952,7 +661,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.213Z"
   },
   {
     "link": "https://www.originalfiregames.com/",
@@ -981,7 +690,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.214Z"
   },
   {
     "link": "https://brainwash-gang.itch.io",
@@ -1010,7 +719,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.214Z"
   },
   {
     "link": "http://the-bigkey.com/",
@@ -1039,7 +748,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "http://www.pixelarium.com.mx/",
@@ -1068,7 +777,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "http://deathrosa.com/",
@@ -1097,7 +806,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.464Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "https://amberstudio.com/",
@@ -1126,7 +835,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.465Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "https://medio-inestable.github.io/",
@@ -1155,7 +864,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.465Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "http://alusorstroke.com",
@@ -1184,7 +893,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.215Z"
   },
   {
     "link": "https://www.arcellasound.com/",
@@ -1213,7 +922,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "https://www.bunkermedia.com.mx/",
@@ -1242,7 +951,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "http://www.dreidel.mx/",
@@ -1271,7 +980,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "https://www.popslinger.com/",
@@ -1300,7 +1009,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "https://www.darkdust.mx/",
@@ -1329,7 +1038,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.467Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "https://www.bcmedialab.com/",
@@ -1358,7 +1067,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.468Z"
+    "date": "2026-10-25T17:13:58.217Z"
   },
   {
     "link": "https://hammerbyte.com/",
@@ -1387,7 +1096,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.468Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "https://www.snatchstudios.com/",
@@ -1416,7 +1125,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.469Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "https://tortugaxel.com/",
@@ -1445,7 +1154,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.469Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "http://www.poiesusgames.com.mx/",
@@ -1474,7 +1183,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.470Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "https://www.5x5gaming.com",
@@ -1503,7 +1212,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.470Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "http://animactiva.mx",
@@ -1532,7 +1241,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.470Z"
+    "date": "2026-10-25T17:13:58.219Z"
   },
   {
     "link": "https://www.youtube.com/channel/UC4a4bLgsQlWt9kXrRsOZSXA",
@@ -1561,7 +1270,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.471Z"
+    "date": "2026-10-25T17:13:58.220Z"
   },
   {
     "link": "http://www.chundos.com",
@@ -1590,7 +1299,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.471Z"
+    "date": "2026-10-25T17:13:58.220Z"
   },
   {
     "link": "https://etherlightstudios.com",
@@ -1619,7 +1328,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.471Z"
+    "date": "2026-10-25T17:13:58.220Z"
   },
   {
     "link": "https://www.figment.com.mx/",
@@ -1648,7 +1357,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.472Z"
+    "date": "2026-10-25T17:13:58.221Z"
   },
   {
     "link": "https://goldenpie.com",
@@ -1677,7 +1386,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.472Z"
+    "date": "2026-10-25T17:13:58.221Z"
   },
   {
     "link": "https://www.gyroscopik.com",
@@ -1706,7 +1415,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.473Z"
+    "date": "2026-10-25T17:13:58.221Z"
   },
   {
     "link": "https://www.maculainteractive.com",
@@ -1735,7 +1444,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.473Z"
+    "date": "2026-10-25T17:13:58.222Z"
   },
   {
     "link": "http://mars-games.net/",
@@ -1764,7 +1473,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.474Z"
+    "date": "2026-10-25T17:13:58.222Z"
   },
   {
     "link": "https://linktr.ee/teporingosgames",
@@ -1793,7 +1502,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.474Z"
+    "date": "2026-10-25T17:13:58.222Z"
   },
   {
     "link": "https://2think.itch.io",
@@ -1822,7 +1531,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.475Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://amensgames.com",
@@ -1851,7 +1560,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.476Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://bewolfstudio.com",
@@ -1880,7 +1589,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.476Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://calixjumio.me",
@@ -1909,7 +1618,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.476Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://www.deviantart.com/daltair",
@@ -1938,7 +1647,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.476Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://www.darkdust.mx",
@@ -1967,7 +1676,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.478Z"
+    "date": "2026-10-25T17:13:58.224Z"
   },
   {
     "link": "https://www.digitalvaultstudio.com/en/",
@@ -1996,7 +1705,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.478Z"
+    "date": "2026-10-25T17:13:58.225Z"
   },
   {
     "link": "https://gamesrom.com.mx",
@@ -2025,7 +1734,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.478Z"
+    "date": "2026-10-25T17:13:58.226Z"
   },
   {
     "link": "https://www.globant.com",
@@ -2054,7 +1763,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.478Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "https://ihtoa.games",
@@ -2083,7 +1792,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.479Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "https://www.infinityward.com",
@@ -2112,7 +1821,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.480Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "http://learny.com.mx",
@@ -2141,7 +1850,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.480Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "https://www.lionbridge.com",
@@ -2170,7 +1879,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.480Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "https://nachonlab.itch.io",
@@ -2199,7 +1908,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.480Z"
+    "date": "2026-10-25T17:13:58.227Z"
   },
   {
     "link": "https://vrdemons.com",
@@ -2228,7 +1937,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.483Z"
+    "date": "2026-10-25T17:13:58.229Z"
   },
   {
     "link": "https://www.linkedin.com/company/oddmenin-studios/about/",
@@ -2257,7 +1966,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.483Z"
+    "date": "2026-10-25T17:13:58.230Z"
   },
   {
     "link": "https://oribewaregames.com/landingoribewaregames/",
@@ -2286,7 +1995,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.483Z"
+    "date": "2026-10-25T17:13:58.230Z"
   },
   {
     "link": "https://www.pinknoisestudios.com",
@@ -2315,7 +2024,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.483Z"
+    "date": "2026-10-25T17:13:58.230Z"
   },
   {
     "link": "https://spaceboy.mx",
@@ -2344,7 +2053,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.484Z"
+    "date": "2026-10-25T17:13:58.231Z"
   },
   {
     "link": "https://www.seberygames.com",
@@ -2373,7 +2082,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.485Z"
+    "date": "2026-10-25T17:13:58.231Z"
   },
   {
     "link": "https://www.linkedin.com/company/rockpoli-games/about/",
@@ -2402,7 +2111,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.485Z"
+    "date": "2026-10-25T17:13:58.231Z"
   },
   {
     "link": "https://twitter.com/ra6tz",
@@ -2431,7 +2140,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.486Z"
+    "date": "2026-10-25T17:13:58.233Z"
   },
   {
     "link": "https://www.ptw.com",
@@ -2460,7 +2169,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.486Z"
+    "date": "2026-10-25T17:13:58.233Z"
   },
   {
     "link": "https://www.playstudios.com",
@@ -2489,7 +2198,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.486Z"
+    "date": "2026-10-25T17:13:58.233Z"
   },
   {
     "link": "https://www.imcsw.com",
@@ -2518,7 +2227,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.487Z"
+    "date": "2026-10-25T17:13:58.233Z"
   },
   {
     "link": "https://sketchy-ceviche.carrd.co/",
@@ -2547,7 +2256,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.489Z"
+    "date": "2026-10-25T17:13:58.234Z"
   },
   {
     "link": "https://linktr.ee/culto_interactivo",
@@ -2576,7 +2285,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.489Z"
+    "date": "2026-10-25T17:13:58.234Z"
   },
   {
     "link": "https://panditastudio.com",
@@ -2605,7 +2314,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.489Z"
+    "date": "2026-10-25T17:13:58.236Z"
   },
   {
     "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
@@ -2634,7 +2343,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.489Z"
+    "date": "2026-10-25T17:13:58.236Z"
   },
   {
     "link": "https://masterpose.dev/",
@@ -2663,7 +2372,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.489Z"
+    "date": "2026-10-25T17:13:58.236Z"
   },
   {
     "link": "https://www.most.mx/",
@@ -2692,7 +2401,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.490Z"
+    "date": "2026-10-25T17:13:58.236Z"
   },
   {
     "link": "https://heskil.com",
@@ -2721,7 +2430,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.490Z"
+    "date": "2026-10-25T17:13:58.236Z"
   },
   {
     "link": "https://www.headlessvideogames.com/",
@@ -2750,7 +2459,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.490Z"
+    "date": "2026-10-25T17:13:58.238Z"
   },
   {
     "link": "https://www.raptware.com/",
@@ -2779,7 +2488,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.491Z"
+    "date": "2026-10-25T17:13:58.238Z"
   },
   {
     "link": "https://www.delphyedu.com/",
@@ -2808,7 +2517,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.492Z"
+    "date": "2026-10-25T17:13:58.238Z"
   },
   {
     "link": "https://linktr.ee/savagekitties",
@@ -2837,7 +2546,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.492Z"
+    "date": "2026-10-25T17:13:58.238Z"
   },
   {
     "link": "https://oniricmob.com/",
@@ -2866,7 +2575,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.492Z"
+    "date": "2026-10-25T17:13:58.238Z"
   },
   {
     "link": "https://www.susgamesdev.com",
@@ -2895,7 +2604,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.493Z"
+    "date": "2026-10-25T17:13:58.239Z"
   },
   {
     "link": "https://ciberflystudios.com",
@@ -2924,7 +2633,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.493Z"
+    "date": "2026-10-25T17:13:58.239Z"
   },
   {
     "link": "https://bliuperstudios.com/",
@@ -2953,7 +2662,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.494Z"
+    "date": "2026-10-25T17:13:58.240Z"
   },
   {
     "link": "https://www.skydiverstudio.com/",
@@ -2982,36 +2691,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.494Z"
-  },
-  {
-    "link": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.kickstarter.com/projects/nuezware/rain-in-the-abyss-a-survivalhorror-metroidvania",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:41.494Z"
+    "date": "2026-10-25T17:13:58.241Z"
   },
   {
     "link": "https://www.tachidogames.com/",
@@ -3040,7 +2720,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.495Z"
+    "date": "2026-10-25T17:13:58.241Z"
   },
   {
     "link": "https://everbluestudio.com/",
@@ -3069,7 +2749,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.495Z"
+    "date": "2026-10-25T17:13:58.241Z"
   },
   {
     "link": "https://salem-electronica.itch.io/",
@@ -3098,7 +2778,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.497Z"
+    "date": "2026-10-25T17:13:58.241Z"
   },
   {
     "link": "https://linktr.ee/TeamIgloo",
@@ -3127,7 +2807,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.497Z"
+    "date": "2026-10-25T17:13:58.241Z"
   },
   {
     "link": "https://www.braindeadrabbit.com/",
@@ -3156,7 +2836,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.497Z"
+    "date": "2026-10-25T17:13:58.242Z"
   },
   {
     "link": "https://store.steampowered.com/publisher/skullqueensgames",
@@ -3185,7 +2865,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.497Z"
+    "date": "2026-10-25T17:13:58.242Z"
   },
   {
     "link": "https://play.google.com/store/apps/dev?id=6815415802427117952",
@@ -3214,7 +2894,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.497Z"
+    "date": "2026-10-25T17:13:58.242Z"
   },
   {
     "link": "https://megagamestudios.com/",
@@ -3243,7 +2923,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.499Z"
+    "date": "2026-10-25T17:13:58.244Z"
   },
   {
     "link": "https://ashfallsoftware.com/",
@@ -3272,7 +2952,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.499Z"
+    "date": "2026-10-25T17:13:58.244Z"
   },
   {
     "link": "https://chococosmosgames.com/",
@@ -3301,7 +2981,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.499Z"
+    "date": "2026-10-25T17:13:58.244Z"
   },
   {
     "link": "https://www.programensostudios.com/",
@@ -3330,36 +3010,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:41.499Z"
-  },
-  {
-    "link": "http://artefactoestudio.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://artefactoestudio.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:42.202Z"
+    "date": "2026-10-25T17:13:58.244Z"
   },
   {
     "link": "http://www.bigminigeek.com/",
@@ -3388,123 +3039,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:42.905Z"
-  },
-  {
-    "link": "https://carbonmachina.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://carbonmachina.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:43.563Z"
-  },
-  {
-    "link": "https://cgbot.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://cgbot.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:43.744Z"
-  },
-  {
-    "link": "https://www.dmtriad.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "https://www.dmtriad.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:44.071Z"
-  },
-  {
-    "link": "http://www.ensenasoft.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://www.ensenasoft.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:44.253Z"
+    "date": "2026-10-25T17:13:58.728Z"
   },
   {
     "link": "http://www.alonsomartin.mx/",
@@ -3533,7 +3068,152 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:44.307Z"
+    "date": "2026-10-25T17:13:58.785Z"
+  },
+  {
+    "link": "http://artefactoestudio.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "http://artefactoestudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:13:59.005Z"
+  },
+  {
+    "link": "https://carbonmachina.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "https://carbonmachina.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:13:59.333Z"
+  },
+  {
+    "link": "https://cgbot.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "https://cgbot.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:13:59.499Z"
+  },
+  {
+    "link": "https://www.dmtriad.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "https://www.dmtriad.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:13:59.562Z"
+  },
+  {
+    "link": "http://www.ensenasoft.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "http://www.ensenasoft.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:13:59.712Z"
   },
   {
     "link": "http://gamecoderstudios.com/",
@@ -3562,7 +3242,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:44.724Z"
+    "date": "2026-10-25T17:13:59.979Z"
   },
   {
     "link": "http://halberdstudios.com/",
@@ -3591,7 +3271,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:44.860Z"
+    "date": "2026-10-25T17:14:00.129Z"
   },
   {
     "link": "http://hollowgames.com.mx/",
@@ -3620,7 +3300,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:44.950Z"
+    "date": "2026-10-25T17:14:00.167Z"
   },
   {
     "link": "https://www.karaokulta.com/",
@@ -3649,7 +3329,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.146Z"
+    "date": "2026-10-25T17:14:00.236Z"
   },
   {
     "link": "http://larvagamestudios.com/",
@@ -3678,7 +3358,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.168Z"
+    "date": "2026-10-25T17:14:00.314Z"
   },
   {
     "link": "http://www.maneatergames.com/",
@@ -3707,7 +3387,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.340Z"
+    "date": "2026-10-25T17:14:00.640Z"
   },
   {
     "link": "http://minibuu.com/",
@@ -3736,7 +3416,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.526Z"
+    "date": "2026-10-25T17:14:00.753Z"
   },
   {
     "link": "https://www.inmersys.com/",
@@ -3765,36 +3445,7 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.558Z"
-  },
-  {
-    "link": "http://novemtails.com/",
-    "error": {
-      "message": "timeout of 50000ms exceeded",
-      "name": "Error",
-      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
-      "config": {
-        "url": "http://novemtails.com/",
-        "method": "get",
-        "headers": {
-          "Accept": "application/json, text/plain, */*",
-          "User-Agent": "axios/0.21.1"
-        },
-        "transformRequest": [
-          null
-        ],
-        "transformResponse": [
-          null
-        ],
-        "timeout": 50000,
-        "xsrfCookieName": "XSRF-TOKEN",
-        "xsrfHeaderName": "X-XSRF-TOKEN",
-        "maxContentLength": -1,
-        "maxBodyLength": -1
-      },
-      "code": "ECONNABORTED"
-    },
-    "date": "2026-10-25T17:12:45.810Z"
+    "date": "2026-10-25T17:14:00.829Z"
   },
   {
     "link": "http://www.mumnotproud.com/",
@@ -3823,7 +3474,36 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:45.841Z"
+    "date": "2026-10-25T17:14:00.918Z"
+  },
+  {
+    "link": "http://novemtails.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "http://novemtails.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:14:00.993Z"
   },
   {
     "link": "http://www.seashellstudio.mx/en/home/",
@@ -3852,6 +3532,93 @@
       },
       "code": "ECONNABORTED"
     },
-    "date": "2026-10-25T17:12:46.395Z"
+    "date": "2026-10-25T17:14:01.440Z"
+  },
+  {
+    "link": "http://www.tagwizz.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "http://www.tagwizz.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:14:01.640Z"
+  },
+  {
+    "link": "https://www.wasdstudio.com/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "https://www.wasdstudio.com/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:14:02.486Z"
+  },
+  {
+    "link": "http://sdplay.mx/",
+    "error": {
+      "message": "timeout of 50000ms exceeded",
+      "name": "Error",
+      "stack": "Error: timeout of 50000ms exceeded\n    at createError (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/core/createError.js:16:15)\n    at RedirectableRequest.handleRequestTimeout (/home/runner/work/estudios/estudios/.github/actions/node_modules/axios/lib/adapters/http.js:280:16)\n    at RedirectableRequest.wrapper (node:events:639:12)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (/home/runner/work/estudios/estudios/.github/actions/node_modules/follow-redirects/index.js:13:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.emitRequestTimeout (node:_http_client:1122:9)\n    at TLSSocket.wrapper (node:events:639:12)\n    at TLSSocket.emit (node:events:526:24)\n    at Socket._onTimeout (node:net:824:8)",
+      "config": {
+        "url": "http://sdplay.mx/",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "User-Agent": "axios/0.21.1"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 50000,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ECONNABORTED"
+    },
+    "date": "2026-10-25T17:14:03.001Z"
   }
 ]
