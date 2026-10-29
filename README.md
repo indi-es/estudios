@@ -107,6 +107,8 @@
     
  - [Cosmogonia](https://cosmogonia.mx/)
     
+ - [Crafted Mayhem](https://www.craftedmayhem.studio/)
+    
  - [Create for Life Studio](https://www.createforlife.me/)
     
  - [Culto Interactivo](https://linktr.ee/culto_interactivo)
